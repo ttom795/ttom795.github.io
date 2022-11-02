@@ -14,7 +14,7 @@
         * { margin: 0; padding: 0; }
         body { font-family: 'Varela Round', sans-serif; line-height: 24px; background: url(images/noise.jpg);}
         .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #page-wrap { width: 1200px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
 		
         h1 { margin: 0 0 16px 0; padding: 16px 0 16px 0; font-size: 46px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; 
@@ -118,26 +118,31 @@
                     <li>Teaching Assistant for COMPSCI 215</li>
 					<li>Course tutor for COMPSCI 101</li>
                 </ul>
+				<br />
 				<h2>University of Auckland <span>Research Assistant, Nov 2021 - Feb 2022</span></h2>
                 <ul>
                     <li>Worked with Dr. Ulrich Speidel</li>
 					<li>Developed software and a novel routing algorithm for use with Low Earth Orbit satellites, <a href="https://sde.blogs.auckland.ac.nz/leo-simulation/">available here</a></li>
                 </ul>
+				<br />
 				<h2>University of Auckland <span>Research Assistant, Jun 2021 - Oct 2021</span></h2>
                 <ul>
                     <li>Worked with Dr. Alex Shaw</li>
 					<li>Developed a fully procedural construction site to be used for Virtual Reality-based risk assessment training for City Rail Link</li>
                 </ul>
+				<br />
 				<h2>Jaycar New Lynn <span>Sales Assistant, Nov 2020 - Mar 2022</span></h2>
                 <ul>
                     <li>Managed clients needs and budgets to an exceptional level</li>
 					<li>Developed strong company relationships through repeat customers</li>
                 </ul>
+				<br />
 				<h2>Andy’s Burgers and Bar <span>Front of House, Nov 2019 - Dec 2020</span></h2>
                 <ul>
                     <li>Delivered high quality customer service</li>
 					<li>Resolved unforeseen issues regarding food preparation, orders, supplies and more</li>
                 </ul>
+				<br />
 				<h2>Bodrum Kitchen <span>Front of House, Feb 2019 - Jun 2020</span></h2>
                 <ul>
                     <li>Delivered high quality customer service</li>
