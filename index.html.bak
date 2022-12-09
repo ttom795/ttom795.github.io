@@ -14,19 +14,22 @@
         * { margin: 0; padding: 0; }
         body { font-family: 'Varela Round', sans-serif; line-height: 24px; background: url(images/bg.jpg);}
         .clear { clear: both; }
-        #page-wrap { width: 1200px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 304px 0 0; }
+        #page-wrap { width: 1000px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 100px 0 0; }
 		
-        h1 { margin: 0 0 16px 0; padding: 16px 0 16px 0; font-size: 46px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; 
-		background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+		h1:hover {		background: linear-gradient(#D60270 30%, #9B4F96 30% 70%, #0038A8 70% 100%);
+	    background-attachment: relative;
+	    background-position: center; 
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
+	  }
+        h1 { margin: 0 0 16px 0; padding: 16px 0 16px 0; font-size: 46px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; 
 		}
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
         a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+        a:hover { background: linear-gradient(#D60270 40%, #9B4F96 40% 60%, #0038A8 60% 100%);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
 		}
@@ -34,7 +37,7 @@
         #objective { width: 500px; float: left; }
         #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
         dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 1000px; float: right; }
+        dd { width: 800px; float: right; }
         dd.clear { float: none; margin: 0; height: 15px; 
 		}
 		.column {float: left; width: 50%;
@@ -51,7 +54,7 @@
         
             <!-- Microformats! -->
         
-            <h1 class="fn">Tobias James Tomkinson</h1>
+            <h1 class="fn"><fab>Tobias James Tomkinson</fab></h1>
         
             <p>
                 Mobile: <span class="tel">027 239 5676</span><br />
@@ -77,9 +80,14 @@
             
             <dt>Education</dt>
             <dd>
-                <h2>University of Auckland</h2>
+                <h2>University of Auckland<span>2018 to Current</span></h2>
                 <p><strong>Major:</strong> Computer Science<br />
-                   With a focus on networks and communication
+                   Graduated with BSc in 2022<br />
+				   Currently completing Honours in Computer Science
+				   
+				<h2>Lynfield College<span>2013 to 2017</span></h2>
+                <strong>NCEA Level 2 & 3:</strong> Achieved with Merit<br />
+                <strong>NCEA Level 1:</strong> Achieved
             </dd>
             
             <dd class="clear"></dd>
@@ -88,19 +96,28 @@
             <dd>
 			<div class="column">
 			    <h2>Computer Skills</h2>
+				<b>Software:</b>
 				<ul>
-                    <li>Microsoft Office</li>
+					<li>Google Workspace (Drive, Docs,Sheets, etc.)</li>
+                    <li>Microsoft Office (2013 to 2021)</li>
 					<li>OpenOffice</li>
-                    <li>Adobe Creative Suite</li>
-                    <li>Windows (XP-11)</li>
+					<li>LibreOffice</li>
+                    <li>Adobe Creative Suite 5</li>
+					<li>Unreal Engine 4</li>
+					<li>Unity Engine (Version 5.6.7 to 2021.3.15f1)</li>
+					<li>Nagios Core 4.2</li>
+					</li>
+                </ul>
+				<b>Operating Systems:</b>
+				<ul>
+					<li>Windows (XP to 11)</li>
 					<li>Linux
 					<ul>
-                    <li>Ubuntu (14-22)</li>
-					<li>Debian (10/11)</li>
+                    <li>Ubuntu (14 to 22)</li>
+					<li>Debian (10 & 11)</li>
 					<li>ArchLinux desktop</li>
-					</li>
 					</ul>
-                </ul>
+                </ul>  
 			</div>
 			<div class="column">
 				<h2>Languages</h2>
@@ -108,52 +125,54 @@
                     <li>HTML & CSS</li>
                     <li>SQL</li>
                     <li>Python</li>
-					<li>C, C++, C#</li>
+					<li>C, C++ & C#</li>
 					<li>Java</li>
 					<li>Lua</li>
 					<li>Limited experience with Flask</li>
 					<li>Limited experience with Jinja</li>
                 </ul>  
-				<br />
+			</div>
+			<br />
             </dd>
-            
 			
             <dd class="clear"></dd>
             
             <dt>Experience</dt>
             <dd>
-                <h2>University of Auckland <span>Various, Mar 2022 - Current</span></h2>
+                <h2>University of Auckland <span>Various Roles, Mar 2022 to Current</span></h2>
                 <ul>
                     <li>Graduate Teaching Assistant for COMPSCI 315</li>
                     <li>Teaching Assistant for COMPSCI 215</li>
 					<li>Course tutor for COMPSCI 101</li>
                 </ul>
 				<br />
-				<h2>University of Auckland <span>Research Assistant, Nov 2021 - Feb 2022</span></h2>
+				<h2>University of Auckland <span>Research Assistant, Nov 2021 to Feb 2022</span></h2>
                 <ul>
                     <li>Worked with Dr. Ulrich Speidel</li>
 					<li>Developed software and a novel routing algorithm for use with Low Earth Orbit satellites, <a href="https://sde.blogs.auckland.ac.nz/leo-simulation/">available here</a></li>
-                </ul>
+					<li>Further developed familiarity with the Unity Real-Time Development Platform</li>
+				</ul>
 				<br />
-				<h2>University of Auckland <span>Research Assistant, Jun 2021 - Oct 2021</span></h2>
+				<h2>University of Auckland <span>Research Assistant, Jun 2021 to Oct 2021</span></h2>
                 <ul>
                     <li>Worked with Dr. Alex Shaw</li>
-					<li>Developed a fully procedural construction site to be used for Virtual Reality-based risk assessment training for City Rail Link</li>
+					<li>Developed a fully procedural construction site for Virtual Reality-based risk assessment training for City Rail Link</li>
+					<li>Further developed familiarity with the Unity Real-Time Development Platform</li>
                 </ul>
 				<br />
-				<h2>Jaycar New Lynn <span>Sales Assistant, Nov 2020 - Mar 2022</span></h2>
+				<h2>Jaycar New Lynn <span>Sales Assistant, Nov 2020 to Mar 2022</span></h2>
                 <ul>
                     <li>Managed clients needs and budgets to an exceptional level</li>
 					<li>Developed strong company relationships through repeat customers</li>
                 </ul>
 				<br />
-				<h2>Andy’s Burgers and Bar <span>Front of House, Nov 2019 - Dec 2020</span></h2>
+				<h2>Andy’s Burgers and Bar <span>Front of House, Nov 2019 to Dec 2020</span></h2>
                 <ul>
                     <li>Delivered high quality customer service</li>
 					<li>Resolved unforeseen issues regarding food preparation, orders, supplies and more</li>
                 </ul>
 				<br />
-				<h2>Bodrum Kitchen <span>Front of House, Feb 2019 - Jun 2020</span></h2>
+				<h2>Bodrum Kitchen <span>Front of House, Feb 2019 to Jun 2020</span></h2>
                 <ul>
                     <li>Delivered high quality customer service</li>
 					<li>Resolved unforeseen issues regarding food preparation, orders, supplies and more</li>
@@ -179,9 +198,10 @@
 					</li>
                 </ul>
 				</li>
+				<li>Baking</li>
 				<li>Fantasy Novels</li>
 				<li>Video Games</li>
-				<li>Karaoke (believe it or not)</li>
+				<li>Karaoke</li>
             </ul>
 			</dd>
             
