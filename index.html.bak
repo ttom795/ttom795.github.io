@@ -17,7 +17,7 @@
         #page-wrap { width: 1000px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 100px 0 0; }
 		
-		h1:hover {		background: linear-gradient(#D60270 30%, #9B4F96 30% 70%, #0038A8 70% 100%);
+		h1:hover {		background: linear-gradient(#D60270 40%, #9B4F96 40% 60%, #0038A8 60% 100%);
 	    background-attachment: relative;
 	    background-position: center; 
 	  -webkit-background-clip: text;
