@@ -1,0 +1,126 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('bg.jpg');
+  background-repeat: repeat;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px 5px 0px;
+  gap: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  border: rgba(255, 255, 255, 0) solid 2px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background: linear-gradient(#D60270 0% 50%, #9B4F96 50% 60%, #0038A8 60% 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background: linear-gradient(#D60270 0% 50%, #9B4F96 50% 60%, #0038A8 60% 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  z-index: 2;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 6px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding:20px
+}
+
+.centerbox {
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.centeredPage {
+  width: 70%;
+  outline: none;
+  padding: 2% 10% 5% 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.bolded { font-weight: bold; }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #333;
+}
+
+.contactdetails {
+  line-height: 20%;
+}
+
+/* Set the initial opacity of the element to 0 */
+.fade-in-element {
+  opacity: 0;
+}
+
+/* Apply the fade-in animation to the element */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add the animation to the element and set the duration */
+.fade-in-element {
+  animation: fadeIn 1s ease-in forwards;
+}
