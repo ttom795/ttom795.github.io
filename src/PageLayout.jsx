@@ -4,7 +4,7 @@ import React from "react"
 export default function PageLayout(){
     return(<React.Fragment>
         <div className="topnav">
-        
+
         <NavLink
         to="/home"
         className={({ isActive, isPending }) =>
@@ -27,9 +27,10 @@ export default function PageLayout(){
         to="/resume"
         className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
-        }>RESUME/CV</NavLink>
+        }>RESUME & DISSERTATION</NavLink>
         
         </div>
+        <br/><br/>
         <div className="centerbox">
             <div className="centeredPage">
                 <Outlet />
