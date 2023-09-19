@@ -6,7 +6,7 @@ import ErrorPage from "./pages/ErrorPage";
 import About from "./pages/About"
 import Home from "./pages/Home"
 import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import Dissert from "./pages/Dissert";
 import "./styles.css"
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="home" element={<Home />}/>
           <Route path="about" element={<About />}/>
           <Route path="resume" element={<Resume />}/>
-          <Route path="contact" element={<Contact />}/>
+          <Route path="dissertation" element={<Dissert />}/>
           <Route path="*" element={<ErrorPage />}/>
         </Route>
       </Routes>

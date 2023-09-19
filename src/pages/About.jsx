@@ -30,40 +30,61 @@ export default function About() {
     <React.Fragment>
       <div className="fade-in-element">
       <h1>About Me</h1>
-      <div className="row">
-      <div className="column">
+
+
       <h2>Personal Projects</h2>
+      <div id="grid">
       <div>
             <h3>Hero Academia: Beyond | UE4 | C++</h3>
             <p>In my capacity as a game designer and programmer for "Hero Academia: Beyond," I designed gameplay mechanics, interactive environments, and optimized code to ensure a smooth gaming experience. In addition to this, I also ported the game from desktop to mobile with full gameplay, rendering and post-processing functionality.</p>
-            <a href="https://www.heroacademiabeyond.com/">View Project</a>
+            <Link to="https://www.heroacademiabeyond.com/">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
 
         <div>
             <h3>Chippure | Python</h3>
             <p>Chippure is a Python-based Chip-8 emulator developed using Python's default libraries. It faithfully emulates the Chip-8 system and allows users to play Chip-8 games on modern hardware. This project demonstrates the effectiveness of Python's default libraries in building emulation software.</p>
-            <a href="https://github.com/ttom795/Chippure">View Project</a>
+            <Link to="https://github.com/ttom795/Chippure">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
         
         <div>
             <h3>Orangutan Monitor | OpenGL | C++</h3>
             <p>Orangutan Monitor is a standalone software application designed to monitor page-file size efficiently. It's particularly useful when paired with memory-intensive programs like Yuzu. This tool comes as a single .exe file without the need for additional dependencies or DLLs.</p>
-            <a href="https://github.com/ttom795/OrangutanMonitor">View Project</a>
+            <Link to="https://github.com/ttom795/OrangutanMonitor">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
-        
-        
       </div>
-      <div className="column">
       
       <h2>Academic Projects</h2>
-            <div>
+      <div id="grid">
+        <div>
             <h3>Dissertation 2023</h3>
-            <p>My dissertation explores a novel pathfinding algorithm for Low Earth Orbit satellite networks - an improved version of my project done as a research assistant in 2022. It includes a problem statement, background knowledge on relevant topics, a literature review, the algorithm with code and pseudocode, implementation details, and a conclusion with results and challenges. The software itself is not publically available (yet) but the dissertation itself can be found <Link to="/resume">here</Link>.</p>
+            <p>My dissertation explores a novel pathfinding algorithm for Low Earth Orbit satellite networks - an improved version of my project done as a research assistant in 2022. It includes a problem statement, background knowledge on relevant topics, a literature review, the algorithm with code and pseudocode, implementation details, and a conclusion with results and challenges. The software itself is not publically available (yet) but the dissertation itself can be found below.</p>
+            <Link to="/dissertation">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
     
         <div>
             <h3>Research Assistant 2022</h3>
-            <p>Working with Dr. Ulrich Speidel, a professor with a focus on networks and communication, we developed software to demonstrate a novel routing algorithm to optimize the efficiency of LEO satellite communications, ultimately improving the way these satellites could function and communicate in space - available <a href="https://sde.blogs.auckland.ac.nz/leo-simulation/">here</a>.</p>
+            <p>Working with Dr. Ulrich Speidel, a professor with a focus on networks and communication, we developed software to demonstrate a novel routing algorithm to optimize the efficiency of LEO satellite communications, ultimately improving the way these satellites could function and communicate in space - available below.</p>
+            <Link to="https://sde.blogs.auckland.ac.nz/leo-simulation/">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
     
         <div>
@@ -71,7 +92,6 @@ export default function About() {
             <p>Working under the supervision of Dr. Alex Shaw, a professor with a focus on Virtual Reality (VR) and interest in risk assessment, I developed a procedural construction site to create a Virtual Reality-based risk assessment training program tailored specifically for City Rail Link - a significant infrastructure project with complex challenges. I designed and incorporated various construction elements, such as cranes, heavy machinery, and workers.</p>
         </div>
       </div>
-    </div>
     {/*
     <h2>Personal History</h2>
     <div className="timeline">
@@ -124,32 +144,46 @@ export default function About() {
     
     */}
     <h2>Fangames/Comissioned Work</h2>
-        <ExpandableDiv content={
-          <div>
+    <div id="grid">
         <div>
             <h3>LEGO Shonen Jump Fangame | UE4 | C++</h3>
             <p>As a request from a popular YouTuber, I developed an engaging LEGO-themed "Shonen Jump" Fangame, combining my passion for gaming and my favorite anime characters with the creativity that LEGO inspires. The project involved designing/implementing game mechanics and creating consistent visuals.</p>
-            <a href="https://www.youtube.com/watch?v=y8eTJ9-lzck">View Showcase</a>
+            <Link to="https://www.youtube.com/watch?v=y8eTJ9-lzck">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
         <div>
             <h3>My Hero Karting | UE4 | C++</h3>
             <p>Working with the same YouTuber, I developed an exciting racing game called "My Hero Karting," inspired by the popular anime "My Hero Academia." The project is a demonstration of the implementation of both AI and multiplayer functionality.</p>
-            <a href="https://www.youtube.com/watch?v=HP80Jx8ig_g">View Showcase</a>
+            <Link to="https://www.youtube.com/watch?v=HP80Jx8ig_g">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
     
         <div>
             <h3>Shield Hero Fangame | UE4 | C++</h3>
             <p>I'm also a fan of the anime "The Rising of the Shield Hero," so I decided to create a game based on the series. The project involved level design, balancing gameplay, and ensuring an immersive experience for players.</p>
-            <a href="https://www.youtube.com/watch?v=eIJXXqUinnE">View Showcase</a>
+            <Link to="https://www.youtube.com/watch?v=eIJXXqUinnE">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
     
         <div>
             <h3>Mob Psycho Sentiment | UE4 | C++</h3>
-            <p>Finally, I was suggested to create a short game which ended up being "Mob Psycho Sentiment," an action-platformer/sandbox based around the show of the same name. The game relies heavily on use of physics and has several different playable characters.</p>
-            <a href="https://www.youtube.com/watch?v=J7PzyaBfuJA">View Showcase</a>
+            <p>I was suggested to create a short game which ended up being "Mob Psycho Sentiment," an action-platformer/sandbox based around the show of the same name. The game relies heavily on use of physics and has several different playable characters.</p>
+            <Link to="https://www.youtube.com/watch?v=J7PzyaBfuJA">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
-        </div>}
-        />
+        </div>
     </div>
     </React.Fragment>
     )

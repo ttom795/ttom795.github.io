@@ -16,18 +16,18 @@ export default function PageLayout(){
         className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
         }>ABOUT ME</NavLink>
-
-        <NavLink
-        to="/contact"
-        className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
-        }>CONTACT</NavLink>
     
         <NavLink
         to="/resume"
         className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
-        }>RESUME & DISSERTATION</NavLink>
+        }>RESUME</NavLink>
+
+        <NavLink
+        to="/dissertation"
+        className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+        }>DISSERTATION</NavLink>
         
         </div>
         <br/><br/>

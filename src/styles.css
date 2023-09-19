@@ -67,20 +67,6 @@ footer {
   z-index: 2;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  padding: 6px;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding:20px
-}
-
 .centerbox {
   padding: 10px 0px 0px 0px;
   display: flex;
@@ -127,19 +113,52 @@ h1 {
   }
 }
 
+#ExpandableDiv, button {
+  background-color: #880088;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 1;
+}
 /* Add the animation to the element and set the duration */
 .fade-in-element {
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 
-#ExpandableDiv, button {
-  background-color: #333;
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+  padding: 0px 0px 25px 0px;
+}
+#grid > div {
+  font-size: 16px;
+  padding: 1em 1em 25px 1em;
+  color: #ffffff;
+  background: #333;
+  text-align: center;
+  position:relative;
+}
+
+#grid button {
+  position: absolute;
+  background-color: #880088;
+  border-radius: 8px;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 14px;
   font-weight: bold;
+  margin-left:-100px;
+  left:50%;
+  width:200px;
+  height:50px;
+  bottom:-25px;
+  z-index: 1;
 }
