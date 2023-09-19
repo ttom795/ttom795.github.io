@@ -14,9 +14,9 @@ export default function Home() {
       <div>
         <p>Welcome to my portfolio website. I'm a recent computer science graduate passionate about exploring the world of technology and software development. During my academic journey, I've worked on several exciting projects that have improved my skills and demonstrated my love of coding. This website is one of them - made completely from scratch!</p>
         <p>Feel free to reach out to discuss future opportunities.</p>
-        <Link to="/contact">
+        <Link to="/resume">
         <button type="button">
-            CONTACT PAGE
+            RESUME PAGE
         </button>
         </Link>
       </div>
