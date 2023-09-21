@@ -75,6 +75,10 @@ footer {
   height: 100%;
 }
 
+.Document {
+  width: '100%';
+}
+
 .centeredPage {
   width: 90%;
   outline: none;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Document, Page, pdfjs } from 'react-pdf';
+import { Document, Page, pdfjs} from 'react-pdf';
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -30,7 +30,7 @@ export default function Dissert() {
     <React.Fragment>
       <div className="fade-in-element">
         <h1>Dissertation</h1>
-          <div>
+          <div className="centerbox">
             <button onClick={() => window.open(pdfURL2, "_blank")}>
               Open as PDF
             </button>

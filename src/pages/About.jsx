@@ -37,6 +37,7 @@ export default function About() {
       <div>
             <h3>Hero Academia: Beyond | UE4 | C++</h3>
             <p>In my capacity as a game designer and programmer for "Hero Academia: Beyond," I designed gameplay mechanics, interactive environments, and optimized code to ensure a smooth gaming experience. In addition to this, I also ported the game from desktop to mobile with full gameplay, rendering and post-processing functionality.</p>
+            <iframe width="85%" src="https://www.youtube.com/embed/Pb41XskDst8?si=ZRtOxujdPU3AY8M3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <Link to="https://www.heroacademiabeyond.com/">
             <button type="button">
             VIEW PROJECT
@@ -48,6 +49,7 @@ export default function About() {
             <h3>Chippure | Python</h3>
             <p>Chippure is a Python-based Chip-8 emulator developed using Python's default libraries. It faithfully emulates the Chip-8 system and allows users to play Chip-8 games on modern hardware. This project demonstrates the effectiveness of Python's default libraries in building emulation software.</p>
             <Link to="https://github.com/ttom795/Chippure">
+            <img src="/chippure.png"  width="100%"></img>
             <button type="button">
             VIEW PROJECT
             </button>
@@ -58,6 +60,7 @@ export default function About() {
             <h3>Orangutan Monitor | OpenGL | C++</h3>
             <p>Orangutan Monitor is a standalone software application designed to monitor page-file size efficiently. It's particularly useful when paired with memory-intensive programs like Yuzu. This tool comes as a single .exe file without the need for additional dependencies or DLLs.</p>
             <Link to="https://github.com/ttom795/OrangutanMonitor">
+            <img src="/orangutan.png" width="60%"></img>
             <button type="button">
             VIEW PROJECT
             </button>
@@ -80,6 +83,7 @@ export default function About() {
         <div>
             <h3>Research Assistant 2022</h3>
             <p>Working with Dr. Ulrich Speidel, a professor with a focus on networks and communication, we developed software to demonstrate a novel routing algorithm to optimize the efficiency of LEO satellite communications, ultimately improving the way these satellites could function and communicate in space - available below.</p>
+            <img src="/sat2.png" width="80%"></img>
             <Link to="https://sde.blogs.auckland.ac.nz/leo-simulation/">
             <button type="button">
             VIEW PROJECT
@@ -146,8 +150,9 @@ export default function About() {
     <h2>Fangames/Comissioned Work</h2>
     <div id="grid">
         <div>
-            <h3>LEGO Shonen Jump Fangame | UE4 | C++</h3>
-            <p>As a request from a popular YouTuber, I developed an engaging LEGO-themed "Shonen Jump" Fangame, combining my passion for gaming and my favorite anime characters with the creativity that LEGO inspires. The project involved designing/implementing game mechanics and creating consistent visuals.</p>
+            <h3>Shonen Jump Fangame | UE4 | C++</h3>
+            <p>As a request, I developed a LEGO-themed "Shonen Jump" Fangame, combining my passion for gaming and the creativity that LEGO inspires. The project involved designing/implementing game mechanics and creating consistent visuals.</p>
+            <iframe width="85%" src="https://www.youtube.com/embed/y8eTJ9-lzck?si=TKr3CSkqAA6W5LWK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <Link to="https://www.youtube.com/watch?v=y8eTJ9-lzck">
             <button type="button">
             VIEW PROJECT
@@ -156,7 +161,8 @@ export default function About() {
         </div>
         <div>
             <h3>My Hero Karting | UE4 | C++</h3>
-            <p>Working with the same YouTuber, I developed an exciting racing game called "My Hero Karting," inspired by the popular anime "My Hero Academia." The project is a demonstration of the implementation of both AI and multiplayer functionality.</p>
+            <p>Working with the same YouTuber, I developed an exciting racing game called "My Hero Karting," inspired by the show "My Hero Academia." The project is a demonstration of the implementation of both AI and multiplayer functionality.</p>
+            <iframe width="85%" src="https://www.youtube.com/embed/HP80Jx8ig_g?si=sTBWMGo_H8kXU3N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <Link to="https://www.youtube.com/watch?v=HP80Jx8ig_g">
             <button type="button">
             VIEW PROJECT
@@ -167,6 +173,7 @@ export default function About() {
         <div>
             <h3>Shield Hero Fangame | UE4 | C++</h3>
             <p>I'm also a fan of the anime "The Rising of the Shield Hero," so I decided to create a game based on the series. The project involved level design, balancing gameplay, and ensuring an immersive experience for players.</p>
+            <iframe width="85%" src="https://www.youtube.com/embed/eIJXXqUinnE?si=asIUzK5uXuYIAcbN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <Link to="https://www.youtube.com/watch?v=eIJXXqUinnE">
             <button type="button">
             VIEW PROJECT
@@ -176,7 +183,8 @@ export default function About() {
     
         <div>
             <h3>Mob Psycho Sentiment | UE4 | C++</h3>
-            <p>I was suggested to create a short game which ended up being "Mob Psycho Sentiment," an action-platformer/sandbox based around the show of the same name. The game relies heavily on use of physics and has several different playable characters.</p>
+            <p>I also developed a small game which ended up being "Mob Psycho Sentiment," an action-platformer/sandbox based around the show of the same name. The game relies on the use of physics and has several different playable characters.</p>
+            <iframe width="85%" src="https://www.youtube.com/embed/J7PzyaBfuJA?si=DjSYVimIp-f9gPOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <Link to="https://www.youtube.com/watch?v=J7PzyaBfuJA">
             <button type="button">
             VIEW PROJECT
