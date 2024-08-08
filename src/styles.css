@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans';
-  background-image: url('./bg.jpg');
+  background-image: url('../public/bg.jpg');
   background-repeat: repeat;
   overflow: scroll;
   overflow-x: hidden;
@@ -46,7 +46,7 @@ h1 {
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav .focused {
   color: #fff;
   background-color: #333;
   border-bottom: 3px solid white;
@@ -68,7 +68,7 @@ footer {
 }
 
 .centerbox {
-  padding: 10px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
