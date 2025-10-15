@@ -73,11 +73,6 @@ export default function About() {
         <div>
             <h3>Dissertation 2023</h3>
             <p>My dissertation explores a novel pathfinding algorithm for Low Earth Orbit satellite networks - an improved version of my project done as a research assistant in 2022. It includes a problem statement, background knowledge on relevant topics, a literature review, the algorithm with code and pseudocode, implementation details, and a conclusion with results and challenges. The software itself is not publically available (yet) but the dissertation itself can be found below.</p>
-            <Link to="/dissertation">
-            <button type="button">
-            VIEW PROJECT
-            </button>
-            </Link>
         </div>
     
         <div>

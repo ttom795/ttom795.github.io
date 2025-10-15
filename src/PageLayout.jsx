@@ -59,16 +59,14 @@ export default function PageLayout({ refs }) {
                 <NavLink
                     to="#resume"
                     className={activeRef === resumeRef ? 'focused' : ''}
-                    onClick={(e) => handleClick(e, resumeRef)}
-                >
+                    onClick={(e) => handleClick(e, resumeRef)}>
                     RESUME
                 </NavLink>
 
                 <NavLink
                     to="#dissertation"
                     className={activeRef === dissertRef ? 'focused' : ''}
-                    onClick={(e) => handleClick(e, dissertRef)}
-                >
+                    onClick={(e) => handleClick(e, dissertRef)}>
                     DISSERTATION
                 </NavLink>
             </div>
