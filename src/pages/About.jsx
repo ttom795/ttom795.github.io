@@ -72,7 +72,13 @@ export default function About() {
       <div id="grid">
         <div>
             <h3>Dissertation 2023</h3>
-            <p>My dissertation explores a novel pathfinding algorithm for Low Earth Orbit satellite networks - an improved version of my project done as a research assistant in 2022. It includes a problem statement, background knowledge on relevant topics, a literature review, the algorithm with code and pseudocode, implementation details, and a conclusion with results and challenges. The software itself is not publically available (yet) but the dissertation itself can be found below.</p>
+            <p>My dissertation explores a novel pathfinding algorithm for Low Earth Orbit satellite networks - an improved version of my project done as a research assistant in 2022. It includes a problem statement, background knowledge on relevant topics, a literature review, the algorithm with code and pseudocode, implementation details, and a conclusion with results and challenges.</p>
+            <p>The software itself is available via the button below, and my dissertation can be further down this page.</p>
+            <Link to="https://github.com/ttom795/SatSimICSOS">
+            <button type="button">
+            VIEW PROJECT
+            </button>
+            </Link>
         </div>
     
         <div>

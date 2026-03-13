@@ -31,17 +31,17 @@ export default function Resume() {
     <React.Fragment>
       <div className="fade-in-element">
             <h1>Resume</h1>
-            <div className="centerbox">
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
             <button onClick={() => window.open(pdfURL1, "_blank")}>
               Open as PDF
             </button>
-              <button onClick={handlePrevPage1} disabled={currentPage1 === 1}>
-                Previous Page
-              </button>
-              <button onClick={handleNextPage1} disabled={currentPage1 === numPages1}>
-                Next Page
-              </button>
-            </div>
+            <button onClick={handlePrevPage1} disabled={currentPage1 === 1}>
+              Previous Page
+            </button>
+            <button onClick={handleNextPage1} disabled={currentPage1 === numPages1}>
+              Next Page
+            </button>
+          </div>
             <Document file={pdfURL1} onLoadSuccess={onDocumentLoadSuccess1}>
               <Page pageNumber={currentPage1} renderTextLayer={false} />
             </Document>

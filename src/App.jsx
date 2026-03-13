@@ -22,7 +22,6 @@ function App(){
         <Route path="/" element={<PageLayout refs={refs} />}>
           <Route index element={
               <div>
-
                 <div ref={homeRef}>
                   <Home />
                 </div>

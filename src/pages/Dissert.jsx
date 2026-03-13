@@ -30,17 +30,17 @@ export default function Dissert() {
     <React.Fragment>
       <div className="fade-in-element">
         <h1>Dissertation</h1>
-          <div className="centerbox">
+          <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
             <button onClick={() => window.open(pdfURL2, "_blank")}>
               Open as PDF
             </button>
-              <button onClick={handlePrevPage2} disabled={currentPage2 === 1}>
-                Previous Page
-              </button>
-              <button onClick={handleNextPage2} disabled={currentPage2 === numPages2}>
-                Next Page
-              </button>
-            </div>
+            <button onClick={handlePrevPage2} disabled={currentPage2 === 1}>
+              Previous Page
+            </button>
+            <button onClick={handleNextPage2} disabled={currentPage2 === numPages2}>
+              Next Page
+            </button>
+          </div>
             <Document file={pdfURL2} onLoadSuccess={onDocumentLoadSuccess2}>
               <Page pageNumber={currentPage2} renderTextLayer={false} />
             </Document>
