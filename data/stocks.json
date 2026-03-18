@@ -42,6 +42,10 @@
       {
         "day": "Session 2",
         "price": 1
+      },
+      {
+        "day": "3",
+        "price": 2
       }
     ],
     "ELVN": [
@@ -78,21 +82,11 @@
       {
         "day": "Session 2",
         "price": 1
+      },
+      {
+        "day": "3",
+        "price": 2
       }
     ]
-  },
-  "users": {
-    "user_dfrtvsa7": {
-      "name": "Glaurt",
-      "gold": 1000,
-      "holdings": {}
-    },
-    "user_z301ml1e": {
-      "name": "Glaurt",
-      "gold": 989,
-      "holdings": {
-        "TOBY": 11
-      }
-    }
   }
 }
