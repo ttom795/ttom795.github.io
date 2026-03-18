@@ -13,8 +13,8 @@
       "color": "#6c63ff"
     },
     {
-      "id": "AAAA",
-      "name": "s",
+      "id": "AA",
+      "name": "aa",
       "desc": "",
       "color": "#6c63ff"
     }
@@ -56,6 +56,10 @@
       {
         "day": "3",
         "price": 4
+      },
+      {
+        "day": "4",
+        "price": 1
       }
     ],
     "ELVN": [
@@ -100,14 +104,17 @@
       {
         "day": "3",
         "price": 1
+      },
+      {
+        "day": "4",
+        "price": 1
+      }
+    ],
+    "AA": [
+      {
+        "day": "4",
+        "price": 1
       }
     ]
-  },
-  "users": {
-    "user_dfrtvsa7": {
-      "name": "Glaurt",
-      "gold": 1000,
-      "holdings": {}
-    }
   }
 }
