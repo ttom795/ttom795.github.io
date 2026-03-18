@@ -89,8 +89,10 @@
     },
     "user_z301ml1e": {
       "name": "Glaurt",
-      "gold": 1000,
-      "holdings": {}
+      "gold": 989,
+      "holdings": {
+        "TOBY": 11
+      }
     }
   }
 }
