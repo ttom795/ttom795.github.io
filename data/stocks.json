@@ -37,7 +37,44 @@
       "color": "#7d12c4"
     }
   ],
-  "prices": {},
+  "prices": {
+    "DRAG": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ],
+    "NECR": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ],
+    "TOBY": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ],
+    "ELVN": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ],
+    "DRKF": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ],
+    "MYST": [
+      {
+        "day": "Session 1",
+        "price": 1
+      }
+    ]
+  },
   "users": {
     "user_dfrtvsa7": {
       "name": "Glaurt",
