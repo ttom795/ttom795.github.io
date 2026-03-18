@@ -35,6 +35,12 @@
       "name": "Toby",
       "desc": "",
       "color": "#7d12c4"
+    },
+    {
+      "id": "CMPE",
+      "name": "Chompe",
+      "desc": "",
+      "color": "#fff261"
     }
   ],
   "prices": {
