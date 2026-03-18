@@ -1,0 +1,54 @@
+{
+  "stocks": [
+    {
+      "id": "DRAG",
+      "name": "Dragonfire Exports",
+      "desc": "Premier dragon-scale commodities",
+      "color": "#ff6b35"
+    },
+    {
+      "id": "ELVN",
+      "name": "Elven Moonwine Co.",
+      "desc": "Finest elvish vintages since Year 1",
+      "color": "#a8e6cf"
+    },
+    {
+      "id": "DRKF",
+      "name": "Darkforge Armaments",
+      "desc": "Dwarven weapons & siege equipment",
+      "color": "#c9a96e"
+    },
+    {
+      "id": "MYST",
+      "name": "Mystara Scroll Works",
+      "desc": "Enchanted scrolls & arcane supplies",
+      "color": "#b388ff"
+    },
+    {
+      "id": "GILD",
+      "name": "Thieves Guild Ltd.",
+      "desc": "Diversified 'acquisition' services",
+      "color": "#ffd54f"
+    },
+    {
+      "id": "NECR",
+      "name": "NecroTech Solutions",
+      "desc": "Undead labour & dark consultancy",
+      "color": "#80cbc4"
+    },
+    {
+      "id": "TOBY",
+      "name": "Toby",
+      "desc": "",
+      "color": "#7d12c4"
+    }
+  ],
+  "prices": {},
+  "users": {
+    "user_dfrtvsa7": {
+      "name": "Glaurt",
+      "gold": 1000,
+      "holdings": {}
+    }
+  }
+}
