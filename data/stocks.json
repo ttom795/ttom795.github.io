@@ -7,14 +7,14 @@
       "color": "#7d12c4"
     },
     {
-      "id": "CHPE",
-      "name": "Chompe",
+      "id": "AA",
+      "name": "aa",
       "desc": "",
       "color": "#6c63ff"
     },
     {
-      "id": "AA",
-      "name": "aa",
+      "id": "BB",
+      "name": "bb",
       "desc": "",
       "color": "#6c63ff"
     }
@@ -60,6 +60,10 @@
       {
         "day": "4",
         "price": 1
+      },
+      {
+        "day": "5",
+        "price": 3
       }
     ],
     "ELVN": [
@@ -113,6 +117,16 @@
     "AA": [
       {
         "day": "4",
+        "price": 1
+      },
+      {
+        "day": "5",
+        "price": 1
+      }
+    ],
+    "BB": [
+      {
+        "day": "5",
         "price": 1
       }
     ]
