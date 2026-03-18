@@ -50,137 +50,19 @@
     }
   ],
   "prices": {
-    "DRAG": [
-      {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
-        "price": 1
-      }
-    ],
-    "NECR": [
-      {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
-        "price": 1
-      }
-    ],
     "TOBY": [
       {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
-        "price": 1
-      },
-      {
-        "day": "3",
-        "price": 2
-      },
-      {
-        "day": "3",
-        "price": 4
-      },
-      {
-        "day": "4",
-        "price": 1
-      },
-      {
-        "day": "5",
-        "price": 3
-      },
-      {
         "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      }
-    ],
-    "ELVN": [
-      {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
-        "price": 1
-      }
-    ],
-    "DRKF": [
-      {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
-        "price": 1
-      }
-    ],
-    "MYST": [
-      {
-        "day": "Session 1",
-        "price": 1
-      },
-      {
-        "day": "Session 2",
         "price": 1
       }
     ],
     "CHPE": [
       {
-        "day": "Session 2",
-        "price": 1
-      },
-      {
-        "day": "3",
+        "day": "1",
         "price": 2
-      },
-      {
-        "day": "3",
-        "price": 1
-      },
-      {
-        "day": "4",
-        "price": 1
-      }
-    ],
-    "AA": [
-      {
-        "day": "4",
-        "price": 1
-      },
-      {
-        "day": "5",
-        "price": 1
-      }
-    ],
-    "BB": [
-      {
-        "day": "5",
-        "price": 1
       }
     ],
     "ETHN": [
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1.5
-      },
       {
         "day": "1",
         "price": 1
@@ -190,25 +72,9 @@
       {
         "day": "1",
         "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
       }
     ],
     "CLRA": [
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
       {
         "day": "1",
         "price": 1
@@ -218,25 +84,9 @@
       {
         "day": "1",
         "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
       }
     ],
     "JNPL": [
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
       {
         "day": "1",
         "price": 1
@@ -246,25 +96,9 @@
       {
         "day": "1",
         "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
       }
     ],
     "TRST": [
-      {
-        "day": "1",
-        "price": 1
-      },
-      {
-        "day": "1",
-        "price": 1
-      },
       {
         "day": "1",
         "price": 1
