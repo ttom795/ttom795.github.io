@@ -53,7 +53,7 @@
       "name": "Cozette",
       "desc": "cozywozy",
       "color": "#83A9F2"
-    },
+    }
   ],
   "prices": {
     "TOBY": [
@@ -74,12 +74,6 @@
       {
         "day": "2",
         "price": 1
-      }
-    ],
-    "CHPE": [
-      {
-        "day": "1",
-        "price": 2
       }
     ],
     "ETHN": [
