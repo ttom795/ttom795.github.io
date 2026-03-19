@@ -48,9 +48,25 @@
       "desc": "reverierunaway",
       "color": "#2a23af"
     }
+    {
+      "id": "COZY",
+      "name": "Cozette",
+      "desc": "cozywozy",
+      "color": "#83A9F2"
+    },
   ],
   "prices": {
     "TOBY": [
+      {
+        "day": "1",
+        "price": 1
+      },
+      {
+        "day": "2",
+        "price": 1
+      }
+    ],
+    "COZY": [
       {
         "day": "1",
         "price": 1
