@@ -32,7 +32,7 @@ function SatelliteCanvas() {
     scene.add(sat);
 
     const loader = new GLTFLoader();
-    loader.load('src/satellite.glb',
+    loader.load('/satellite.glb',
       function (gltf) {
         const model = gltf.scene;
         sat.add(model)
@@ -221,7 +221,7 @@ export default function Home() {
               Doctoral Student · Software Developer · CS Graduate
             </h2>
             <p style={{ marginBottom: '1rem'}}>
-              I research satellite networking, low Earth orbit (LEO) systems, and caching strategies at the University of Auckland — building simulation tools and visualisers along the way.
+              I research satellite networking, low Earth orbit (LEO) systems, and caching strategies at the University of Auckland, building simulation tools and visualisers along the way.
             </p>
             <p style={{ marginBottom: '2rem'}}>
               This site showcases my work, from satellite simulators to game dev. Always happy to connect about research, project ideas, or tech.

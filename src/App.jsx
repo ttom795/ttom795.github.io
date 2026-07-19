@@ -6,7 +6,10 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import Resume from "./pages/Resume";
 import Dissert from "./pages/Dissert";
+import StockSimulator from "./pages/Stocks";
 import "./styles.css"
+import WikiPage from './pages/wiki';
+import ProtectedRoute from './pages/ProtectedRoute';
 
 function App(){
   const homeRef = useRef(null);
@@ -38,6 +41,23 @@ function App(){
             }
           />
           <Route path="*" element={<ErrorPage />} />
+
+          <Route
+            path="stocks"
+            element={
+              <ProtectedRoute>
+                <StockSimulator />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="wiki"
+            element={
+              <ProtectedRoute>
+                <WikiPage />
+              </ProtectedRoute>
+            }
+          />
         </Route>
       </Routes>
     </React.Fragment>

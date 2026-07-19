@@ -61,29 +61,35 @@ export default function PageLayout({ refs }) {
                 transition: 'box-shadow 0.3s'
             }}>
                 <NavLink
-                        to="#home"
-                        className={activeKey === 'home' ? 'focused' : ''}
-                        onClick={(e) => handleClick(e, homeRef)}
-                    >Home</NavLink>
+                    to="/"
+                >Home</NavLink>
 
                 {onHome && (<>
                     <NavLink
-                        to="#about"
+                        to="/about"
                         className={activeKey === 'about' ? 'focused' : ''}
                         onClick={(e) => handleClick(e, aboutRef)}
                     >About</NavLink>
 
                     <NavLink
-                        to="#resume"
+                        to="/resume"
                         className={activeKey === 'resume' ? 'focused' : ''}
                         onClick={(e) => handleClick(e, resumeRef)}
                     >Resume</NavLink>
 
                     <NavLink
-                        to="#dissertation"
+                        to="/dissertation"
                         className={activeKey === 'dissertation' ? 'focused' : ''}
                         onClick={(e) => handleClick(e, dissertRef)}
                     >Dissertation</NavLink>
+
+                    <NavLink
+                        to="/stocks"
+                    >Stocks</NavLink>
+
+                    <NavLink
+                        to="/wiki"
+                    >Wiki</NavLink>
                 </>)}
             </nav>
 
