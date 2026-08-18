@@ -1,0 +1,3727 @@
+{{frontCover}}
+
+{{logo ![](https://homebrewery.naturalcrit.com/assets/naturalCritLogoRed.svg)}}
+
+# Cursed Energy
+## A Jujutsu Kaisen 5e Module
+___
+
+{{banner HOMEBREW}}
+
+{{footnote
+  An unofficial 5e supplement for Gege Akutami's *Jujutsu Kaisen*.
+}}
+
+![The Departure, 1837, by Thomas Cole](https://i.redd.it/all-jujutsu-kaisen-volume-covers-hd-v0-5kn9hnxbfrq71.jpg?width=1628&format=pjpg&auto=webp&s=1b1ef0f86042b7cb48543cbb79efc07ed7a30444){position:absolute,top:0,right:0,width:100%}
+
+\page
+
+
+{{wide,
+### Disclaimer
+Based on the original work of Gege Akutami.
+ 
+© Gege Akutami © Shueisha © MAPPA © Wizards of the Coast
+ 
+This is a fan-created, unofficial supplement to *Dungeons and Dragons 5th Edition*. All contents within this document are strictly for non-profit use. Please support the official sources and releases.
+ 
+This document is free to use by anyone and will always remain non-profit. Images in this document are intended for non-commercial use. Artists are credited at the end of the document, and all rights to the images belong to their respective artists and/or owners.
+ 
+Made by EnglishExpert with The Homebrewery.
+}}
+
+\page
+
+{{wide,position:relative,left:80px
+# Cursed Energy: A JJK 5e Module
+}}
+
+{{toc,wide,font-size:11px,columns:3
+# Contents
+- ### [{{ Chapter 1: The Cursed Energy System}}{{ 4}}](#p4)
+- #### [{{ The CE Point System}}{{ 4}}](#p4)
+- #### [{{ CE Grades & Character Tiers}}{{ 4}}](#p4)
+- #### [{{ Cursed Energy Perception}}{{ 4}}](#p4)
+- #### [{{ Binding Vows}}{{ 4}}](#p4)
+- #### [{{ Reverse Cursed Technique (RCT)}}{{ 5}}](#p5)
+- #### [{{ Black Flash}}{{ 5}}](#p5)
+  - [{{ Triggering a Black Flash}}{{ 5}}](#p5)
+  - [{{ Flow State}}{{ 5}}](#p5)
+- ### [{{ Chapter 2: Cursed Techniques}}{{ 6}}](#p6)
+- #### [{{ How Techniques Work}}{{ 6}}](#p6)
+  - [{{ Inate Techniques}}{{ 6}}](#p6)
+  - [{{ General Techniques}}{{ 6}}](#p6)
+- #### [{{ Building a Custom Technique}}{{ 6}}](#p6)
+  - [{{ Design Principles}}{{ 6}}](#p6)
+- #### [{{ General Cursed Energy Techniques}}{{ 7}}](#p7)
+  - [{{ Grade 4}}{{ 7}}](#p7)
+  - [{{ Grade 3}}{{ 7}}](#p7)
+  - [{{ Grade 2}}{{ 7}}](#p7)
+  - [{{ Grade 1}}{{ 7}}](#p7)
+  - [{{ Special Grade}}{{ 7}}](#p7)
+- #### [{{ Example Inate Techniques}}{{ 8}}](#p8)
+  - [{{ Boogie Woogie}}{{ 8}}](#p8)
+  - [{{ Cursed Speech}}{{ 8}}](#p8)
+  - [{{ Ratio Technique}}{{ 8}}](#p8)
+  - [{{ Projection Sorcery}}{{ 8}}](#p8)
+  - [{{ Blood Manipulation}}{{ 8}}](#p8)
+  - [{{ Infinity}}{{ 9}}](#p9)
+  - [{{ Idle Transfiguration}}{{ 9}}](#p9)
+  - [{{ Ten Shadows Technique}}{{ 9}}](#p9)
+\column
+- ### [{{ Chapter 3: Domain Expansions}}{{ 10}}](#p10)
+- #### [{{ Domain Rules}}{{ 10}}](#p10)
+  - [{{ Activating a Domain}}{{ 10}}](#p10)
+  - [{{ Domain vs. Domain}}{{ 10}}](#p10)
+  - [{{ Simple Domain}}{{ 10}}](#p10)
+  - [{{ Barrier-Only Domain}}{{ 10}}](#p10)
+- #### [{{ Example Domain Expansions}}{{ 10}}](#p10)
+  - [{{ Unlimited Void}}{{ 10}}](#p10)
+  - [{{ Coffin of the Iron Mountain}}{{ 10}}](#p10)
+  - [{{ Malevolent Shrine}}{{ 11}}](#p11)
+  - [{{ Self-Embodiment of Perfection}}{{ 11}}](#p11)
+  - [{{ Horizon of the Captivating Skandha}}{{ 11}}](#p11)
+- ### [{{ Chapter 4: Races}}{{ 12}}](#p12)
+- #### [{{ Human Sorcerer}}{{ 12}}](#p12)
+  - [{{ Normal Sorcerer}}{{ 12}}](#p12)
+  - [{{ Clan Sorcerer}}{{ 12}}](#p12)
+  - [{{ Heavenly Restriction}}{{ 13}}](#p13)
+  - [{{ Cursed Vessel}}{{ 13}}](#p13)
+- #### [{{ Cursed Corpse}}{{ 14}}](#p14)
+  - [{{ Abrupt Mutation}}{{ 14}}](#p14)
+  - [{{ Combat Model}}{{ 14}}](#p14)
+- #### [{{ Cursed Painting}}{{ 15}}](#p15)
+  - [{{ Human Aligned}}{{ 15}}](#p15)
+  - [{{ Curse Aligned}}{{ 15}}](#p15)
+- #### [{{ Sentient Cursed Spirit}}{{ 16}}](#p16)
+  - [{{ Natural Spirit}}{{ 16}}](#p16)
+  - [{{ Cursed Animal Spirit}}{{ 16}}](#p16)
+- ### [{{ Chapter 5: Classes}}{{ 17}}](#p17)
+- #### [{{ Warrior / Barbarian}}{{ 17}}](#p17)
+  - [{{ Ironclad}}{{ 18}}](#p18)
+  - [{{ Berserker}}{{ 19}}](#p19)
+- #### [{{ Combatant / Fighter}}{{ 21}}](#p21)
+  - [{{ Tactician}}{{ 22}}](#p22)
+  - [{{ Executioner}}{{ 23}}](#p23)
+- #### [{{ Striker / Monk}}{{ 24}}](#p24)
+  - [{{ Phantom}}{{ 25}}](#p25)
+  - [{{ Iron Fist}}{{ 26}}](#p26)
+- #### [{{ Chanter / Bard}}{{ 27}}](#p27)
+  - [{{ Barrier Master}}{{ 28}}](#p28)
+  - [{{ True Resonance}}{{ 29}}](#p29)
+- ### [{{ Chapter 6: Feats}}{{ 31}}](#p31)
+- #### [{{ General Feats}}{{ 31}}](#p31)
+- #### [{{ Racial Feats}}{{ 35}}](#p35)
+- ### [{{ Chapter 7: Backgrounds}}{{ 37}}](#p37)
+- [{{ High School Student}}{{ 37}}](#p37)
+- [{{ Salaryman}}{{ 38}}](#p38)
+- [{{ Convenience Store Clerk}}{{ 39}}](#p39)
+- [{{ Street Racer}}{{ 40}}](#p40)
+- [{{ Nurse}}{{ 41}}](#p41)
+- [{{ Juvenile Delinquent}}{{ 42}}](#p42)
+- [{{ Rogue Sorcerer}}{{ 43}}](#p43)
+- [{{ Bounty Hunter}}{{ 44}}](#p44)
+- ### [{{ Chapter 8: Cursed Spirits & Adversaries}}{{ 45}}](#p45)
+- #### [{{ Allied Creations}}{{ 45}}](#p45)
+  - [{{ General Technique - CE Summoning Framework:}}{{ 45}}](#p45)
+  - [{{ Ten Shadows}}{{ 45}}](#p45)
+- #### [{{ Enemies}}{{ 47}}](#p47)
+  - [{{ Typical Curses}}{{ 47}}](#p47)
+  - [{{ Named Curses}}{{ 47}}](#p47)
+- ### [{{ Chapter 9: Cursed Tools}}{{ 49}}](#p49)
+- #### [{{ Using Cursed Tools}}{{ 49}}](#p49)
+  - [{{ Attunement}}{{ 49}}](#p49)
+  - [{{ CE-Infused Attacks}}{{ 49}}](#p49)
+  - [{{ Grades}}{{ 49}}](#p49)
+- #### [{{ Example Cursed Tools}}{{ 49}}](#p49)
+  - [{{ Grade 4 Cursed Tools}}{{ 49}}](#p49)
+  - [{{ Grade 3 Cursed Tools}}{{ 50}}](#p50)
+  - [{{ Grade 2 Cursed Tools}}{{ 50}}](#p50)
+  - [{{ Grade 1 Cursed Tools}}{{ 50}}](#p50)
+  - [{{ Special Grade Cursed Tools}}{{ 51}}](#p51)
+- #### [{{ Crafting Cursed Tools}}{{ 52}}](#p52)
+  - [{{ Requirements}}{{ 52}}](#p52)
+  - [{{ Degradation}}{{ 52}}](#p52)
+  - [{{ Modification}}{{ 52}}](#p52)
+  - [{{ Tool Index}}{{ 52}}](#p52)
+- ### [{{ Chapter 10: Creating a Character}}{{ 53}}](#p53)
+- #### [{{ Making Your Character}}{{ 53}}](#p53)
+  - [{{ Step 1 - Ability Scores}}{{ 53}}](#p53)
+  - [{{ Step 2 - Race}}{{ 53}}](#p53)
+  - [{{ Step 3 - Class}}{{ 53}}](#p53)
+  - [{{ Step 4 - Background}}{{ 53}}](#p53)
+  - [{{ Step 5 - Free Feature}}{{ 53}}](#p53)
+  - [{{ Step 6 - Equipment}}{{ 53}}](#p53)
+}}
+
+
+
+\page
+
+# Chapter 1: The Cursed Energy System
+
+*"Sorcerers, Cursed Spirits, it doesn’t matter. The only ones who are able to transcend beyond being merely strong are those with overwhelming aggression."*
+
+This chapter replaces the standard 5e magic system entirely. Translate 5e references using the rules below.
+
+## The CE Point System
+
+All sorcerers, cursed vessels, and cursed spirits operate on Cursed Energy Points (CE Points) rather than spell slots. Your class determines your CE Point maximum, as shown on each class table. CE Points recover fully on a long rest unless your race or class specifies otherwise. On a short rest, you may meditate for at least 10 minutes and recover CE Points equal to your CE Stat modifier + your proficiency bonus.
+
+***CE Stat.*** Each class designates a primary CE Stat used for technique saving throw DCs, technique attack bonuses, and CE-related checks:
+
+CE Save DC = 8 + your proficiency bonus + your CE Stat modifier
+
+CE Attack Bonus = your proficiency bonus + your CE Stat modifier
+
+##### Cursed Energy Stat by Class
+
+| Class | CE Stat |
+|:---|:---|
+| Warrior/Barbarian | Constitution |
+| Combatant/Fighter | Strength |
+| Striker/Monk | Dexterity |
+| Chanter/Bard | Charisma |
+
+## CE Grades & Character Tiers
+
+The jujutsu world ranks sorcerers and curses alike. Use the following table as a character tier and narrative framework. Mission assignments, faction respect, and enemy Challenge Rating (CR) should scale accordingly.
+
+Classes may alter the number of CE points available to players. It's also possible for a creature with a different number of CE points to be a higher or lower grade than the table would otherwise suggest.
+
+
+##### Level, Grade, and Approximate CE Points
+
+| Level | CE Points Total | Sorcerer Grade |
+|:---:|:---:|:---|
+| 1-4 | 6-10 | Grade 4 |
+| 5-8 | 12-16 | Grade 3 |
+| 9-12 | 18-24 | Grade 2 |
+| 13-16 | 26-32 | Grade 1 |
+| 17-20 | 35-45 | Special Grade |
+
+## Cursed Energy Perception
+
+All player characters with CE access have Cursed Sight as a passive ability, with the exception of those with a Heavenly Restriction. Within 30 feet, they automatically detect the presence of active cursed energy and cursed spirits without rolling. It does not automatically reveal creatures that are hidden or supressing their CE. At greater distances or through solid material, they may make a Perception check using their CE Stat modifier instead of Wisdom.
+
+Non-sorcerers and civilians cannot perceive cursed spirits at all unless under the effect of a technique that grants CE sight or use of a cursed-tool.
+
+> ##### Workarounds
+> Players with a Heavenly Restriction either require a cursed tool that grants Cursed Sight or the Complete Heavenly Restriction feat. Without this, they roll attacks at disadvantage against any opponent that requires Cursed Sight to observe.
+
+## Binding Vows
+
+A Binding Vow is a metaphysical contract declared aloud and enforced by the logic of cursed energy itself. Sorcerers - and even curses - may enter Binding Vows to exchange limitations for power. A Vow does not require a second party; a sorcerer may bind themselves.
+
+***Making a Vow***. As an action, declare the Vow aloud. It takes effect immediately. The DM must approve the power gain and confirm the limitation is meaningful and testable.
+
+***Breaking a Vow***. The penalty for breaking a self-imposed binding vow is the loss of whatever benefit was gained through the contract, though unbreakable binding vows that permanently adjust a user's abilities can be made at the DM's discretion.
+
+##### Example Binding Vows
+| Vow | Limitation | Power Gained |
+|:---|:---|:---|
+| Reveal your technique to your opponent | Opponent knows exactly what you can do | Technique output doubles this encounter |
+| Never use your Domain on non-sorcerers | Domain is unusable on curses and civilians | Domain hits guaranteed; no Simple Domain counter |
+| Fight without CE infusion on attacks | Cannot spend CE on attack rolls | Gain 10 temp CE Points for technique-only use |
+| Always fight to kill, never subdue | Cannot choose to knock unconscious | +2 to all CE attack rolls permanently |
+
+See the Binding Vow Jurist and Perfectly Average Binding Vow feats for other applications.
+
+\page
+
+## Reverse Cursed Technique (RCT)
+
+Positive energy is the product of multiplying two negative (cursed) energies. It can heal wounds and destroy curses. Mastering RCT requires a CE Stat of 16 or higher, or the RCT Adept feat.
+
+***Healing with RCT.*** As an action, spend 4 CE Points per d8 of healing you wish to apply to yourself or a creature you touch.
+
+***RCT Against Curses.*** When used offensively against a cursed spirit, RCT energy is treated as radiant damage, to which most cursed spirits are vulnerable (double damage unless otherwise stated in the stat block). 
+
+***Usage in Combat.*** Application is done using the same method as a CE-infused attack. If you are able to use RCT, you may specify when you attack whether you are using RCT or not.
+
+***RCT cannot save the already dead.*** RCT heals wounds, regenerates severed limbs, and purges poisons, but it cannot restore a creature reduced to 0 hit points by a soul-level attack (such as Mahito's Idle Transfiguration on a critical save failure). 
+
+{{note
+![RCT](https://preview.redd.it/how-many-characters-in-jujutsu-know-how-to-use-rct-at-this-v0-ghubaki8qmsb1.png?width=1000&format=png&auto=webp&s=8049dba55ae21092482d88c6283b75b371bd5783) {width:305px}
+}}
+\column
+
+## Black Flash
+
+When a sorcerer lands a CE-infused attack, there is a rare moment when the distortion of cursed energy perfectly coincides with the physical impact - a Black Flash. This is not a technique so it cannot be trained directly. It can only be achieved.
+
+### Triggering a Black Flash
+
+A Black Flash can only be triggered on a natural 20 on the attack roll (or a natural 19 if you have the Heightened Flash feat - see the Feats chapter). After confirming the natural 20, you must then make a secondary CE Stat check (d20 + your CE Stat modifier). The DC for this check is 20.
+
+- On a success (20 or higher): The Black Flash lands. The attack deals bonus damage equal to 2d6 per CE Point spent on the infused strike as force damage, in addition to all other damage. This damage ignores resistance.
+- On a failure: The attack still hits and deals normal critical hit damage, but the Black Flash does not trigger.
+  
+### Flow State
+
+Achieving a Black Flash puts you into a Flow State until the end of combat or until you fail a CE Stat check by 3 or more. While in a Flow State:
+- The DC for subsequent Black Flash checks is reduced to 17 instead of 20 (or 16 with the Heightened Flash feat).
+- You have advantage on all CE-related ability checks.
+- You may add your CE Stat modifier to the damage of all CE-infused attacks, even without spending CE Points on them.
+
+{{note
+![black flash](https://static.wikia.nocookie.net/jujutsu-kaisen-fanon/images/9/9c/Black_Flash_canon.png/revision/latest?cb=20210525194455){width:305px}
+}}
+
+\page
+
+# Chapter 2: Cursed Techniques
+
+*"With a proper foundation, imagination, and a little sense it only takes a slight trigger to change a person."*
+
+The following chapter details Inate and General techniques, and how they function in this module.
+
+## How Techniques Work
+
+Techniques are innate, always-available special abilities. They do not occupy slots - they cost CE Points from your pool. There are two main types of techniques in this module:
+- Inate Techniques
+- General Techniques
+
+> ##### Techniques and Saving Throws
+> When a technique requires a saving throw, the DC is always:
+>
+> CE Save DC = 8 + your proficiency bonus + your CE Stat modifier
+>
+> Unless the technique specifies otherwise, creatures make the save at the start of their next turn if an effect is ongoing, and at the end of their turn if the effect was applied to them on their own turn.
+> :
+
+### Inate Techniques
+Even among sorcerers, it is rare to possess enough intrinsic talent to be born with an innate technique. Those born with one can train theirs to be stronger even if it is considered to be weak once they first learn to use it; advanced applications called Extensions and Reversals are developed through training and maturity.
+
+Inate Techniques are non-transferable. They are congenitally engraved into the user when they are born. A sorcerer who witnesses another's Inate Technique may study its CE pattern (see Technique Thief feat), but they cannot replicate the underlying structure.
+
+***Lapse vs. Extension vs. Reversal.*** A Lapse technique is the standard forward application - the technique doing what it was born to do. Extension Techniques are attacks, spells, or abilities derived from the user's innate technique. A Reversal is the positive-CE inversion of the same technique, and requires RCT proficiency to use. Reversals often have healing or regenerative applications, but can also be offensive in unexpected ways.
+
+### General Techniques
+Sorcerers can also learn General Techniques - maniupulation of cursed energy seperate from an Inate Technique. See the table on the next page.
+
+## Building a Custom Technique
+
+Every player character should have an innate technique that reflects their soul. The following framework ensures custom techniques are balanced, thematically correct, and mechanically interesting.
+
+### Design Principles
+
+***Root in an idea.*** It's helpful to base an Inate Technique on a concept or idea. Your technique should answer: *what does this person carry inside them that has given cursed energy a shape?*
+
+***Define the Lapse first.*** The standard application. This is what your technique does when it does the obvious thing. Keep it to one clear effect.
+
+***Define the Restriction.*** Every technique has a cost beyond CE Points. What does yours cost that isn't just points? This can also be a situational application such as requiring both hands to activate Boogie Woogie.
+
+***Scale the cost.*** The following points are a guide to the cost and level of the abilities of a technique.
+- Basic effect (1 target, minor condition or 1d8–2d8 damage): 2–3 CE Points. Grade 4/3.
+- Significant effect (3d8+, restrain, area): 4–6 CE Points. Grade 2.
+- Catastrophic output: 8–12 CE Points. Grade 1.
+- Domain activation is always 15 CE Points. Special Grade.
+
+***Consider the Reversal.*** When positive CE is applied to your technique's logic, what happens? For example, Infinity reversed becomes infinite attraction/Blue. Not every technique has a clean reversal, and that's fine. It can be developed through play, not designed from the start. Just keep it in mind.
+
+##### Technique Move Costs
+
+| Tier | CE Point Cost | Typical Effect |
+|:---|:---:|:---|
+| Basic | 2–3 | 1d8–3d8 damage, minor condition, small utility |
+| Standard | 4–6 | 4d8–6d8 damage, significant conditions, area effects |
+| Advanced Extension | 7–10 | 7d8+ damage, powerful conditions, terrain effects |
+| Maximum Output | 11–14 | Catastrophic damage, near-instant conditions |
+| Domain Expansion | 15 | Separate chapter |
+
+Players with an Inate Technique *must* use a custom technique unless they are a clan sorcerer or have the Clan Outcast feat.
+
+
+\page
+
+## General Cursed Energy Techniques
+
+General techniques represent learned applications of cursed energy manipulation. Any sorcerer may train and use them regardless of lineage or innate technique. It is recommended that at each grade promotion, a player should learn one technique from this table (at their appropriate grade or below). CE Infused Strike can be assumed to be known by all practicing sorcerers.
+
+---
+
+### Grade 4
+
+| Technique | CE Cost | Effect | Action Cost |
+|:---|:---:|:---|:--
+| CE Infused Strike | 1 | Add +1d4 force damage to one melee attack. | No Cost |
+| Guiding Flow | 2 | Add 1d4 to one ability check, attack roll, CE check, or saving throw of your choice. | Bonus Action
+| CE Shielding | 3 | Gain +2 AC until the start of your next turn. | Bonus Action
+| Kinetic Disruption | 3 | Push or pull a creature 10 ft (Str save negates). | Action
+| Flow Stabilization | 1 | Reduce CE cost of next technique by 2 (minimum 1). | Bonus Action
+
+
+### Grade 3
+
+| Technique | CE Cost | Effect | Action Cost |
+|:---|:---:|:---|:--
+| CE Construct | 4 | Form a simple object or weapon from CE for 10 minutes. | Action
+| CE Barrier | 5 | Create a 10-ft barrier that blocks movement or attacks. | Action
+| CE Threading | 4 | Bind a creature (Str save negates) for 1 round. | Action
+| CE Displacement | 5 | Teleport 10–20 ft to a visible location. | Bonus Action
+| CE Dampening | 4 | Reduce one incoming damage instance by 3d8. | Reaction
+
+### Grade 2
+
+| Technique | CE Cost | Effect | Action Cost |
+|:---|:---:|:---|:--
+| CE Beam | 8 | 60-ft line, 8d8 force damage. | Action
+| CE Field Distortion | 9 | Create 20-ft zone of difficult terrain and interference. | Action
+| CE Interruption | 8 | Force a creature to reroll a d20. | Reaction
+| CE Fracture | 8 | Stun a creature until end of its next turn (Wis save negates). | Bonus Action
+| CE Summoning Framework | 10 | Create a temporary CE construct or shikigami-like entity (see the Cursed Spirits chapter). | Action
+
+\column
+
+### Grade 1
+
+| Technique | CE Cost | Effect | Action Cost |
+|:---|:---:|:---|:--
+| CE Storm | 12 | 20-ft cone, 10d8 force damage. | Action
+| CE Collapse | 11 | Pull all creatures in 30 ft toward a point. | Action
+| CE Override | 13 | Ignore resistance on one technique or attack. | Bonus Action
+| CE Clone Shell | 14 | Create a CE duplicate with half HP for 1 minute. | Action
+| CE Burn | 12 | Deal 8d8 damage that ignores resistance. | Action
+
+### Special Grade
+
+| Technique | CE Cost | Effect | Action Cost |
+|:---|:---:|:---|:--
+| CE Severance | 15 | Disable one ability, feature, or technique for 1 minute. | Action
+| CE Rupture | 15 | 14d10 force damage to one target. | Action
+| CE Spatial Step | 15 | Teleport anywhere in line of sight. | Action
+| CE Authority | 15 | Force one creature to obey a single command for 1 round. | Action
+| CE Null Field | 15 | Suppress CE techniques in a 20-ft radius until end of your next turn. | Action
+
+\page
+
+## Example Inate Techniques
+
+### Boogie Woogie
+***2 CE Points per activation.***
+
+By clapping your hands, you instantaneously swap the positions of any two targets within range.
+
+***Lapse.*** As an action or bonus action, clap your hands. Choose two visible creatures or objects within 30 feet (at least one must have measurable CE, or be you). They instantly exchange positions.
+
+***No Save.*** This technique does not allow a saving throw. Creatures moved into a dangerous location (open flame, off a ledge, into a grapple) may make a Dexterity saving throw (DC 14) to resist only if they are aware of the specific danger in advance. Their position is still swapped, but they may avoid the damage on success.
+:
+Potential combat applications include:
+- Swap a flying enemy directly into the ground (they take fall damage)
+- Swap an ally out of a grapple or dangerous position
+- Swap two enemies to disrupt formations and trigger flanking
+- Swap yourself behind a target before your attack roll (gain advantage)
+
+Once per turn, a Boogie Woogie swap performed immediately before a melee attack grants advantage on that attack roll.
+
+### Cursed Speech
+***Variable cost.***
+
+Every command you speak is reinforced with cursed energy, forcing other's obedience at the expense of your own body. Overuse destroys your vocal cords.
+
+***Lapse - Command (2 CE).*** As a bonus action, shout a single one-word command (Flee, Kneel, Stop, Fall, etc.). Targets that can hear you within 30 feet must make a Wisdom saving throw or obey for 1 round. This functions as the *Command* spell.
+
+***Extension - Binding Word (4 CE).*** As an action, issue a complex command. One target within 30 feet makes a Wisdom saving throw or is compelled to follow the command for up to 1 minute (concentration).
+
+***Roar (8 CE).*** As an action, release a full-force CE shout in a 30-foot cone. All creatures in the cone make a Constitution saving throw or take 6d8 thunder damage and are knocked prone. On success: half damage, not prone. After using Roar, you cannot speak (including using Cursed Speech) until you complete a short rest.
+
+***Physical Cost.*** Each use of Cursed Speech deals 1 point of damage to you (recovered on a long rest). If your HP reaches 0 through this damage, your vocal cords are permanently destroyed and Cursed Speech is lost forever.
+
+\column
+
+### Ratio Technique
+***2 CE Points per activation.***
+
+You perceive the divine proportion within any physical body or object - a point where structure is weakest at exactly the 7:3 ratio.
+
+***Lapse.*** As part of a melee attack, spend 2 CE Points. If the attack hits, you mark the target's Ratio Point. Until the end of your next turn, any attack made against that point is an automatic critical hit (regardless of the d20 roll).
+
+***Extension - Collapse (5 CE Points).*** Apply the ratio to a structure (wall, floor, vehicle, ceiling). The designated point collapses violently. All creatures within 10 feet of the collapse make a Dexterity saving throw or take 6d8 bludgeoning damage and are knocked prone (half damage, not prone on a save).
+
+### Projection Sorcery
+***4 CE Points per use.***
+
+You experience the world in 24 frames per second of deliberate motion, and can pre-program each frame.
+
+***Lapse.*** As part of your turn, pre-plan your movement and attacks in 24 segments. You may make a melee attack at any point during your movement, splitting move-attack-move freely, without provoking opportunity attacks. Any creature in your path must make a Dexterity saving throw or take 3d8 force damage and be stunned until the start of their next turn.
+
+***Shutter.*** Any creature that is stunned, restrained, or otherwise rendered immobile *by you* is frozen in a "frame." You may make one additional attack against them as a reaction this round.
+
+***Restriction.*** If your planned movement is interrupted (forcibly stopped, terrain blocked), you are frozen until the start of your next turn. While frozen: AC 8, no reactions, no movement.
+
+### Blood Manipulation
+***Variable cost.***
+
+You govern the flow of blood - your own and others'. Applications scale with CE Points spent.
+
+***Piercing Blood (2 CE).*** Ranged CE attack, range 60 feet. On a hit, 3d8 piercing damage. This attack ignores armour made of non-cursed material.
+
+***Crimson Binding (4 CE).*** Concentration, up to 1 minute. Blood erupts from existing wounds. Target makes a Strength saving throw or is restrained. They may repeat the save at the end of each of their turns.
+
+***Convergence (6 CE).*** Concentration, up to 1 minute. You accelerate your own circulation to superhuman levels. Gain advantage on all attack rolls, your movement speed doubles, and all your attacks deal +2d6 damage. You take 1d6 hit point damage at the start of each of your turns.
+
+***Supernova (8 CE).*** All creatures within 30 feet of you make a Constitution saving throw. On a failure: 8d8 necrotic damage. On a successful save, only 4d8.
+
+\page
+
+### Infinity
+***Passive. Always active.***
+
+The space between the user and any incoming attack contains infinite divisions. Physical objects and CE converge on your position asymptotically but never fully arrive.
+
+***Passive Effect.*** You are immune to all ranged attacks and have resistance to all melee attacks. Creatures making melee attacks against you must succeed on a Strength saving throw (DC = 8 + PB + Wisdom modifier) or the attack is reduced to zero effect and their movement ends 5 feet from you. On a success, the attack deals half its normal damage.
+
+***Drain.*** Infinity costs 3 CE Points per hour of active combat. It deactivates when you are unconscious.
+
+***Extension - Red (8 CE Points).*** Amplified repulsion. As an action, emit a 60-foot line of obliteration. Creatures in the line make a Strength saving throw or are pushed 30 feet and take 8d10 force damage (half on save).
+
+***Reversal - Blue (5 CE Points).*** Amplified attraction. As an action, create a pulling force in a 30-foot cone. Creatures in the cone make a Strength saving throw or are pulled up to 20 feet toward you and take 4d8 force damage (half on save).
+
+***Combination - Purple (20 CE Points, once per long rest).*** Combine Blue and Red into a hollow sphere of erasure. Choose a point within 120 feet. Everything within a 30-foot sphere of that point makes a Constitution saving throw (DC 22) or is erased - reduced to 0 HP and suffering automatic death save failure. On a success: 12d10 force damage. This is a Special Grade technique.
+
+### Idle Transfiguration
+***3 CE Points per target.***
+
+You touch the soul of another and reshape it, making the physical form conform to a distorted version of what it could be.
+
+***Lapse.*** As an action, you touch a humanoid. They make a Wisdom saving throw. On a failure, choose one transfiguration effect:
+- Speed reduced to half and AC reduced by 4
+- All attacks deal half damage
+- One sense is lost (sight, hearing, or touch)
+- The target begins leaking CE uncontrollably: all allies within 5 feet take 1d6 necrotic damage at the start of each round
+
+This transfiguration is permanent until removed by RCT (requiring 8 CE Points from a Grade 1 or higher sorcerer).
+
+***Mass Transfiguration (12 CE Points, once per long rest).*** Affect all creatures within 30 feet simultaneously. Each makes the Wisdom saving throw independently. Use of this ability marks the caster as a Disaster-level threat. Jujutsu High will respond accordingly.
+
+***Polymorphic Soul Isomer (6 CE Points).*** Sculpt previously transfigured humans into soldiers. They function as Zombies (Monster Manual) with +4 to all attacks and AC 14. You may control a number of soldiers equal to your Charisma modifier. They act on your initiative.
+
+### Ten Shadows Technique
+***3–10 CE Points per shikigami.***
+
+You summon divine shikigami - powerful beings bound in shadow - using hand signs. You begin knowing two shikigami (Divine Dogs and Nue). Additional shikigami are unlocked by defeating and absorbing them.
+
+***Shadow Storage.*** As a bonus action, you may store any object you are holding in your shadow. Retrieving it is a free action.
+
+##### Starting Shikigami
+| Shikigami | Cost | Stats | Key Ability |
+|:---|:---:|:---|:---|
+| Divine Dogs (multiplied by 2) | 3 CE each | AC 14, HP 30, Speed 50ft | +6 attack, 2d8+4 pierce; surviving dog absorbs fallen one's power |
+| Nue | 4 CE | AC 13, HP 45, fly 60ft | Lightning strike: 60ft line, 4d8 lightning, DEX save halves |
+| Toad | 3 CE | AC 12, HP 20 | Transports a willing creature to another Toad's location instantly |
+| Great Serpent | 6 CE | AC 15, HP 60 | Restrain on hit (STR save), 3d10+5 piercing |
+| Mahoraga | 10 CE | See the Cursed Spirits chapter | Special Grade; cannot be summoned safely |
+::
+{{note
+![ten shadows](https://static.beebom.com/wp-content/uploads/2024/09/divine-dogs-jujutsu-kaisen.jpg?w=1024) {width:305px}
+}}
+
+\page
+
+# Chapter 3: Domain Expansions
+
+*"You're underestimating yourself and others instead of envisioning yourself as being stronger in the near future."*
+
+## Domain Rules
+
+Domain Expansion is the pinnacle of jujutsu. It's a technique that manifests the user's innate technique as a separate reality. The mechanical benefit of a Domain is guaranteed accuracy: inside a Domain, the user's innate technique strikes with absolute certainty, and targets automatically fail saving throws against it.
+
+### Activating a Domain
+
+Cost: 15 CE Points + concentration (maximum 1 minute, or longer with Extended Domain feat).
+
+Size: Creates a sphere of 60-foot radius centred on the caster. All creatures within the sphere are subject to the guaranteed-accuracy clause unless they have a Simple Domain or an active Domain of their own.
+
+Action: Activating a Domain Expansion requires your full action.
+
+### Domain vs. Domain
+
+If a second Domain Expansion is activated within an already-active Domain, both users make a contested roll. The lower total's Domain is suppressed. On a tie, both Domains collapse.
+
+Alternatively, a sorcerer with a significantly more refined Domain (DM discretion - generally a full tier of CE Grade above the other) may not need to roll as their Domain would overwrite the other.
+
+> ##### Domain Clash: Quick Reference
+> When two Domains clash, use the following procedure:
+
+> 1. Both users roll d20 + CE Stat modifier + proficiency bonus simultaneously.
+> 2. The lower total's Domain is suppressed immediately.
+> 3. On a tie: both Domains collapse. Both users are stunned until the start of their next turn.
+> 4. A Domain that is suppressed may be re-activated on the user's next turn for 15 CE Points.
+> 5. If a user's Domain is suppressed three times in a single combat session, they cannot activate it again until a long rest.
+
+### Simple Domain
+
+A Simple Domain is a smaller, defensive CE bubble that neutralises the guaranteed-accuracy clause for the creature inside it. See the Simple Domain feat. It does not expel the user from the enemy Domain - they remain inside, but they are no longer subject to the automatic-hit effect.
+\column
+### Barrier-Only Domain
+
+Spending 8 CE Points creates a closed Domain with no innate technique effect - a CE barrier of 30-foot radius with AC 18 and 100 hit points. It blocks CE detection from outside and prevents non-CE-based intrusion. It does not grant guaranteed accuracy.
+
+> ##### A Note on Domain Frequency
+> Domain Expansion is a single-use, high-stakes tool. Most sorcerers use it once per encounter at most. The CE cost (15 Points) and concentration requirement mean it cannot be maintained carelessly.
+> :
+
+## Example Domain Expansions
+
+### Unlimited Void
+*Gojo Satoru - Infinity + Six Eyes*
+
+***Domain Effect.*** All creatures other than Gojo within the Domain are incapacitated for the duration. All their saving throws automatically fail. On a CE saving throw (DC 22) at the Domain's end, creatures that fail are stunned for 1d6 multiplied by 10 minutes upon leaving. Non-sorcerer civilians exposed for more than 10 seconds suffer permanent psychic damage.
+
+***Counter Difficulty.*** Unlimited Void is widely considered the most powerful Domain in the current era. Simple Domain provides standard protection, but no Domain in living memory has successfully overwritten it in a direct clash.
+
+### Coffin of the Iron Mountain
+*Jogo - Disaster Cursed Spirit*
+
+***Domain Effect.*** All creatures other than Jogo take 2d6 fire damage at the start of each of their turns from the ambient temperature alone. Fire resistance is suppressed for all non-Jogo creatures within the Domain. Water-based effects are immediately evaporated.
+
+***Disaster Flames.*** Jogo's technique attacks within the Domain are guaranteed to hit. His Disaster Flames (ranged CE attack, 5d8 fire, 60-foot range) are resolved without attack rolls.
+
+\page
+
+### Malevolent Shrine
+*Ryomen Sukuna - Dismantle + Cleave*
+
+***Domain Effect.*** Sukuna may direct Dismantle (a slashing CE attack, +14 to hit, 6d10 slashing, auto-hits within the Domain due to guaranteed accuracy) at any target within 200 feet as a bonus action each turn. Cleave targets all objects and structures within range automatically, reducing them to rubble.
+
+***Open Domain.*** Unlike standard Domains, Malevolent Shrine is open; it does not create a barrier. Simple Domain can reduce (but not eliminate) the guaranteed-accuracy effect. A Simple Domain user must still contend with the physical attacks.
+
+***Range.*** The guaranteed-accuracy effect extends 200 feet, beyond any standard Domain's radius.
+
+{{note
+![sukuna domain](https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/7a/Malevolent_Shrine%27s_power.png/revision/latest?cb=20201117230138) {width:305px}
+}}
+
+### Self-Embodiment of Perfection
+*Mahito - Idle Transfiguration*
+
+***Domain Effect.*** Mahito may apply Idle Transfiguration to any creature within 60 feet without physical contact (normally requires touch). All Idle Transfiguration saving throws within the Domain are made at disadvantage.
+
+***Soul Capture.*** Any humanoid reduced to 0 hit points within the Domain is automatically transfigured rather than dying. They become a Polymorphic Soul Isomer soldier under Mahito's control. Creatures killed by Mahito's attacks within the Domain cannot be resurrected by any means short of a *Wish* or equivalent.
+
+{{note
+![mahito domain](https://static.wikia.nocookie.net/jujutsu-kaisen/images/2/23/Mahito%27s_Territorial_Expansion_Mahayana_Prison.png/revision/latest?cb=20190601212135) {width:305px}
+}}
+
+### Horizon of the Captivating Skandha
+*Dagon - Disaster Cursed Spirit*
+
+***Domain Effect.*** Horizon of the Captivating Skandha's sure-hit sure-kill effect causes the aquatic shikigami that Dagon summons to automatically hit their target. From the view of the targeted, the fish manifest instantly where they are, making them near-impossible to block due to the shikigami not even existing until the very moment they hit the target.
+
+***Shikigami Tide.*** At the start of each of Dagon's turns, 1d6 fish-like shikigami erupt from below the surface (treat each as a Giant Shark, CR 5, with AC 13 and HP 60). Dagon does not spend CE to summon them.
+
+***Devouring.*** Creatures that die within the Domain are consumed. Their bodies and CE are absorbed and nothing remains for resurrection or examination.
+
+{{note
+![dagon domain](https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/3f/Horizon_of_the_Captivating_Skandha.png/revision/latest?cb=20201115143622) {width:305px}
+}}
+
+
+\page
+
+# Chapter 4: Races
+
+*"No matter what anyone says, I really hate those monkeys. But I never held any hatred for those in Jujutsu High."*
+:
+The following species replace standard D&D races for this module. Each represents a distinct relationship to cursed energy and the jujutsu world.
+
+## Human Sorcerer
+
+The majority of jujutsu practitioners are human - rare individuals born with the ability to perceive and manipulate cursed energy. Most inherit their innate technique from a sorcerer bloodline; clan membership shapes access to training, resources, and social standing. Independent sorcerers exist, but they operate without institutional support and are treated with suspicion by the major clans.
+
+Humans are defined by their adaptability. Their CE ceilings are theoretically uncapped, and history's most powerful sorcerers - Gojo Satoru, Geto Suguru, Yuki Tsukumo - have been human.
+
+### Human Sorcerer Traits
+
+As a human sorcerer, you have the following traits:
+
+***Age.*** Humans reach adulthood in their late teens and typically live less than a century.
+
+***Speed.*** Your base movement speed is 30 feet.
+
+***Alignment.*** Human sorcerers span the full moral range. Institutional sorcerers tend toward law; independents toward neutrality; curse users toward chaos.
+
+***Size.*** Your choice of small or medium.
+
+***Adaptable CE.*** Once per long rest, when you fail a CE-related ability check or saving throw, you may reroll and take the higher result.
+
+***Baseline Sorcerer.*** Choose one Grade 4 Technique from the General Technique list.
+
+***Skill Versatility.*** You gain proficiency in two skills of your choice.
+
+***Languages.*** You speak Japanese and one additional language of your choice.
+
+***Sub-categories.*** Choose between Normal Sorcerer, Clan Sorcerer, Heavenly Restriction or Cursed Vessel.
+
+![Higuruma](https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/62/Hiromi_Higuruma_%28Anime%29.png/revision/latest/smart/width/400/height/225?cb=20251230190230) {width:340px,position:absolute,bottom:30px,left:85px}
+
+\column
+
+![Nanami](https://static.wikia.nocookie.net/jujutsu-kaisen/images/b/b0/Kento_Nanami_%28Anime%29.png/revision/latest?cb=20240618014214) {width:150px,margin-right:-2.5cm,wrapLeft}
+
+#### Normal Sorcerer
+
+You are a "normal" sorcerer. To some, you're common. *Weak*. But there are people who rise above those preconceptions. Will you be one of them?
+
+***Ability Score Increase.*** One ability score of your choice increases by 2, and a different one increases by 1. Alternatively, three ability scores of your choice each increase by 1.
+
+***Self-Taught Technique.*** Choose one Grade 3 Technique from the General Technique list in addition to the one granted to you by *Baseline Sorcerer*.
+
+***Adaptive Growth.*** Whenever you complete a long rest after surviving a combat encounter against an enemy whose CR exceeded your level, gain 1 Evolution Point (maximum equal to proficiency bonus). As a bonus action, you may spend an Evolution Point to:
+
+- Gain advantage on a CE check
+- Reduce a technique's CE cost by 2
+- Add your proficiency bonus to damage
+
+All spent points are restored on a long rest.
+
+#### Clan Sorcerer
+
+You are born to a named clan in the jujutsu world.
+
+***Ability Score Increase.*** One ability score of your choice increases by 2, and a different one increases by 1. Alternatively, three ability scores of your choice each increase by 1.
+
+***Clan Technique.*** If you are from a named sorcerer clan (Zenin, Gojo, Kamo, etc.), you begin play knowing a technique from your clan's lineage. Coordinate with your DM to develop this technique if it's not defined in the module.
+
+***Lineage Reserves.*** Your CE Point maximum increases by an amount equal to your proficiency bonus.
+
+***Family Secrets.*** At 5th level, choose one:
+- Learn one additional technique from the General Technique table at your current grade value
+- Reduce all clan technique CE costs by 1 (minimum 1)
+- Gain advantage on Domain clashes
+
+***Clan Burden.*** Your name carries weight. You have advantage on social checks involving sorcerers who recognize your clan and disadvantage on Deception checks against them.
+
+
+\page
+
+![Toji](https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/db/Toji_Fushiguro_%28Anime%29.png/revision/latest?cb=20250726005401) {width:280px,margin-right:-2.5cm,wrapLeft}
+
+#### Heavenly Restriction 
+
+Some individuals are born with little to no cursed energy and in the jujutsu world, this is perhaps the most dangerous thing a person can be. Without CE, the body compensates.
+
+***Ability Score Increase.*** One physical ability score (Strength, Dexterity, or Constitution) of your choice increases by 3. A second physical ability score of your choice increases by 1.
+
+***Ability Score Maximum.*** Your chosen primary physical ability score has a maximum of 24 instead of 20.
+
+***Speed.*** Your base movement speed is 35 feet.
+
+***Heavenly Restriction.*** There are three seperate tiers of Heavenly Restriction. Choose one.
+
+* ***Barely Restricted.*** Your cursed energy is stunted but present. Your CE Point maximum is reduced by one quarter (rounded up), and you cannot learn Reverse Cursed Technique.
+
+* ***Partial Restriction.*** Your cursed energy is severely diminished. Your CE Point maximum is reduced by half (rounded up), you cannot learn Reverse Cursed Technique, and you cannot use any technique that costs more than 4 CE Points. In exchange, increase one physical ability score of your choice by 2, to a maximum of 22.
+
+* ***Fully Restricted.*** You have 0 CE Points and cannot activate CE-based abilities or techniques. In place of Cursed Energy Points, you have Physical Energy Points equal to half of your CE Point maximum (rounded up) which can only be used to activate melee-based or self-affecting techniques. You cannot benefit from CE-based healing (RCT). You cannot be detected by Cursed Sight as you have no CE signature. Curses cannot perceive you passively. You do not have an Inate Technique. In exchange, increase two physical ability scores of your choice by 2 each, to a maximum of 24.
+
+***Superhuman Body.*** Your jump height and distance are doubled. You take no damage from falls of 30 feet or less, and half damage from falls up to 60 feet. You do not require sleep; 4 hours of rest provides the full benefits of a long rest.
+
+***Perfect Muscle.*** When you make a Strength check or Strength saving throw and the result is less than your Strength score, you may use your Strength score as the result instead.
+
+\column
+
+#### Cursed Vessel
+
+A cursed vessel is a human body that hosts a powerful cursed spirit - by force, by accident, or by design. Ryomen Sukuna's vessel Yuji Itadori is the defining example, but the history of jujutsu is scattered with others who survived the unsurvivable by becoming something no longer entirely themselves.
+
+***Ability Score Increase.*** Your Constitution score increases by 2 and your Charisma score increases by 1.
+
+***Age.*** As human, though vessels often age poorly or not at all, depending on the tenant.
+
+***Darkvision.*** The tenant's perception bleeds into yours, granting darkvision out to 60 feet. 
+
+***Cursed Core.*** You have resistance to necrotic damage. Cursed spirits instinctively recognise you as extraordinary.
+
+***Reinforced Vessel.*** Your hit point maximum increases by 2 per level. You have advantage on Constitution saving throws against poison and disease.
+
+***Tenant Surge.*** Once per short rest, the spirit within lends its power. Before rolling, declare Tenant Surge to gain a +3 bonus to a single attack roll, ability check, or saving throw. If you use this feature 3 times in a single day, roll a d6 on the Tenant Incursion table at day's end.
+
+##### Tenant Incursion (d6)
+| d6 | Result |
+|:----:|:---|
+| 1/2 | You gain advantage on your next attack, but speak in the spirit's voice for 1 hour |
+| 3/4 | The tenant briefly surfaces; you gain one use of its signature attack |
+| 5 | The spirit takes partial control for 1 minute; the DM plays your character |
+| 6 | Full Awakening - your damage doubles for 3 rounds, then you are stunned for 1 round |
+
+***Languages.*** Japanese and the language of your tenant.
+
+![Itadori](https://static.wikia.nocookie.net/theunitedorganizationtoonsheroes/images/2/27/Yuji_Itadori.png/revision/latest?cb=20220131222610) {width:270px,position:absolute,bottom:40px,right:90px;}
+
+\page
+
+## Cursed Corpse
+
+Cursed corpses are defined as inanimate objects possessed by a curse that is capable of standing on its own. These types of curses that appear naturally are hostile to humans. Most Cursed Corpses are tools, but an abrupt mutation in the construction process produced a Cursed Corpse with genuine consciousness, personality, and three distinct cores representing different combat aspects.
+
+### Cursed Corpse Traits
+
+***Ability Score Increase.*** One ability score of your choice increases by 2, and a different one increases by 1. Alternatively, three ability scores of your choice each increase by 1.
+
+***Age.*** Cursed Corpses do not age biologically. You are as old as your construction date (unless operated remotely, then age as human).
+
+***Speed.*** Your base movement speed is 30 feet.
+
+***Alignment.*** Most Abrupt Mutations, having developed genuine personalities, trend toward good alignments and strong personal ethics, but there are exceptions to every rule.
+
+***Size.*** Your choice of small, medium, or large.
+
+***Independent Soul.*** You gain proficiency in two skills of your choice.
+
+***Constructed Nature.*** You do not need to eat, breathe, or sleep. You are immune to poison, disease, and the exhausted condition. 4 hours of powered-down rest provides the benefits of a long rest.
+
+***Tough Hide.*** While unarmoured, your AC equals 13 + your Constitution modifier.
+
+***Languages.*** Japanese.
+
+***Sub-categories.*** Choose between Abrupt Mutation or Combat Model.
+
+#### Abrupt Mutation
+![Panda](https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4f/Panda_%28Anime_3%29.png/revision/latest?cb=20231124130718) {width:180px,margin-right:-0.7cm,wrapLeft}
+
+Like Panda, you developed true individuality beyond your intended design.
+
+***Disarming Presence.*** Despite everything, you have advantage on Persuasion checks with students, children, and creatures the DM determines are inexplicably charmed by you. This happens more than you would expect.
+
+***Three Cores.*** You have three cursed cores, each representing a different combat mode. You begin each day in your default mode. As a bonus action, you may shift between the following modes. You may only switch modes once per turn.
+
+- Default. No modifiers. You are as you have always been.
+- Attack Mode. Your Strength-based attack and damage rolls gain a +2 bonus, and you have advantage on Athletics checks. You have distadvantage on all Intelligence based checks.
+- Defense Mode. Your AC increases by 2. Your speed decreases by 10 feet and you cannot take the Dash action.
+
+***Core Damage.*** If a targeted attack destroys one of your cores, you lose access to that mode until you spend a long rest repairing it with 4 CE Points.
+
+***Adaptive Core.*** At the end of each long rest, one core of your choice gains advantage on its first save or attack.
+
+#### Combat Model
+
+![Mechamaru](https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/5a/Mechamaru_Ultimate_%28Anime_2%29.png/revision/latest?cb=20201226235054) {width:180px,margin-right:-2cm,wrapLeft}
+
+Much like the Puppet Manipulation technique of Mechamaru, you are humanoid in form but far from a human. You were built as a weapon - either entirely autonomous, or piloted remotely, this *is* your body, for better or worse.
+
+***Ability Score Increase.*** Your Strength or Constitution increases by 1, in addition to the default Cursed Corpse *Ability Score Increase*.
+
+***Remote Body.*** Your physical body is vulnerable. Your true form has:
+
+- A base movement speed of 15 feet
+- Disadvantage on everything idk lol
+
+However, if a puppet is reduced to 0 HP, you suffer no damage but are unable to make saving throws and are essentially out of that combat session until it has finished.
+
+***Target Lock.*** Once per turn, when you hit the same creature more than once in one round, deal extra damage equal to your proficiency bonus.
+
+***Reinforced Plating.*** Your natural AC becomes 14 + your Constitution modifier.
+
+***Fortified Structure.*** Your hit point maximum increases by your level.
+
+***Target Analysis.*** Once per turn when you hit a creature, you may mark it until the start of your next turn. Only one target may be marked at a time. Against a marked target:
+
+- You know its current hit points if it is below half health.
+- Your CE techniques ignore resistance granted by cover.
+- Your opportunity attacks against it have advantage.
+
+\page
+
+## Cursed Painting
+
+Cursed Paintings are the result of a forbidden experiment - cursed spirits merged with human beings before birth, producing something that is neither entirely curse nor entirely human. They are alive in a way that pure curses are not, and inhuman in a way that pure humans can never be. Their blood, when spilled, does not behave like ordinary blood.
+
+### Cursed Painting Traits
+
+***Ability Score Increase.*** One ability score of your choice increases by 2, and a different one increases by 1. Alternatively, three ability scores of your choice each increase by 1.
+
+***Age.*** As human.
+
+***Alignment.*** Cursed Paintings carry the emotional inheritance of both their human and curse halves. They tend toward neutrality, shaped more by experience than instinct.
+
+***Size.*** Your choice of small, medium or large.
+
+***Speed.*** Your base movement speed is 30 feet.
+
+***Half-Human Nature.*** Unlike pure cursed spirits, you can be perceived by non-sorcerers and exist openly in the human world without concealment. You register as human to casual Cursed Sight, though a sorcerer who studies your CE signature closely may make an CE check (DC 14) to identify your true nature.
+
+***Blood Technique.*** Your blood carries concentrated cursed energy. When you are dealt slashing or piercing damage, you may use your reaction to direct the blood as a CE attack. Make a ranged CE attack against the creature that damaged you (+CE Attack Bonus to hit, range 30 ft.). On a hit, deal 2d6 piercing damage. You may use this feature a number of times equal to your proficiency bonus per long rest.
+
+***Reconstruct.*** When reduced to 0 hit points, you may spend 6 CE Points as a reaction to instantly stabilise and regain 1 hit point. Once per long rest.
+
+***Inhuman Threshold.*** Your CE Point maximum increases by 2.
+
+***Distorted Presence.*** You have advantage on saving throws against being frightened or charmed. Creatures that rely on purely biological senses (scent, tremorsense) have disadvantage on checks to track or locate you.
+
+***Darkvision.*** 60 feet.
+
+***Languages.*** Japanese and one additional language of your choice.
+
+***Sub-categories.*** Choose between Human Aligned or Curse Aligned.
+
+\column
+
+#### Human Aligned
+
+Your human inheritance is the louder voice. You feel hunger even if you do not need to eat. You dream. You form attachments in the way humans do, with all the vulnerability that entails. Other sorcerers find you easier to trust. Cursed spirits find you contemptible.
+
+***Ability Score Increase.*** Your Charisma score increases by 1 in addition to your base *Ability Score Increase*.
+
+***Living Warmth.*** You count as humanoid for all purposes, even when targeted by effects that distinguish between humanoids and cursed spirits. Healing from RCT affects you at full value.
+
+***Human CE Reserves.*** Your CE recovers as a human sorcerer's does. Fully recover CE Points on a long rest, and partially on a short rest. Additionally, once per long rest when you finish a short rest, you may recover additional CE Points equal to your Constitution modifier.
+
+***Sorcerer Recognition.*** Jujutsu High and institutional sorcerers treat you as a registered sorcerer rather than a cursed spirit. You have advantage on Persuasion checks when dealing with human sorcerers who are aware of your nature.
+
+***Emotional Anchor.*** When you fail a saving throw against being frightened or charmed, you may reroll the save once and take the higher result. This does not stack with Distorted Presence, which should be applied first.
+
+#### Curse Aligned
+
+Your curse half is the louder voice. You do not dream. Attachment feels like a concept you understand intellectually but cannot fully access. You are faster, stranger, and more dangerous than your human-aligned kin and cursed spirits recognise something of themselves in you, even if they cannot place it.
+
+***Ability Score Increase.*** Your Strength score increases by 1 in addition to your base *Ability Score Increase*.
+
+***Curse Recognition.*** You are perceived as a cursed spirit by Cursed Sight. Cursed spirits do not automatically treat you as a target and will often hesitate before attacking, allowing you to attempt a Charisma check (DC determined by the spirit's grade) to communicate or negotiate.
+
+***Accelerated Reconstruction.*** Your Reconstruct feature costs 4 CE Points instead of 6.
+
+***Curse Body.*** You have resistance to necrotic damage. When you take necrotic damage, you may convert up to half of it into temporary CE Points (maximum equal to your proficiency bonus) that last until the end of your next turn.
+
+***Bloodline Density.*** Your Blood Technique deals 2d8 piercing damage instead of 2d6, and the range increases to 60 feet.
+
+\page
+
+## Sentient Cursed Spirit
+
+The most powerful cursed spirits develop language, philosophy, and purpose - transcending the mindless hunger of lesser curses to become thinking, speaking beings with agendas. Mahito, Hanami, Dagon, and Jogo are examples: curses that want something, that argue about humanity, that have aesthetic preferences and favourite weather.
+
+Playing a Sentient Cursed Spirit is a DM-approved option for campaigns that explore the Disaster Curses' perspective, or for players who want to embody the antagonist side of the jujutsu world.
+
+### Sentient Cursed Spirit Traits
+
+![mahito](https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4e/Mahito_%28Anime%29.png/revision/latest/scale-to-width-down/268?cb=20240618013419) {width:180px,margin-right:-0.6cm,wrapLeft}
+
+***Ability Score Increase.*** One ability score of your choice increases by 2, and either Intelligence or Charisma increases by 1. Alternatively, three ability scores of your choice each increase by 1.
+
+***Age.*** Cursed spirits do not age. They persist until exorcised.
+
+***Alignment.*** Most Sentient Cursed Spirits are chaotic. A rare few develop a self-imposed code of ethics, but it rarely resembles human morality.
+
+***Size.*** Medium (or as defined by your spirit's concept).
+
+***Speed.*** Your base movement speed is 35 feet.
+
+***Darkvision.*** 60 feet.
+
+***Cursed Origin.*** You are immune to poison and necrotic damage. You take double damage from Reverse Cursed Technique (positive energy). You take full damage from CE-infused attacks, and you have no resistance to weapons that have been cursed or infused by a sorcerer.
+
+***Phase.*** As a bonus action, you may become incorporeal until the start of your next turn. While incorporeal, you can pass through solid objects but cannot end your movement inside one. Your attacks and CE abilities still function normally while phased, and you can only be hit by CE-infused attacks.
+
+***CE Hunger.*** You must absorb CE from defeated enemies or cursed objects to sustain yourself. Once per week, you must absorb CE equivalent to at least 10 CE Points worth of energy (defeating a sorcerer, consuming a cursed tool, or absorbing residual CE from a battlefield). Failure to feed causes one level of exhaustion.
+
+***Unbounded Malice.*** You have advantage on Intimidation checks. You cannot be charmed by non-CE attempts.
+
+***Languages.*** Japanese (instinctive). Some older spirits speak archaic dialects or no language at all.
+
+***Sub-categories.*** Choose between Natural Spirit or Cursed Animal Spirit.
+
+#### Natural Spirit
+
+You emerged from a human concept. You represent an idea, a fear, an aspect of existence that humanity has poured enough dread into to give it a body. You have probably thought more carefully about what it means to be human than most humans have.
+
+***Ability Score Increase.*** Your Intelligence or Charisma score (whichever you did not increase with your base *Ability Score Increase*) increases by 1.
+
+***Conceptual Body.*** Your physical form reflects your foundational concept. Choose one damage type that your concept naturally embodies (fire, cold, necrotic, thunder, etc.). You have immunity to that damage type.
+
+***Domain Inclination.*** Your Domain Expansion, when developed, is guaranteed to manifest a sure-hit effect tied to your concept. When you eventually unlock Domain Expansion, your DM should design its sure-hit in consultation with your foundational concept rather than from a general pool.
+
+***Conceptual Resistance.*** When a creature attempts to identify your innate technique by observing it (such as through the Technique Thief feat), they must succeed on an Intelligence check against your CE Save DC or fail to grasp its underlying logic, even if they witnessed it clearly.
+
+#### Cursed Animal Spirit
+
+You are not born from an idea. You are born from what happened to an animal, from the dread of being hunted, caged, eaten, or forgotten. Animals accumulate cursed energy differently from humans.
+
+***Ability Score Increase.*** Your Strength or Dexterity score increases by 2, in addition to your base *Ability Score Increase*.
+
+***Animal Form.*** Choose the animal your spirit originates from. Your body incorporates clear features of that animal such as fur, scales, feathers, claws, etc. You gain a natural weapon appropriate to your form that deals 1d8 + your Strength modifier in bludgeoning, piercing, or slashing damage as a CE-infused attack.
+
+***Predator's Senses.*** You have advantage on Perception checks that rely on smell or hearing.
+
+***Territorial Instinct.*** When a creature enters a space within 10 feet of you without your permission, you may use your reaction to make one natural weapon attack against it.
+
+***Pack Logic.*** You do not experience cursed spirits as enemies by default. When encountering a non-sentient cursed spirit, it will not attack you unless you attack first or it is directed to by another creature.
+
+***Wordless Dread.*** Your *Unbounded Malice* trait affects creatures that cannot understand your language.
+
+\page
+
+# Chapter 5: Classes
+
+*"I don't know how I'll feel once I'm dead but I won't regret the way I lived."*
+
+Each class presented here is a reflavour of a standard D&D 5e class. The mechanics, unless otherwise specified - hit dice, saving throw proficiencies, attack progression, features by level - remains identical to the source class.
+
+## Warrior / Barbarian
+
+The Warrior channels cursed energy inward. Where other sorcerers project techniques outward, the Warrior's power lives in the body - hardening flesh, pushing past lethal damage, fighting through conditions that would kill anyone else, etc. Their Constitution score governs their CE, because their technique is inseparable from their physical existence.
+
+**Flavour:** Brawlers, physical-focused cursed vessels, monstrous fighters
+
+##### The Warrior
+| Level | Prof. Bonus | CE Points | Features |
+|:---:|:---:|:---:|:---|
+| 1 | +2 | 8 | Cursed Flesh, Reckless CE, Cursed Rage |
+| 2 | +2 | 10 | Pain Threshold |
+| 3 | +2 | 12 | Even More Cursed Flesh, Subclass Feature* |
+| 4 | +2 | 14 | Ability Score Improvement |
+| 5 | +3 | 16 | Extra Attack, Cursed Surge |
+| 6 | +3 | 18 | Subclass Feature* |
+| 7 | +3 | 20 | Brutal Strikes |
+| 8 | +3 | 22 | Ability Score Improvement |
+| 9 | +4 | 24 | CE Resilience |
+| 10 | +4 | 26 | Subclass Feature* |
+| 11 | +4 | 28 | Relentless Body |
+| 12 | +4 | 30 | Ability Score Improvement |
+| 13 | +5 | 32 | Cursed Surge Evolved |
+| 14 | +5 | 34 | Subclass Feature* |
+| 15 | +5 | 36 | Indomitable Flesh |
+| 16 | +5 | 38 | Ability Score Improvement |
+| 17 | +6 | 40 | Unstoppable Force |
+| 18 | +6 | 42 | Subclass Feature* |
+| 19 | +6 | 44 | Ability Score Improvement |
+| 20 | +6 | 45 | Perfect Body |
+
+### Class Features
+
+As a Warrior, you gain the following class features.
+
+#### Hit Points
+
+**Hit Dice:** 1d12 per Warrior level.
+
+**Hit Points at 1st Level:** 12 + your Constitution modifier.
+
+**Hit Points at Higher Levels:** 1d12 + your Constitution modifier per Warrior level after 1st.
+
+#### Proficiencies
+
+**Armor:** Light armor, medium armor, shields.
+
+**Weapons:** Simple weapons, martial weapons.
+
+**Saving Throws:** Strength, Constitution.
+
+**Skills:** Choose two from Athletics, Intimidation, Perception, Survival, and Acrobatics.
+
+#### Cursed Energy
+
+**CE Stat:** Constitution.
+
+**CE Save DC** = 8 + proficiency bonus + Constitution modifier.
+
+**CE Attack Bonus** = proficiency bonus + Constitution modifier.
+
+#### Cursed Flesh
+*1st Level*
+
+Your body is reinforced by cursed energy at all times. At the time of creating your character, you choose resistance to one of bludgeoning, piercing, or slashing damage from non-CE-infused attacks. This resistance is lost if you have 0 CE Points.
+
+#### Reckless CE
+*1st Level*
+
+When you make a CE-infused melee attack, you may choose to attack recklessly. You gain advantage on that attack roll, but attack rolls against you have advantage until the start of your next turn.
+
+#### Cursed Rage
+*1st Level*
+
+You have learned to flood your body with raw cursed energy, bypassing technique entirely. As a bonus action, you may enter a Cursed Rage for up to 1 minute. You may use this feature a number of times equal to your proficiency bonus per long rest.
+
+While raging:
+
+- You deal bonus force damage on CE-infused melee attacks equal to half your Constitution modifier (rounded up).
+- You have advantage on Strength checks and Strength saving throws.
+- You have resistance to bludgeoning, piercing, and slashing damage from non-CE-infused attacks, in addition to your Cursed Flesh resistance.
+
+The rage ends early if you are incapacitated, if you have not attacked a creature or taken damage since your last turn, or if you choose to end it as a bonus action.
+
+You cannot cast techniques that cost more than 4 CE Points while raging.
+
+\page
+
+#### Pain Threshold
+*2nd Level*
+
+When you are reduced to 0 hit points but not killed outright, you may spend 3 CE Points to drop to 1 hit point instead. You may use this feature once per short rest.
+
+#### Even More Cursed Flesh
+*3rd Level*
+
+Your resistance from Cursed Flesh now applies to CE-infused attacks that deal the type of damage you chose at 1st level, provided you have at least 3 CE Points remaining.
+
+#### Subclass
+*3rd Level*
+
+At 3rd level, choose the Ironclad or Berserker subclass.
+
+#### Ability Score Improvement
+*4th,8th,12th,16th,19th Level*
+
+Increase one ability score of your choice by 2, or two ability scores of your choice by 1. You cannot exceed 20 in a score this way. Alternatively, pick a non-racial feat, provided you meet the requirements.
+
+#### Extra Attack
+*5th Level*
+
+When you take the Attack action, you may attack twice instead of once.
+
+Alternatively, you may forgo one of your attacks to make a single Big-Ass Swing. Make one CE-infused melee attack. On a hit, the attack deals an additional 2d8 force damage and the target must make a Constitution saving throw against your CE Save DC or be knocked prone. You may spend up to 3 CE Points when making a Big-Ass Swing - for each point spent, the additional damage increases by 1d8.
+
+#### Cursed Surge
+*5th Level*
+
+Once per long rest, as a bonus action, you may spend up to 6 CE Points. For each point spent, you gain 3 temporary hit points and your next attack deals an additional 1d6 force damage. These temporary hit points last until the start of your next turn.
+
+#### Brutal Strikes
+*7th Level*
+
+When you score a critical hit with a CE-infused melee attack, the extra dice are maximised rather than rolled. This requires no CE expenditure.
+
+#### CE Resilience
+*9th Level*
+
+When you fail a saving throw, you may spend 3 CE Points as a reaction to reroll it. You must use the second result.
+
+\column
+
+#### Relentless Body
+*11th Level*
+
+You may use Pain Threshold twice per short rest rather than once. Additionally, while you have at least 1 hit point, you cannot be reduced below 1 hit point more than once per turn.
+
+#### Cursed Surge Evolved
+*13th Level*
+
+You may use Cursed Surge twice per long rest.
+
+#### Indomitable Flesh
+*15th Level*
+
+Your hit point maximum increases by an amount equal to your Warrior level. You no longer suffer the effects of the exhausted condition until you have 3 or more levels of exhaustion.
+
+#### Unstoppable Force
+*17th Level*
+
+Once per long rest, as a bonus action, you may declare that your next CE-infused melee attack cannot be reduced, negated, or redirected by any means short of a Domain Expansion.
+
+#### Perfect Body
+*20th Level*
+
+Your Constitution score increases by 4, to a maximum of 24. Your CE Points maximum increases by 2 at the start of each combat encounter, lasting until the encounter ends. While you have at least 1 CE Point remaining, you are immune to the frightened and charmed conditions.
+
+### Ironclad
+
+##### Ironclad Features
+| Warrior Level | Feature |
+|:---:|:---|
+| 3rd | Tempered Body, Calcified Skin |
+| 6th | Pain Reflection |
+| 10th | Cursed Fortification |
+| 14th | Unyielding |
+| 18th | Absolute Armour |
+
+#### Tempered Body
+*3rd Level Ironclad Feature*
+
+Your cursed energy reinforcement is constant rather than reactive. You gain a +1 bonus to AC while you are not incapacitated, regardless of armour worn. Additionally, your hit point maximum increases by 3, and increases by 1 again each time you gain a Warrior level.
+
+#### Calcified Skin
+*3rd Level Ironclad Feature*
+
+When you take damage, you may spend 2 CE Points as a reaction to reduce that damage by an amount equal to your Constitution modifier + your Warrior level. This reduction applies before resistances.
+
+\page
+
+#### Pain Reflection
+*6th Level Ironclad Feature*
+
+When a creature hits you with a melee attack, you may spend 3 CE Points as a reaction to force that creature to make a Constitution saving throw against your CE Save DC. On a failure, it takes force damage equal to half the damage you took (before reductions) and is stunned until the start of its next turn. On a success, it takes no damage.
+
+#### Cursed Fortification
+*10th Level Ironclad Feature*
+
+Your body has become a weapon in its own right. You gain the following benefits:
+
+- Your unarmed strikes deal 1d8 bludgeoning damage and count as CE-infused.
+- When you use Calcified Skin to reduce damage to 0, the attacking creature takes force damage equal to your Constitution modifier. No CE expenditure required.
+- You have advantage on saving throws against being moved, knocked prone, or restrained. This is passive and requires no action.
+
+#### Unyielding
+*14th Level Ironclad Feature*
+
+Once per long rest, when you would be reduced to 0 hit points, you may instead be reduced to 1 hit point. This does not require a reaction or CE Points. Additionally, while you have fewer hit points than half your maximum, you have resistance to all damage except psychic.
+
+#### Absolute Armour
+*18th Level Ironclad Feature*
+
+Your cursed reinforcement has reached near-permanence. You gain the following:
+
+- Your resistance from Cursed Flesh now applies to all bludgeoning, piercing, and slashing damage from non-CE-infused attacks, regardless of your original choice.
+- When you use Calcified Skin, you may spend 2 additional CE Points to gain immunity to the triggering damage type until the start of your next turn.
+- Once per long rest, as a bonus action, you may enter Total Fortification for 1 minute. During this time you have resistance to all damage, cannot be moved against your will, and Calcified Skin costs 0 CE Points.
+
+\column
+
+### Berserker
+
+##### Berserker Features
+| Warrior Level | Feature |
+|:---:|:---|
+| 3rd | Overflow, Reckless Overcharge |
+| 6th | Cursed Frenzy |
+| 10th | Unstoppable |
+| 14th | Consuming Surge |
+| 18th | Total Release |
+
+#### Overflow
+*3rd Level Berserker Feature*
+
+At the start of each of your turns in combat, if you have not spent any CE Points since the start of your last turn, you gain 2 temporary CE Points. These temporary points last until the end of your current turn, cannot accumulate beyond 4 at a time, and vanish if unused.
+
+#### Reckless Overcharge
+*3rd Level Berserker Feature*
+
+When you use Reckless CE, you may spend up to 4 additional CE Points. For each point spent this way, the attack deals an extra 1d6 force damage on a hit. If you spend 4 points this way and the attack misses, you take force damage equal to your Constitution modifier as the energy discharges inward.
+
+#### Cursed Frenzy
+*6th Level Berserker Feature*
+
+Once per short rest, as a bonus action, you may enter a Frenzy for up to 1 minute. Frenzy stacks with Cursed Rage - if both are active simultaneously, the damage bonuses combine. While frenzied:
+
+- You may make one CE-infused melee attack as a bonus action on each of your turns.
+- Your CE-infused melee attacks deal an additional 1d6 force damage.
+- You have advantage on Strength checks and Strength saving throws.
+- At the start of each of your turns, you lose hit points equal to your Constitution modifier (minimum 1).
+
+The Frenzy ends early if you are incapacitated, or as a bonus action, or if you drop to 0 hit points.
+
+#### Unstoppable
+*10th Level Berserker Feature*
+
+Your cursed output is difficult to contain. You gain the following benefits:
+
+- You cannot be restrained or paralysed while you have more than half your CE Point maximum remaining.
+- When you are frightened, you may spend 2 CE Points at the start of your turn to ignore the condition until the start of your next turn.
+- Your CE-infused melee attacks score a critical hit on a roll of 19 or 20.
+
+\page
+
+#### Consuming Surge
+*14th Level Berserker Feature*
+
+Once per long rest, as an action, you may spend up to 10 CE Points. For each point spent, you deal an additional 1d8 force damage on all CE-infused melee attacks and gain 5 temporary hit points. Both effects last until the start of your next turn.
+
+If you spend 10 CE Points this way, all creatures within 10 feet of you must make a Constitution saving throw against your CE Save DC or take 4d10 force damage and be knocked prone. On a success, a creature takes half damage and is not knocked prone.
+
+#### Total Release
+*18th Level Berserker Feature*
+
+Once per long rest, as a bonus action, remove all limiters on your cursed energy output for 1 minute. During this time:
+
+- Your CE-infused melee attacks deal an additional 2d10 force damage.
+- You have advantage on all attack rolls.
+- You have resistance to bludgeoning, piercing, and slashing damage.
+- If Cursed Frenzy is active simultaneously, the bonus action attack it grants also deals the 2d10 force damage.
+
+When the minute ends, you gain one level of exhaustion and lose CE Points equal to half your maximum (rounded up). If this would bring you to 0 CE Points, you drop to 0 hit points immediately.
+
+\page
+
+## Combatant / Fighter
+The Combatant is a trained institutional sorcerer. Disciplined, methodical, and mission-oriented, their cursed energy expression is controlled and precise rather than instinctive. They have drilled technique application until it is indistinguishable from muscle memory. Their Strength governs their CE because their power is physical.
+
+**Flavour:** Jujutsu High operatives, clan enforcers, senior grade soldiers, professionals who treat exorcism as a job
+
+##### Combatant
+| Level | Prof. Bonus | CE Points | Features |
+|:---:|:---:|:---:|:---|
+| 1 | +2 | 6 | Combat Discipline, Second Wind |
+| 2 | +2 | 8 | Action Surge (1 use) |
+| 3 | +2 | 10 | Tactical Reading, Subclass Feature* |
+| 4 | +2 | 13 | Ability Score Improvement |
+| 5 | +3 | 15 | Extra Attack, Tactical CE |
+| 6 | +3 | 17 | Subclass Feature* |
+| 7 | +3 | 19 | Studied Combatant |
+| 8 | +3 | 21 | Ability Score Improvement |
+| 9 | +4 | 23 | Indomitable (1 use) |
+| 10 | +4 | 25 | Subclass Feature* |
+| 11 | +4 | 27 | Extra Attack (2) |
+| 12 | +4 | 29 | Ability Score Improvement |
+| 13 | +5 | 31 | Action Surge (2 uses), Indomitable (2 uses) |
+| 14 | +5 | 33 | Subclass Feature* |
+| 15 | +5 | 35 | CE Mastery |
+| 16 | +5 | 37 | Ability Score Improvement |
+| 17 | +6 | 39 | Action Surge (3 uses), Indomitable (3 uses) |
+| 18 | +6 | 41 | Subclass Feature* |
+| 19 | +6 | 43 | Ability Score Improvement |
+| 20 | +6 | 45 | Extra Attack (3), Institutional Legend |
+
+### Class Features
+
+As a Combatant, you gain the following class features.
+
+#### Hit Points
+
+**Hit Dice:** 1d10 per Combatant level.
+
+**Hit Points at 1st Level:** 10 + your Constitution modifier.
+
+**Hit Points at Higher Levels:** 1d10 + your Constitution modifier per Combatant level after 1st.
+
+#### Proficiencies
+
+**Armor:** All armor, shields.
+
+**Weapons:** Simple weapons, martial weapons.
+
+**Saving Throws:** Strength, Constitution.
+
+**Skills:** Choose two from Athletics, Acrobatics, History, Insight, Intimidation, Perception, and Survival.
+
+#### Cursed Energy
+
+**CE Stat:** Strength.
+
+**CE Save DC** = 8 + proficiency bonus + Strength modifier.
+
+**CE Attack Bonus** = proficiency bonus + Strength modifier.
+
+#### Combat Discipline
+*1st Level*
+
+Your training has made CE expenditure efficient. Whenever you spend CE Points on a technique, you may reduce the cost by 1 (minimum 1) once per turn. You may use this reduction a number of times equal to your proficiency bonus per long rest. This is usable with other feats or abilities that reduce CE expenditure.
+
+#### Second Wind
+*1st Level*
+
+As a bonus action, you may spend 2 CE Points to regain hit points equal to 1d10 + your Combatant level. You may use this feature once per short rest.
+
+#### Action Surge
+*2nd Level*
+
+Once per short rest, on your turn, you may take one additional action. This action cannot be used to activate a Domain Expansion.
+
+#### Tactical Reading
+*3rd Level*
+
+You may use your bonus action to study a creature you can see within 30 feet. Until the start of your next turn, you have advantage on the first attack roll you make against that creature, and you know whether it has more or fewer CE Points remaining than you.
+
+#### Subclass
+*3rd Level*
+
+At third level, you choose the Tactician or Executioner subclass.
+
+#### Ability Score Improvement
+*4th,8th,12th,16th,19th Level*
+
+Increase one ability score of your choice by 2, or two ability scores of your choice by 1. You cannot exceed 20 in a score this way. Alternatively, pick a non-racial feat, provided you meet the requirements.
+
+#### Extra Attack
+*5th Level*
+
+When you take the Attack action, you may attack twice instead of once.
+
+#### Tactical CE
+*5th Level*
+
+When you use Action Surge, you recover CE Points equal to your proficiency bonus.
+
+#### Studied Combatant
+*7th level* You may use Tactical Reading as a bonus action without spending CE Points a number of times equal to your proficiency bonus per long rest.
+
+\page
+
+#### Indomitable
+*9th level*
+
+Once per long rest, when you fail a saving throw, you may reroll it and must use the new roll.
+ 
+#### Extra Attack (2)
+*11th level*
+
+When you take the Attack action, you may attack three times instead of twice.
+ 
+#### CE Mastery
+*15th level*
+
+Your Combat Discipline feature now reduces CE costs by up to 2 (minimum 1) once per turn, rather than 1.
+ 
+#### Extra Attack (3)
+*20th level*
+
+When you take the Attack action, you may attack four times.
+ 
+#### Institutional Legend
+*20th level*
+
+Your Strength score increases by 4, to a maximum of 24. Once per long rest, when you roll initiative, you may choose to treat the roll as a 20.
+
+### Tactician
+ 
+| Level | Feature |
+|:---:|:---|
+| 3rd | Threat Assessment, Coordinated Strike |
+| 6th | Suppress |
+| 10th | Contingency |
+| 14th | Field Command |
+| 18th | Perfect Execution |
+ 
+#### Threat Assessment
+*3rd Level Tactician Feature*
+ 
+You are constantly processing threats. You may use Tactical Reading as a free action (no bonus action required) once per turn. Additionally, when you use Tactical Reading, you also learn one of the following about the target (your choice): its current hit point range (bloodied, healthy, or near death), whether it has an active binding vow, or whether it has used its most costly technique this combat.
+ 
+#### Coordinated Strike
+*3rd Level Tactician Feature*
+ 
+When an ally hits a creature with an attack, you may use your reaction and spend 2 CE Points to immediately make one CE-infused weapon attack against that same creature. This attack has advantage if the ally's attack was a critical hit.
+ 
+#### Suppress
+*6th Level Tactician Feature*
+ 
+As a bonus action, spend 3 CE Points to target a creature within 30 feet that you have previously used Tactical Reading on. That creature must make a Constitution saving throw against your CE Save DC. On a failure, it cannot use any technique that costs more than 3 CE Points until the end of its next turn. On a success, it is aware you attempted to suppress it.
+ 
+#### Contingency
+*10th Level Tactician Feature*
+ 
+Your planning accounts for failure. You gain the following:
+ 
+- When you miss with an attack roll, you may spend 1 CE Point to reroll the die. You must use the second result.
+- When a creature you can see within 30 feet is targeted by an attack, you may spend 2 CE Points as a reaction to impose disadvantage on that attack roll.
+- You may use Action Surge twice per short rest, rather than once.
+#### Field Command
+*14th Level Tactician Feature*
+ 
+As a bonus action, spend 4 CE Points to issue a Field Command. Choose up to three allies you can see within 60 feet. Each ally may immediately move up to half their speed without provoking opportunity attacks, or may add your Strength modifier to their next attack roll before the start of your next turn.
+ 
+#### Perfect Execution
+*18th Level Tactician Feature*
+ 
+Your technique application has reached institutional mastery. You gain the following:
+ 
+- Your Combat Discipline feature no longer has a usage limit - you may reduce CE costs by 1 once per turn, every turn.
+- When you use Tactical CE (Action Surge CE recovery), you recover CE Points equal to twice your proficiency bonus instead.
+- Once per long rest, when you roll initiative, you may choose your position in the initiative order rather than rolling.
+
+\page
+
+### Executioner
+ 
+#### Executioner Features
+
+| Level | Feature |
+|:---:|:---|
+| 3rd | Marked Target, Shadow Step |
+| 6th | Blend |
+| 10th | Exploit Opening |
+| 14th | One Chance |
+| 18th | Apex Strike |
+ 
+#### Marked Target
+*3rd level Executioner feature*
+ 
+As a bonus action, spend 2 CE Points to designate one creature you can see as your Marked Target. The mark lasts for 1 hour or until the target is dead. You may only have one Marked Target at a time.
+ 
+Against your Marked Target, you gain the following benefits:
+ 
+- You always know the direction to the target if it is within 1 mile, even if it is hidden or obscured.
+- You have advantage on Perception and Insight checks made to locate or read the target.
+- The first attack you make against your Marked Target each turn deals an additional 2d6 force damage, provided you were hidden from the target at the start of that turn or had advantage on the attack roll.
+
+#### Shadow Step
+*3rd level Executioner feature*
+ 
+Your cursed energy suppresses your presence. You gain the following:
+ 
+- You may take the Hide action as a bonus action.
+- You may take the Dash action as a bonus action.
+- While hidden, your movement speed increases by 10 feet and your movement does not break concealment from foliage, crowds, or dim light unless you enter direct contact with a creature.
+- When you attack a creature while hidden and miss, you do not automatically reveal your position. Make a Stealth check contested by the target's Perception. On a success, you remain hidden.
+ 
+#### Blend
+*6th level Executioner feature*
+ 
+You have learned to suppress your CE signature entirely. As a bonus action, spend 2 CE Points to mask your cursed energy output for 1 hour. While masked:
+ 
+- Creatures without mundane senses cannot detect you passively.
+- Creatures with Cursed Sight must succeed on a Perception check contested by your Stealth to notice your CE signature.
+- You cannot be targeted by techniques that locate or identify creatures by their CE signature.
+Additionally, you may use Blend as a reaction when a creature with Cursed Sight first enters a space within 30 feet of you.
+ 
+#### Exploit Opening
+*10th level Executioner feature*
+ 
+Your strikes find the gap between one moment and the next. You gain the following benefits:
+ 
+- When a creature within 5 feet of you is hit by an attack from an ally, you may use your reaction to make one CE-infused weapon attack against that creature.
+- When you hit your Marked Target while you have advantage on the attack roll, the target must make a Constitution saving throw against your CE Save DC or be stunned until the start of your next turn.
+- Opportunity attacks against you have disadvantage if you have moved at least 20 feet on your current turn.
+
+#### One Chance
+*14th level Executioner feature*
+ 
+Once per long rest, as a bonus action, you may enter a state of total operational focus for 1 minute. During this time:
+
+- You may Hide as a free action at the end of each of your turns, even in plain sight, by spending 1 CE Point.
+- Your Marked Target damage bonus applies on every attack you make against the target, not only the first each turn.
+- If you hit your Marked Target with an attack while hidden, that attack deals an additional 5d6 force damage and the target cannot take reactions until the start of its next turn.
+  
+#### Apex Strike
+*18th level Executioner feature*
+ 
+Once per long rest, as an action, you may spend 8 CE Points to deliver a single, prepared killing strike against your Marked Target. You must be hidden from the target when you declare this action. Make a CE-infused weapon attack.
+ 
+If the attack hits:
+ 
+- It deals an additional 10d10 force damage.
+- The target must make a Constitution saving throw against your CE Save DC or be incapacitated until the end of its next turn.
+- If this damage reduces the target to 0 hit points, you immediately regain 8 CE Points and may Hide as a free action.
+If the attack misses, the CE Points are still spent and the use is expended.
+
+\page
+
+## Striker / Monk
+The Striker integrates cursed energy reinforcement into movement and strikes at a reflex level. Their Dexterity governs their CE because their focus is timing and positioning.
+
+**Flavour:** Assassination specialists, speed-type characters, sorcerers who win by being somewhere unexpected.
+
+##### The Striker
+| Level | Prof. Bonus | CE Points | Features |
+|:---:|:---:|:---:|:---|
+| 1 | +2 | 5 | Unarmored Flow, CE Step |
+| 2 | +2 | 7 | Cursed Body |
+| 3 | +2 | 9 | Impact Frame, Subclass Feature* |
+| 4 | +2 | 12 | Ability Score Improvement |
+| 5 | +3 | 15 | Extra Attack, Improved Senses |
+| 6 | +3 | 17 | Subclass Feature* |
+| 7 | +3 | 19 | Evasion |
+| 8 | +3 | 21 | Ability Score Improvement |
+| 9 | +4 | 23 | Deflect |
+| 10 | +4 | 25 | Subclass Feature* |
+| 11 | +4 | 27 | Flowing Guard |
+| 12 | +4 | 29 | Ability Score Improvement |
+| 13 | +5 | 31 | CE Step (improved) |
+| 14 | +5 | 33 | Subclass Feature* |
+| 15 | +5 | 35 | Diamond Mind |
+| 16 | +5 | 37 | Ability Score Improvement |
+| 17 | +6 | 39 | Blur of Motion |
+| 18 | +6 | 41 | Subclass Feature* |
+| 19 | +6 | 43 | Ability Score Improvement |
+| 20 | +6 | 45 | Perfect Form |
+
+___
+
+### Class Features
+
+As a Striker, you gain the following class features.
+
+#### Hit Points
+
+**Hit Dice:** 1d8 per Striker level.
+
+**Hit Points at 1st Level:** 8 + your Constitution modifier.
+
+**Hit Points at Higher Levels:** 1d8 + your Constitution modifier per Striker level after 1st.
+
+#### Proficiencies
+
+**Armor:** Light armor.
+
+**Weapons:** Simple weapons, shortswords, longswords, handaxes.
+
+**Saving Throws:** Strength, Dexterity.
+
+**Skills:** Choose two from Acrobatics, Athletics, Insight, Perception, Stealth, and Sleight of Hand.
+
+#### Cursed Energy
+
+**CE Stat:** Dexterity.
+
+**CE Save DC** = 8 + proficiency bonus + Dexterity modifier.
+
+**CE Attack Bonus** = proficiency bonus + Dexterity modifier.
+
+\column
+
+#### Unarmored Flow
+*1st Level*
+
+While you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier. Your movement speed increases by 10 feet.
+
+#### CE Step
+*1st Level*
+
+As a bonus action, spend 1 CE Point to move up to 15 feet without provoking opportunity attacks. If you end this movement within 5 feet of a creature, your next attack against that creature this turn has advantage.
+
+#### Cursed Body
+*2nd level* 
+
+Your unarmed strikes deal 1d6 bludgeoning damage, count as CE-infused, and you may use Dexterity instead of Strength for their attack and damage rolls.
+
+#### Impact Frame
+*3rd Level*
+
+When you use CE Step and make a successful attack at the end of it, the target cannot take reactions until the start of its next turn.
+
+#### Subclass
+*3rd Level*
+
+At third level, you choose the Phantom or Iron Fist subclass.
+
+#### Ability Score Improvement
+*4th,8th,12th,16th,19th Level*
+
+Increase one ability score of your choice by 2, or two ability scores of your choice by 1. You cannot exceed 20 in a score this way. Alternatively, pick a non-racial feat, provided you meet the requirements.
+
+#### Extra Attack
+*5th Level*
+
+When you take the Attack action, you may attack twice instead of once.
+
+#### Improved Senses
+*5th Level*
+
+Your CE perception extends. You are aware of the location of any creature within 30 feet of you, even if you cannot see them, provided they have a CE signature and are touching the same surface as you.
+
+#### Evasion
+*7th level*
+
+When you are subjected to an effect that allows a Dexterity saving throw to take half damage, you instead take no damage on a success and half damage on a failure.
+
+\page
+ 
+#### Deflect
+*9th Level*
+
+When you are hit by a melee attack, you may use your reaction and spend 2 CE Points to reduce the damage by 1d10 + your Dexterity modifier + your Striker level. If this reduces the damage to 0, you may immediately move up to 10 feet without provoking opportunity attacks.
+
+#### Flowing Guard
+*11th level* 
+
+When you use Deflect and reduce damage to 0, you may immediately use CE Step as part of the same reaction without spending additional CE Points.
+ 
+#### CE Step (improved)
+*13th level*
+
+CE Step now costs 0 CE Points once per turn. Additional uses in the same turn still cost 1 CE Point each.
+ 
+#### Diamond Mind
+*15th level*
+
+You may take the Dodge action as a bonus action. While Dodging, your movement speed increases by 10 feet.
+ 
+#### Blur of Motion
+*17th level*
+
+Opportunity attacks against you have disadvantage at all times, not only when you have moved 10 feet on your turn.
+ 
+#### Perfect Form
+*20th level*
+
+Your Dexterity score increases by 4, to a maximum of 24. Your movement speed increases by an additional 10 feet, and CE Step's movement distance increases to 30 feet.
+
+### Phantom
+
+#### Phantom Features
+ 
+| Level | Feature |
+|:---:|:---|
+| 3rd | Blur, After-Image |
+| 6th | Ghost Passage |
+| 10th | Untouchable |
+| 14th | Void Step |
+| 18th | Flickering Presence |
+ 
+#### Blur
+*3rd Level Phantom Feature*
+ 
+When you use CE Step, you may immediately make a Stealth check as a free action. Until the start of your next turn, ranged attacks against you have disadvantage. Additionally, the movement distance of CE Step increases to 20 feet.
+
+\column
+
+#### After-Image
+*3rd Level Phantom Feature*
+ 
+When a creature misses you with a melee attack, you may spend 1 CE Point as a reaction to move up to 10 feet without provoking opportunity attacks. If you do, the next attack you make against that creature before the end of your turn has advantage.
+ 
+#### Ghost Passage
+*6th Level Phantom Feature*
+ 
+You may move through the space of any creature during CE Step without penalty. Additionally, when you use CE Step to pass through a creature's space, that creature must make a Dexterity saving throw against your CE Save DC or take 2d6 force damage as your cursed energy tears through it.
+ 
+#### Untouchable
+*10th Level Phantom Feature*
+ 
+Your movement has become instinctive evasion. You gain the following:
+ 
+- As long as you have moved at least 10 feet on your turn, attacks of opportunity against you have disadvantage.
+- When you are hit by an attack, you may spend 3 CE Points as a reaction to halve the damage and move up to 15 feet without provoking opportunity attacks.
+- Your movement speed increases by an additional 10 feet (for a total of +20 feet from Unarmored Flow).
+#### Void Step
+*14th Level Phantom Feature*
+ 
+Once per short rest, as a bonus action, you may spend 5 CE Points to take a Void Step. You become invisible until the start of your next turn and teleport to any unoccupied space within 60 feet that you have seen within the last minute. If you make an attack after a Void Step, it is an automatic critical hit if it lands.
+ 
+#### Flickering Presence
+*18th Level Phantom Feature*
+ 
+Your CE has suffused your movement until you are difficult to track. You gain the following:
+ 
+- You may use CE Step as a free action (no bonus action required) once per turn.
+- When you use CE Step, you may choose to become invisible until the end of your next attack.
+- Once per long rest, as a reaction when you are targeted by any attack or technique, you may spend 4 CE Points to force the triggering creature to reroll the attack or recast the technique targeting a random creature within 30 feet (including itself).
+
+\page
+ 
+### Iron Fist
+ 
+#### Iron Fist Features
+ 
+| Level | Feature |
+|:---:|:---|
+| 3rd | Pressure Point, Cursed Impact |
+| 6th | Lock |
+| 10th | Relentless Tempo |
+| 14th | Shatter |
+| 18th | Killing Tempo |
+ 
+#### Pressure Point
+*3rd Level Iron Fist Feature*
+ 
+Your strikes target structural weaknesses. When you hit a creature with an unarmed strike, you may spend 1 CE Point to apply one of the following effects:
+ 
+- **Stagger:** The target cannot take reactions until the start of its next turn.
+- **Weaken:** The target has disadvantage on its next attack roll.
+- **Break:** The target's movement speed is halved until the start of your next turn.
+Your unarmed strikes deal 1d6 bludgeoning damage and count as CE-infused.
+ 
+#### Cursed Impact
+*3rd Level Iron Fist Feature*
+ 
+When you hit a creature with a CE-infused unarmed strike, you may spend 2 CE Points to send a pulse of cursed energy through the point of impact. The target takes an additional 1d10 force damage and must make a Constitution saving throw against your CE Save DC or be pushed 10 feet directly away from you.
+ 
+#### Lock
+*6th Level Iron Fist Feature*
+ 
+When you hit a creature with an unarmed strike, you may spend 3 CE Points to attempt to Lock them. The target must make a Strength saving throw against your CE Save DC. On a failure, it is restrained until the end of your next turn as your cursed energy pins their movement. While a creature is Locked, your attacks against it have advantage.
+ 
+#### Relentless Tempo
+*10th Level Iron Fist Feature*
+ 
+Your close-quarters pressure is relentless. You gain the following:
+ 
+- When you reduce a creature to 0 hit points with an unarmed strike, you may immediately move up to 10 feet and make one additional unarmed strike against another creature.
+- When a creature attempts to Disengage from you, you may spend 2 CE Points as a reaction to make one unarmed strike against it.
+- Your unarmed strikes now deal 1d8 damage.
+
+\column
+#### Shatter
+*14th Level Iron Fist Feature*
+ 
+Once per turn, when you hit a creature with three or more unarmed strikes in the same turn, you may declare a Shatter. The target must make a Constitution saving throw against your CE Save DC. On a failure, it takes 6d10 force damage and is stunned until the end of its next turn. On a success, it takes half damage and is not stunned. You must spend 4 CE Points to use this feature.
+ 
+#### Killing Tempo
+*18th Level Iron Fist Feature*
+ 
+You have mastered the rhythm of close combat. You gain the following:
+ 
+- You may make three unarmed strikes when you take the Attack action, rather than two.
+- Your unarmed strikes now deal 1d10 damage.
+- Once per long rest, for 1 minute, your Pressure Point effects no longer cost CE Points and you may apply two effects per hit instead of one.
+
+\page
+
+## Chanter / Bard
+The Chanter's cursed energy lives in expression, words, presence, and CE projected outward through force of personality. Whether their technique compels obedience, manipulates CE, or alters perception, it flows from the same source: the ability to make the world conform to their will. Their Charisma governs their CE because their power is inseparable from who they are.
+
+**Flavour:** Cursed Speech users, negotiator-types, barrier specialists.
+
+##### The Chanter
+| Level | Prof. Bonus | CE Points | Features |
+|:---:|:---:|:---:|:---|
+| 1 | +2 | 6 | Resonant Energy, Intimidation |
+| 2 | +2 | 9 | CE Recovery |
+| 3 | +2 | 12 | Resonant Frequency, Subclass Feature* |
+| 4 | +2 | 15 | Ability Score Improvement |
+| 5 | +3 | 18 | Presence, Amplified Voice |
+| 6 | +3 | 20 | Subclass Feature* |
+| 7 | +3 | 22 | Projected Will |
+| 8 | +3 | 24 | Ability Score Improvement |
+| 9 | +4 | 26 | CE Attunement |
+| 10 | +4 | 28 | Subclass Feature* |
+| 11 | +4 | 30 | Greater Presence |
+| 12 | +4 | 32 | Ability Score Improvement |
+| 13 | +5 | 34 | CE Recovery (improved) |
+| 14 | +5 | 36 | Subclass Feature* |
+| 15 | +5 | 38 | Resonant Mastery |
+| 16 | +5 | 40 | Ability Score Improvement |
+| 17 | +6 | 42 | Unshakeable |
+| 18 | +6 | 44 | Subclass Feature* |
+| 19 | +6 | 45 | Ability Score Improvement |
+| 20 | +6 | 45 | Living Broadcast |
+
+___
+
+### Class Features
+
+As a Chanter, you gain the following class features.
+
+#### Hit Points
+
+**Hit Dice:** 1d8 per Chanter level.
+
+**Hit Points at 1st Level:** 8 + your Constitution modifier.
+
+**Hit Points at Higher Levels:** 1d8 + your Constitution modifier per Chanter level after 1st.
+
+#### Proficiencies
+
+**Armor:** Light armor.
+
+**Weapons:** Simple weapons, hand crossbows, longswords, rapiers, shortswords.
+
+**Saving Throws:** Dexterity, Charisma.
+
+**Skills:** Choose three from Arcana, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, and Sleight of Hand.
+
+#### Cursed Energy
+
+**CE Stat:** Charisma.
+
+**CE Save DC** = 8 + proficiency bonus + Charisma modifier.
+
+**CE Attack Bonus** = proficiency bonus + Charisma modifier.
+
+#### Resonant Energy
+*1st Level*
+
+Your cursed energy broadcasts on a frequency others can feel. You may add your Charisma modifier to any Persuasion or Intimidation check involving another sorcerer or cursed spirit.
+
+#### Intimidation
+*1st Level*
+
+As an action, spend 2 CE Points and speak a single word of condemnation at a cursed spirit within 30 feet. The spirit must make a Wisdom saving throw against your CE Save DC or take 2d8 force damage and be frightened of you until the end of its next turn. On a successful save it takes half damage and is not frightened.
+
+#### CE Recovery
+*2nd Level*
+
+Once per long rest, when you finish a short rest, you may recover additional CE Points equal to half your Chanter level (rounded up), in addition to the normal short rest recovery.
+
+#### Resonant Frequency
+*3rd Level*
+
+You learn to read the CE signature of others. As an action, spend 2 CE Points to identify the grade, CE Stat, and one active technique of any creature within 30 feet that has a CE signature. They are not aware you have done this.
+
+#### Subclass
+*3rd Level*
+
+At third level, you choose the Barrier Master or True Resonance subclass.
+
+#### Ability Score Improvement
+*4th,8th,12th,16th,19th Level*
+
+Increase one ability score of your choice by 2, or two ability scores of your choice by 1. You cannot exceed 20 in a score this way. Alternatively, pick a non-racial feat, provided you meet the requirements.
+
+#### Presence
+*5th Level*
+
+Your CE signature is unmistakable to anyone with Cursed Sight. Once per long rest, as an action, you may project your presence outward. All creatures within 30 feet with Cursed Sight must make a Wisdom saving throw against your CE Save DC or be frightened of you for 1 minute. They may repeat the saving throw at the end of each of their turns.
+
+\page
+
+#### Amplified Voice
+*5th Level*
+
+When you use Intimidation, you may spend 2 additional CE Points to affect all cursed spirits within 30 feet simultaneously, each making the saving throw independently.
+
+#### Projected Will
+*7th level* 
+
+The range of your Intimidation feature and Resonant Frequency feature increases to 60 feet. Additionally, Resonant Frequency no longer can be used as a bonus action.
+ 
+#### CE Attunement
+*9th level*
+
+You can sense the CE grade of any creature within 60 feet passively, without using Resonant Frequency. You also have advantage on saving throws against techniques used by creatures whose CE grade is lower than yours.
+ 
+#### Greater Presence
+*11th level* 
+
+When you use Presence, creatures that fail their saving throw remain frightened for the full duration even if they take damage from you or your allies.
+ 
+#### CE Recovery (improved)
+*13th level*
+
+You may use CE Recovery twice per long rest, rather than once.
+ 
+#### Resonant Mastery
+*15th level* 
+
+When you use Resonant Frequency on a creature, you learn all of its active techniques and its current CE Point total, not just one technique and a range estimate.
+ 
+#### Unshakeable 
+*17th level*
+
+Your CE signature is now impossible to suppress or mask by effects of Grade 1 or lower. Additionally, you are immune to the frightened condition.
+ 
+#### Living Broadcast
+*20th level*
+
+Your Charisma score increases by 4, to a maximum of 24. Your CE signature radiates constantly at full force - all creatures with Cursed Sight within 120 feet are aware of your presence at all times. Once per long rest, as an action, you may flood the area with your CE signature, forcing all hostile creatures within 60 feet to make a Wisdom saving throw against your CE Save DC or be stunned until the end of their next turn.
+
+\column
+### Barrier Master
+#### Barrier Master Features
+ 
+| Level | Feature |
+|:---:|:---|
+| 3rd | Curtain, Repel |
+| 6th | Binding Field |
+| 10th | Layered Barrier |
+| 14th | Prison |
+| 18th | Architectural Will |
+ 
+#### Curtain
+*3rd Level Barrier Master Feature*
+ 
+As an action, spend 4 CE Points to erect a Curtain, a spherical barrier up to 30 feet in radius centred on a point within 60 feet. This is distinctly different to a Barrier-Only Domain. The Curtain is invisible to those without Cursed Sight and lasts for 1 hour or until you dismiss it (no action required). The Curtain has the following properties:
+ 
+- Creatures inside it cannot leave without spending 5 CE Points or making a Strength check against your CE Save DC.
+- You may designate any number of creatures as exempt when you create it.
+- You may only maintain one Curtain at a time.
+
+#### Repel
+*3rd Level Barrier Master Feature*
+
+As a reaction when a creature within 30 feet moves toward you, spend 2 CE Points to project a repelling barrier. That creature must make a Strength saving throw against your CE Save DC or be pushed 15 feet away from you and have its movement speed halved until the end of its turn.
+ 
+#### Binding Field
+*6th Level Barrier Master Feature*
+ 
+As an action, spend 4 CE Points to project a field of binding energy centred on a point within 60 feet. The field occupies a 15-foot radius sphere. Any creature that enters or starts its turn in the field must make a Strength saving throw against your CE Save DC or be restrained until the start of its next turn. The field lasts for 1 minute or until you dismiss it.
+
+\page
+
+#### Layered Barrier
+*10th Level Barrier Master Feature*
+ 
+Your barriers have become substantially more resilient. You gain the following:
+ 
+- Your Curtain now also blocks cursed techniques from passing through unless the caster spends 3 CE Points per technique.
+- When a creature attempts to break through your Curtain with a Strength check, it has disadvantage.
+- As a bonus action, spend 3 CE Points to reinforce any active barrier you have created. Reinforced barriers cannot be destroyed by a single attack or technique - they must be targeted twice or the creature must spend 8 CE Points in a single action to break through.
+
+#### Prison
+*14th Level Barrier Master Feature*
+ 
+Once per long rest, as an action, spend 6 CE Points to project a Prison around a single creature within 60 feet. The Prison is a perfectly fitted barrier that moves with the target. The target must make a Charisma saving throw against your CE Save DC or be trapped. While Imprisoned:
+ 
+- The target cannot move, teleport, or use any technique that would remove it from its current space.
+- The target cannot use techniques that target creatures outside the Prison.
+- The Prison lasts for 1 minute. The target may repeat the saving throw at the end of each of its turns.
+
+#### Architectural Will
+*18th Level Barrier Master Feature*
+ 
+Your barriers have become an extension of your mind. You gain the following:
+ 
+- You may maintain two Curtains simultaneously.
+- Once per long rest, as an action, you may spend 10 CE Points to create an Absolute Barrier in a 60-foot radius sphere centred on yourself. For 1 minute, no creature may enter or exit the sphere without your permission, no technique may cross its boundary, and any creature inside that attempts to use a Domain Expansion must make a Charisma saving throw against your CE Save DC or the Domain fails to open. At the end of the minute, you regain CE Points equal to your Charisma modifier for each creature still inside the barrier.
+
+\column
+### True Resonance
+ 
+##### True Resonance Features
+| Chanter Level | Feature |
+|:---:|:---|
+| 3rd | Cursed Frequency, Dissonance |
+| 6th | Resonant Pulse |
+| 10th | Sustained Note |
+| 14th | Shattering Pitch |
+| 18th | The Final Movement |
+ 
+#### Cursed Frequency
+*3rd level True Resonance feature*
+ 
+Your cursed energy expresses itself as audible vibration. You may produce or suppress any sound within 30 feet of yourself at will, requiring no action.
+ 
+Additionally, you learn to read CE signatures as sound. You always know the number of creatures with a CE signature within 60 feet of you and their approximate direction, even if you cannot see or hear them by conventional means. This sense is blocked by 1 foot of lead or 3 feet of stone.
+ 
+#### Dissonance
+*3rd level True Resonance feature*
+ 
+As an action, spend 3 CE Points to project a targeted frequency at one creature within 30 feet. The creature must make a Constitution saving throw against your CE Save DC. On a failure, it takes 3d8 thunder damage and is disoriented until the end of its next turn - it has disadvantage on attack rolls and cannot maintain concentration. On a success, it takes half damage and is not disoriented.
+ 
+You may spend 2 additional CE Points to affect all creatures of your choice within 10 feet of the original target, each making the saving throw independently.
+ 
+#### Resonant Pulse
+*6th level True Resonance feature*
+ 
+As a bonus action, spend 3 CE Points to emit a pulse of cursed vibration in a 20-foot radius centred on yourself. Choose one of the following effects:
+ 
+- **Disrupting Pulse.** Each creature of your choice in the area must make a Constitution saving throw against your CE Save DC or lose 4 CE Points as your frequency disrupts their output. Creatures with no CE Points are instead stunned until the start of their next turn.
+- **Silencing Pulse.** Each creature of your choice in the area must make a Wisdom saving throw against your CE Save DC or be unable to speak, shout, or produce intentional sound until the end of their next turn. Techniques that require verbal components or spoken commands cannot be used while silenced.
+- **Harmonising Pulse.** Each ally of your choice in the area regains CE Points equal to your Charisma modifier as your frequency synchronises with their output.
+
+\page
+
+#### Sustained Note
+*10th level True Resonance feature*
+ 
+You may maintain a continuous cursed frequency as a passive effect. At the start of each of your turns in combat, you may choose one creature you can see within 60 feet. That creature takes 1d10 thunder damage as your frequency resonates against it. This damage increases to 2d10 if the creature is already disoriented, silenced, or has fewer CE Points than you.
+ 
+Additionally, when you cast Dissonance, creatures that fail their saving throw remain disoriented for 1 minute rather than until the end of their next turn. They may repeat the saving throw at the end of each of their turns.
+ 
+#### Shattering Pitch
+*14th level True Resonance feature*
+ 
+Once per long rest, as an action, spend 6 CE Points to build a frequency to its destructive peak. Choose a point within 60 feet. All creatures within a 30-foot radius of that point must make a Constitution saving throw against your CE Save DC. On a failure:
+ 
+- They take 8d10 thunder damage.
+- They are knocked prone and deafened for 1 minute.
+- Any active barriers, cursed tools, or non-Domain cursed constructs within the area are immediately dispelled.
+On a successful save, a creature takes half damage, is not knocked prone, and is deafened only until the end of its next turn.
+ 
+#### The Final Movement
+*18th level True Resonance featuree*
+ 
+Once per long rest, as an action, spend 10 CE Points to perform a composition that does not stop until something does. Choose up to five creatures you can see within 60 feet. For 1 minute, each chosen creature is subjected to your personal frequency. At the start of each of their turns, they must make a Constitution saving throw against your CE Save DC or take 6d10 thunder damage and lose 3 CE Points. On a success, they take half damage and lose no CE Points.
+ 
+A creature reduced to 0 CE Points by this effect cannot use techniques for the remainder of the encounter. A creature reduced to 0 hit points by this effect does not merely fall unconscious - their cursed energy signature goes completely silent.
+ 
+You may end The Final Movement early as a bonus action. While it is active, you cannot use any other Resonant features, but Sustained Note damage doubles.
+
+\page
+
+# Chapter 6: Feats
+
+*"Those who inherited the curse of the Zenin Family. The one who couldn't full leave behind the curse. They would all bear witness to the bare flesh of the one who is free. To the one who left it all behind."*
+
+The following feats are available to all characters unless noted as racial. Feats available to players also include non-magical feats from the Players Handbook, which are too numerous to include in this module.
+
+## General Feats
+
+#### Heightened Flash
+Your instincts bring you closer to the impossible coincidence of the Black Flash. You gain the following benefits:
+___
+- You may attempt a Black Flash on a natural 19 or 20 on the attack roll (instead of only natural 20).
+- Your CE Stat check DC for triggering a Black Flash is reduced by 1 (DC 18 normally, DC 16 in Flow State).
+- You gain one additional use of Flow State per long rest - when you enter a new combat encounter after achieving a Black Flash in a previous one, you begin the new encounter already in a Flow State.
+
+#### Divergent Fist
+Your CE impact lags behind your physical blow by a precise fraction. You gain the following benefits:
+___
+- When you hit with an unarmed strike on your turn, you may spend 2 CE Points to deal an additional 1d8 necrotic damage as the delayed CE impact lands.
+- If this secondary impact reduces a target to 0 hit points, you do not expend the 2 CE Points.
+
+#### Inate Proficiency
+*Prerequisite: Intelligence 15 or higher*
+
+You have a knack for manipulating cursed energy in specific ways. You gain the following benefits:
+___
+- Increase your CE Stat by 1, to a maximum of 20.
+- You learn one Grade 3 Technique from the General Technique list.
+- Each time your grade improves, choose two instead of one technique to learn from the General Technique list.
+
+#### Perfect Timing
+Your timing is always slightly cinematic.
+___
+- Once per long rest, you may delay resolving a hit or technique until the end of the round. When it resolves, add +1d8 damage or effect potency.
+
+\column
+
+#### Technique Thief
+*Prerequisite: Intelligence 16 or higher and CE Stat 14 or higher*
+
+You're in tune with your own cursed energy and have a deep understanding of how techniques work. You gain the following benefits:
+___
+- When you observe a sorcerer use a technique, you may make an Intelligence check (DC = 10 + the technique's CE Point cost) to partially reverse-engineer it. On success, you may use a weakened version of that technique once before losing the impression (both half-damage and half-range, or only one of your choice with a doubled CE Point cost).
+
+#### Fast Paced
+
+Your CE reinforcement focuses almost entirely into movement efficiency and reaction speed. You gain the following benefits:
+___
+- Increase your Dexterity score by 1, to a maximum of 20.
+- Your movement speed increases by 10 feet.
+- Opportunity attacks against you are made with disadvantage if you moved at least 20 feet this turn.
+
+#### Binding Vow Jurist
+*Prerequisite: Intelligence 13 or higher*
+
+You have studied the metaphysical law of CE contracts and can leverage them with precision others cannot. You gain the following benefits:
+___
+- You may propose a Binding Vow as a bonus action instead of an action.
+- When you offer a Binding Vow to an enemy, they must make a Wisdom saving throw (DC = 8 + your PB + Intelligence modifier) or be compelled to accept it. Curses that reason at INT 8 or higher are entitled to negotiate terms.
+- Once per long rest, you may invoke a Hidden Vow: secretly bind yourself to a condition known only to the DM. If the condition is met, gain +15 temporary CE Points immediately.
+
+#### RCT Adept
+*Prerequisite: CE Stat 14 or higher*
+
+You have learned to multiply negative energy into positive. You gain the following benefits:
+___
+- You may now use Reverse Cursed Technique to heal (costs 4 CE Points per d8).
+- When you heal yourself with RCT during combat as a bonus action, you may spend 2 additional CE Points to immediately suppress one ongoing condition (poisoned, frightened, blinded) on yourself.
+- Once per long rest, you may use RCT to regenerate a severed limb (your own or another willing creature's) over the course of 1 minute and 8 CE Points.
+
+\page
+
+#### CE Suppression
+You have learned to collapse your CE signature to near-zero, becoming effectively invisible to Cursed Sight. You gain the following benefits:
+___
+- As an action, you may spend 3 CE Points to suppress your CE signature for 1 hour. While suppressed, you cannot be detected by Cursed Sight, and cursed spirits that rely on CE perception cannot target you specifically (though they may detect your physical presence normally).
+
+- While suppressed, you may not use techniques that require CE expenditure of more than 2 CE Points. Activating a higher-cost technique immediately ends suppression.
+
+#### Fraud Detector
+
+You can tell when someone is about to say something ridiculous and overpowered.
+
+As a reaction when a creature declares a technique, roll 1d6:
+___
+| d6 | Effect                                           |
+| :------ | :----------------------------------------------- |
+| 1/2     | Nothing happens.                                 |
+| 3/4     | You gain +2 AC against it.                       |
+| 5       | The technique's CE cost increases by 2.          |
+| 6       | The technique fizzles and the user looks stupid. |
+___
+You may only use this once per short rest.
+
+#### Extended Domain
+*Prerequisite: Ability to use Domain Expansion, 10th level*
+
+Your Domain Expansion is further refined. You gain the following benefits:
+___
+- Your Domain Expansion's radius increases by 20 feet and duration increases by 1 minute.
+- While your Domain is active, you may take one additional bonus action each turn that can only be used to activate a technique.
+
+#### Cursed Crafter
+*Prerequisite: Proficiency with at least one type of artisan's tools*
+
+You may craft cursed tools as described in the Cursed Tools chapter, with the following improvements:
+ ___
+- The daily CE cost of crafting is reduced by 2 (minimum 1).
+- You add double your proficiency bonus to CE checks made at the end of a crafting period, rather than your proficiency bonus alone.
+- Once per long rest, you may infuse a mundane weapon or object with a small amount of cursed energy in 10 minutes rather than days. The resulting tool is Grade 4, requires no crafting check, lasts until your next long rest, and loses its CE infusion at that point. You may only have one Rapidly Infused tool active at a time.
+
+\column
+
+#### Simple Domain
+*Prerequisite: CE Stat 18 or higher*
+
+You have learned to create a defensive CE bubble that partially neutralises the automatic-hit effect of an enemy Domain. You gain the following benefits:
+___
+- As a reaction when an enemy activates a Domain Expansion, you may spend 6 CE Points to create a Simple Domain around yourself in a 10-foot radius.
+- While inside your Simple Domain, you and your allies are not subject to the guaranteed-accuracy clause of the enemy's Domain. You still occupy the Domain's space and may still be targeted normally.
+- Your Simple Domain lasts for 1 minute or until you take more than 30 damage from a single source while it is active.
+
+#### Conversion
+*Prerequisite: Constitution 13 or higher*
+
+You have learned to convert physical damage into cursed energy, treating injury as fuel rather than setback. You gain the following benefits:
+___
+- Increase your Constitution score by 1, to a maximum of 20.
+- When you take 10 or more damage from a single attack, you gain 2 CE Points immediately as a reaction.
+- Once per short rest, you may spend hit points instead of CE Points for a technique, at a rate of 3 hit points per 1 CE Point. There is no limit on hit points per use.
+
+#### Cursed Tool Affinity
+You have developed an intuitive bond with cursed tools, reading their CE signature as naturally as your own. You gain the following benefits:
+___
+- When you handle a cursed tool for at least 1 minute, you may make a CE check (DC = 10 + the tool's grade number) to identify its properties, whether it has been damaged or depleted, and with a result of 5 or more above the DC, the approximate identity or affiliation of the sorcerer who made it.
+- You may attune to 1 additional Cursed Tool.
+- Once per long rest, an attack or technique made through the tool this turn ignores resistance and treats immunity as resistance instead. It develops a flaw, three of which destroy it permanently.
+
+#### Strongest Bum Alive
+
+You should not be winning fights. Somehow, you still are. You gain the following benefits:
+___
+- Once per short rest, when you miss an attack, you may declare "that was intentional." The attack hits.
+- If you roll a natural 1 on an attack, you gain advantage on your next attack.
+- Enemies that underestimate you have disadvantage on their first attack against you.
+
+\page
+
+#### Soul Reader
+You have developed an uncommon sensitivity to the CE signature of living souls, reading intent and technique structure before either is expressed. You gain the following benefits:
+___
+- Increase your Wisdom or Intelligence score by 1, to a maximum of 20.
+- At the start of combat, you may immediately identify the innate technique of one creature you can see within 30 feet, provided it has a CE signature. The DM describes the technique's lapse effect but not its extensions.
+
+#### Exorcist's Resolve
+*Prerequisite: Wisdom 13 or higher, must have exorcised at least one cursed spirit*
+
+You have internalised the weight of exorcism work and developed a psychological fortitude that curses find difficult to crack. You gain the following benefits:
+___
+- You are immune to the frightened condition caused by cursed spirits.
+- When you reduce a cursed spirit to 0 hit points, you recover CE Points equal to your proficiency bonus.
+- Once per long rest, when you fail a saving throw against a curse's innate technique, you may choose to succeed instead.
+
+#### Technique Accelerant
+*Prerequisite: CE Stat 16 or higher*
+
+You have refined your CE output to the point where your techniques fire faster and hit harder. You gain the following benefits:
+___
+- Techniques that cost 4 CE Points or fewer can be used as a bonus action instead of an action, once per turn.
+- When you use a technique without reducing it's CE cost, add your CE Stat modifier to the damage or healing it produces.
+- Once per short rest, you may use a technique without spending CE Points. The technique must cost 5 CE Points or fewer.
+
+#### Curse Eater
+
+*Prerequisite: Constitution 15 or higher*
+
+You can forcibly absorb fragments of lingering cursed energy into yourself. You gain the following benefits:
+___
+- When a cursed spirit dies within 30 feet of you, you may use your reaction to gain temporary hit points equal to your proficiency bonus + your Constitution modifier.
+- Once per long rest, after exorcising a cursed spirit, you may immediately recover CE Points equal to half its grade level (minimum 1).
+
+#### Kyoto Student
+
+*Prerequisite: Studied at a Cursed School*
+
+You are technically strong. Nobody cares. You gain the following benefits:
+___
+- Increase any ability score by 1 (max 20).
+- Once per short rest, when you hit a creature, you may deal additional damage equal to your proficiency bonus.
+- You gain proficiency in one skill of your choice.
+
+#### My Besto Friendo!
+
+You can synchronise CE output with nearby allies. You gain the following benefits:
+___
+- As a bonus action, choose one ally within 30 feet. Until the start of your next turn, when one of you spends CE Points, the other gains temporary hit points equal to your proficiency bonus.
+- Once per short rest, when an ally within 30 feet lands a Black Flash, you may immediately enter Flow State as well.
+
+#### Technique Reservoir
+
+Your CE pool is large. You gain the following benefits:
+___
+- Increase your CE Stat by 1, to a maximum of 20.
+- Your maximum CE Points increase by an amount equal to your proficiency bonus.
+- Once per long rest, when you roll initiative, you may immediately recover CE Points equal to your CE Stat modifier.
+
+#### Jackpot Lite
+
+Probability itself seems willing to favour you. You gain the following benefits:
+___
+- Whenever you roll initiative, roll 1d6:
+
+| d6 | Effect                                             |
+| :------ | :------------------------------------------------- |
+| 1       | Gain temporary hit points equal to your level.     |
+| 2       | Recover CE Points equal to your proficiency bonus. |
+| 3       | Gain advantage on your first attack roll.          |
+| 4       | Gain advantage on your first saving throw.         |
+| 5       | Your speed increases by 20 feet for 1 minute.      |
+| 6       | Roll twice and gain both effects.                  |
+___
+- Once per long rest, after rolling a 6, you may immediately regain use of a feature that normally refreshes on a short rest.
+
+#### Aura Farmer
+
+What matters is that people are watching, you know they're watching, and somehow that makes you better at your job. You gain the following benefits:
+___
+* If you survive an attack that leaves you at 1 HP, including through feats, racial abilities or other methods, you gain inspiration but must say "I was actually holding back."
+* Once per short rest, when you roll initiative, you may declare you are "locked in." While locked in for 1 minute, you gain an additional 10 feet of movement speed and your first attack each turn deals  an additional 1d6 damage.
+
+\page
+
+#### Twin Curses
+
+*Prerequisite: Must have a sibling or soul-linked ally*
+
+Your cursed energy naturally synchronises with another person. You gain the following benefits:
+___
+- Increase your Charisma or Wisdom score by 1, to a maximum of 20.
+- While within 30 feet of your chosen ally, both of you gain a +1 bonus to AC.
+- Once per long rest, when your linked ally would be reduced to 0 hit points, you may spend 5 CE Points as a reaction to leave them at 1 hit point instead.
+
+#### Delinquent Mentality
+
+Your confidence borders on irrational, but it works. You gain the following benefits:
+___
+- Increase your Charisma score by 1, to a maximum of 20.
+- You gain advantage on saving throws against being frightened.
+- When you fail a saving throw, you may add your Charisma modifier to the result after seeing the roll.
+
+#### Afterimage
+
+Your movement leaves delayed "echoes" of cursed energy behind. You gain the following benefits:
+___
+- Increase your Dexterity score by 1, to a maximum of 20.
+- When you take the Dash action, you may leave behind an afterimage in your previous space until the start of your next turn. The first attack that would hit you before then instead hits the afterimage (destroying it).
+- Once per short rest, when a creature misses you with an attack, you may move 10 feet as a reaction.
+
+#### Perfectly Average Binding Vow
+
+*Prerequisite: Must have made a Binding Vow before*
+
+You've learned to exploit precise self-imposed restrictions. You gain the following benefits:
+___
+- Once per long rest, you may declare a Micro Binding Vow at the start of your turn (e.g., "I will not move this turn," "I will only use one technique," etc.).
+- If you fully comply until the start of your next turn, you gain 4 CE Points immediately.
+- If you break the vow, you take psychic damage equal to twice your proficiency bonus.
+
+#### Cowardly Sorcerer
+
+You instinctively create space between yourself and lethal threats. You gain the following benefits:
+___
+- Increase your Wisdom or Dexterity score by 1, to a maximum of 20.
+- Opportunity attacks against you are made with disadvantage if you moved at least 5 feet this turn.
+- When you take damage from a creature within 5 feet, you may immediately move 10 feet away as a reaction.
+
+\column
+
+#### Conditional Technique Specialist
+*Prerequisite: CE Stat 16 or higher*
+
+Your techniques shift based on situational triggers rather than fixed output. When you use a technique, choose one condition and gain its effect:
+___
+- If target is above half HP: +2 damage per CE die rolled.
+- If target is below half HP: gain 2 CE Points on hit.
+- If target is adjacent to an ally: impose disadvantage on its next attack.
+- If you moved this turn: add your proficiency bonus to damage.
+
+#### Clan Outcast
+
+You were rejected, abandoned, disowned, or simply left behind by the clan that should have raised you.
+
+You gain the following benefits:
+
+- Increase one ability score of your choice by 1, to a maximum of 20.
+- You gain proficiency in either Insight, Intimidation, or Survival.
+- You learn a technique from your clan's lineage. Coordinate with your DM to develop this technique if it's not defined in the module.
+  
+#### Hollow Shell
+
+Your CE presence feels empty, making your soul difficult to grasp directly. You gain the following benefits:
+___
+- Increase your Wisdom or Charisma score by 1, to a maximum of 20.
+- You gain advantage on saving throws against soul-targeting techniques.
+- Creatures attempting to read your emotions, intentions, or CE flow have disadvantage on the relevant checks.
+
+#### Cursebreaker
+
+*Prerequisite: Wisdom 15 or higher*
+
+Your understanding of CE interference allows you to unravel hostile techniques. You gain the following benefits:
+___
+- When a creature within 30 feet activates a technique, you may use your reaction to attempt to disrupt it. Make a Wisdom check contested by the user's CE check. On success, the technique's CE cost is spent but its effects fail.
+- Once you successfully disrupt a technique, you cannot do so again until you finish a short or long rest.
+
+\page
+
+## Racial Feats
+
+#### Adaptive Technique
+*Prerequisite: Human Sorcerer*
+ 
+Your technique has developed a second application you found yourself, not taught or inherited. You gain the following benefits:
+ ___
+- When you take this feat, choose one technique, Inate or General, that you already know. You develop an Extension of that technique with your DM, following the extension rules. This extension costs 1 fewer CE Point than normal (minimum 1).
+ 
+- Additionally, once per long rest when you use your Adaptive Growth feature, you may spend two Evolution Points at once to add your proficiency bonus to both the attack roll and the damage roll of a single technique.
+
+#### Complete Heavenly Restriction
+*Prerequisite: Human Sorcerer, Heavenly Restriction*
+
+A demonic fighter equal to Zenin Toji has been fully realised. You gain the following benefits:
+___
+- You gain the stat benefits of Fully Restricted in addition to your initial chosen tier. If you have already chosen Fully Restricted, you instead increase one physical ability score of your choice by 2 each, to a maximum of 24.
+- Your senses have been heightened to the point that you are able to "see" cursed spirits based on their actions on the environment, such as temperature and airflow. You no longer have disadvantage on attacking creatures that require Cursed Sight to be observed.
+- Your unarmed strikes and weapon attacks deal an additional 1d6 damage of their type and always count as CE-infused for the purposes of affecting cursed spirits.
+- At any time you would be reduced to 0 hit points, you may make a DC 20 Constitution saving throw. On a success, you drop to 1 hit point instead, and for the next hour your attacks count as CE-infused for the purpose of harming cursed spirits. You may also choose resistance to any type of damage to be applied permanently to your character.
+  This feature may only trigger once in your character's lifetime.
+
+#### Vessel's Resonance
+*Prerequisite: Human Sorcerer, Cursed Vessel, Charisma 15 or higher*
+
+You and your tenant have reached an understanding. You gain the following benefits:
+___
+- You may communicate telepathically with your tenant at will. It is not obligated to respond helpfully.
+- When your tenant takes partial control (Tenant Incursion result 5), you retain awareness and may make a Charisma saving throw (DC 14) at the end of each of your turns to reassert control.
+- Once per long rest, you may voluntarily let the tenant surface for 1 round to make a single attack using the tenant's attack bonus and damage. You retain full consciousness and reclaim control at the start of your next turn.
+
+#### Second Digit
+*Prerequisite: Human Sorcerer, Cursed Vessel, 5th level*
+
+The tenant within has extended more of itself into your body. You gain the following benefits:
+___
+- Your CE Point maximum increases by 5.
+- Your Tenant Surge bonus increases to +3.
+- Once per long rest, as a bonus action, you may let the tenant fully surface for 30 seconds: your Strength and Constitution scores become 20 if they aren't higher, your attacks deal an extra 1d6 necrotic damage, and the tenant speaks through you. When the time ends, you gain one level of exhaustion.
+
+#### Offensive Rampage
+*Prerequisite: Cursed Corpse, Abrupt Mutation*
+
+You gain the following benefits:
+___
+- When you enter Attack Mode, you may immediately make one melee attack as a bonus action. If this attack hits, the target must make a Strength saving throw (DC = 8 + your PB + Strength modifier) or be knocked prone.
+
+#### Defensive Charge
+*Prerequisite: Cursed Corpse, Abrupt Mutation*
+
+You gain the following benefits:
+___
+- While in Defense Mode, you may use your action to charge in a straight line of up to 30 feet, moving through enemy spaces. Each creature in your path must make a Strength saving throw (DC = 8 + your PB + Strength modifier) or take 3d8 + Strength modifier bludgeoning damage and be knocked prone. On a success, they take half damage and are not knocked prone.
+
+#### Awakened Core
+*Prerequisite: Cursed Corpse, Abrupt Mutation, 10th level*
+
+Choose one of your three cores. That core gains an additional property:
+___
+- **Default.** While in Default mode, you have advantage on Insight and Perception checks, and creatures cannot gain advantage on attack rolls against you through flanking.
+- **Attack.** While in Attack Mode, your first attack each turn deals an additional 1d10 force damage, and you may move through the space of creatures smaller than you without penalty.
+- **Defense.** While in Defense Mode, you may use your reaction to impose disadvantage on any attack roll made against an ally within 10 feet of you. Your speed penalty is reduced to 5 feet.
+
+\page
+
+#### Weapons Platform
+*Prerequisite: Cursed Corpse, Combat Model*
+ 
+You were built to fight. You have refined that purpose. You gain the following benefits:
+___
+- Your Target Lock feature now triggers when you hit the same creature once in a turn, and the extra damage increases to your proficiency bonus + your Constitution modifier.
+
+- Additionally, you may mark two targets simultaneously with Target Analysis instead of one. The benefits apply to each marked target independently.
+
+#### The Perfect Bleed Out Spot
+*Prerequisite: Cursed Painting, Human Aligned*
+ 
+You have learned to direct your blood with intention rather than instinct, releasing it not as a reaction to pain but as a deliberate technique. You gain the following benefits:
+ 
+- Your Blood Technique no longer requires you to have taken slashing or piercing damage first. You may activate it as a bonus action on your turn by dealing 1d4 piercing damage to yourself. This damage can be prevented by sacrificing your movement on the same turn you activate it.
+ 
+- Additionally, the damage of your Blood Technique increases to 2d8, and you may now target up to two creatures within range with a single activation, making a separate CE attack roll against each.
+ 
+#### Curse Dominance
+*Prerequisite: Cursed Painting, Curse Aligned*
+ 
+The curse half is winning, but you don't mind. You gain the following benefits:
+___
+- Your Curse Recognition feature now allows you to attempt to issue a one-word command to a non-sentient cursed spirit within 30 feet as a bonus action. The spirit makes a Wisdom saving throw against your CE Save DC. On a failure, it follows the command for 1 minute or until it takes damage from you or your allies.
+ 
+- Additionally, when you use your Accelerated Reconstruction feature, you may choose to regain additional hit points equal to your Constitution modifier on top of the 1 hit point normally restored.
+
+#### Spirit's Hunger
+*Prerequisite: Sentient Cursed Spirit*
+
+Your CE appetite has sharpened into a precise predatory sense. You gain the following benefits:
+___
+- You can sense the exact CE Point total of any creature within 30 feet as a bonus action. You know their current and maximum CE Points, and whether they have a Domain Expansion.
+- When you absorb CE from a defeated sorcerer, you recover CE Points equal to half of what they had remaining (minimum 2).
+- Your CE Hunger requirement reduces to once per two weeks instead of once per week.
+
+
+#### Spirit's Overflow
+*Prerequisite: Sentient Cursed Spirit, Natural Spirit*
+ 
+Your concept has grown large enough that it bleeds into the space around you without your permission. You gain the following benefits:
+ 
+- At the start of each of your turns in combat, all creatures of your choice within 10 feet must make a Wisdom saving throw against your CE Save DC or take 1d8 damage of your Conceptual Body type and have disadvantage on their next attack roll.
+ 
+- Additionally, your Domain Expansion's sure-hit effect deals an additional die of damage of your Conceptual Body type when it triggers.
+ 
+#### Apex Predator
+*Prerequisite: Sentient Cursed Spirit, Cursed Animal Spirit*
+ 
+You have stopped holding the animal back. You gain the following benefits:
+___
+* Your natural weapon damage increases to 1d10. When you hit a creature with your natural weapon, you may spend 3 CE Points to apply one of the following effects:
+- **Pin.** The target must make a Strength saving throw against your CE Save DC or be restrained until the end of its next turn.
+- **Rend.** The target takes an additional 2d6 damage of the same type and cannot regain hit points until the start of your next turn.
+- **Frighten.** The target must make a Wisdom saving throw against your CE Save DC or be frightened of you until the end of its next turn.
+Additionally, your Territorial Instinct reaction attack now deals your natural weapon damage plus your Strength modifier, rather than only your natural weapon damage.
+
+#### Half-breed
+
+*Prerequisite: Any Race*
+
+You are not fully one thing. Whether by lineage, experimentation, possession, or something worse, your existence carries incompatible traits that somehow function together. You gain the following benefits:
+___
+- Increase one ability score of your choice by 1, to a maximum of 20.
+- Increase your CE Stat by 1, to a maximum of 20 (or gain 2 CE Points if your system does not use a CE Stat).
+- Gain two features from one subcategory of a race different to your own.
+
+
+\page
+
+# Chapter 7: Backgrounds
+*"We are jujutsu sorcerers. As long as we live, our friends who have passed away will not truly be defeated. Looking for meaning or logic in death may at times defile the memories of those we have lost. Even so. What have you been entrusted with?"* 
+
+In the world of Jujutsu Kaisen, power alone doesn't define a sorcerer. Before awakening to cursed energy, before learning techniques, domains, or the horrors lurking beneath everyday life, every character had a life of their own. 
+
+A background represents who your character was before stepping into the world of curses, shaping the skills they developed and the values that drive them now. Backgrounds available to players also include non-magical backgrounds from the Players Handbook.
+
+### High School Student
+A teenager caught between normal life and the hidden world of curses. They can be attending a prestigious academy, surviving public school life, or simply trying to keep friends alive through things no one else can see.
+
+Skill Proficiencies: 2 from Insight, Perception, Persuasion, Athletics  
+
+Tool Proficiencies: Calligrapher's supplies or Disguise kit  
+
+Equipment: 80,000 Yen, school uniform or casual clothes, notebook, stationery set, phone, lunch box, backpack  
+
+#### Feature: After School Club
+You gain your choice of the Alert feat or My Besto Friendo! feat.
+
+#### Suggested Characteristics
+High school students stand at the crossroads between childhood and adulthood. Be a class clown, honour student, athlete, or troublemaker; high school students have the most variety of any background.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I act like everything is normal, even when it clearly isn't. |
+| 2 | I overreact to small things but stay calm in real danger. |
+| 3 | I always try to help people, even strangers. |
+| 4 | I pretend to know more than I actually do. |
+| 5 | I'm constantly tired but refuse to slow down. |
+| 6 | I trust my instincts more than authority. |
+| 7 | I keep strange souvenirs from dangerous encounters. |
+| 8 | I laugh when I'm scared. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Growth.** I'll become strong enough to protect others. (Good) |
+| 2 | **Freedom.** No one gets to decide my future for me. (Chaotic) |
+| 3 | **Responsibility.** If I see something wrong, I act. (Lawful) |
+| 4 | **Curiosity.** I need to understand how everything works. (Any) |
+| 5 | **Loyalty.** My friends come first, always. (Good) |
+| 6 | **Survival.** I'll do whatever it takes to make it through. (Any) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | I want to protect my classmates from the unseen world. |
+| 2 | I owe my life to someone who taught me about curses. |
+| 3 | I'm searching for a missing friend. |
+| 4 | My school hides something dangerous. |
+| 5 | I promised never to run away again. |
+| 6 | I need to prove I'm not powerless. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I rush into danger without thinking. |
+| 2 | I lie to avoid worrying others. |
+| 3 | I freeze when things get too intense. |
+| 4 | I can't stop showing off. |
+| 5 | I ignore authority on principle. |
+| 6 | I get attached too quickly. |
+
+\page
+
+### Salaryman
+"Work is shit." A corporate worker trapped in working late, delayed trains, fluorescent lights, and silent desperation. Some discover cursed energy through stress alone, forged by exhaustion, resentment, and years of swallowing their true feelings.
+
+Skill Proficiencies: 2 from Persuasion, Insight, Deception, Investigation  
+
+Tool Proficiencies: Calligrapher's supplies or Gaming set  
+
+Equipment: 120,000 Yen, business suit, briefcase, ID badge, umbrella, paperwork stack, phone 
+
+#### Feature: Working Overtime
+You gain your choice of the Tough feat or Lucky feat.
+
+#### Suggested Characteristics
+Salarymen often appear ordinary, quiet, polite, and forgettable. Beneath that exterior can simmer years of frustration, discipline, or quiet ambition. They work to support families, for status, or because they no longer know how to stop.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I apologize even when I've done nothing wrong. |
+| 2 | I can't leave tasks unfinished. |
+| 3 | I speak formally even in casual situations. |
+| 4 | I rely heavily on routines. |
+| 5 | I suppress my emotions completely. |
+| 6 | I always carry spare stationery. |
+| 7 | I overwork myself without noticing. |
+| 8 | I quietly resent everything but never say it. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Duty.** My obligations come first. (Lawful) |
+| 2 | **Stability.** Order must be preserved. (Lawful) |
+| 3 | **Ambition.** I will climb no matter what it takes. (Any) |
+| 4 | **Efficiency.** Waste is unacceptable. (Any) |
+| 5 | **Freedom.** I dream of escaping this life. (Chaotic) |
+| 6 | **Endurance.** I will outlast anything. (Any) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | I must provide for my family no matter what. |
+| 2 | My company is hiding something unnatural. |
+| 3 | I owe everything to my mentor. |
+| 4 | I need to correct a catastrophic mistake. |
+| 5 | My coworkers are like comrades to me. |
+| 6 | I'm searching for meaning beyond work. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I cannot refuse authority. |
+| 2 | I drink too much to cope. |
+| 3 | I panic when plans change. |
+| 4 | I avoid confrontation at all costs. |
+| 5 | I neglect my own health. |
+| 6 | I take on too much responsibility. |
+
+\page
+
+### Convenience Store Clerk
+A quiet observer of society, working late nights under fluorescent lights while strange customers come and go. In the world of curses, a convenience store can often become the last safe place before things go horribly wrong.
+
+Skill Proficiencies: 2 from Insight, Perception, Persuasion, Sleight of Hand  
+
+Tool Proficiencies: Cook's utensils or Herbalism kit  
+
+Equipment: 60,000 Yen, store uniform, apron, receipt book, flashlight, snacks, coin pouch, employee keycard  
+
+#### Feature: Night Shift Awareness
+You gain your choice of the Observant feat or Skilled feat.
+
+#### Suggested Characteristics
+Convenience store clerks see humanity at its most honest - drunks at 2 a.m., students pulling all-nighters, exhausted workers, and people who don't seem human at all. They develop patience, sharp observation, and the ability to stay calm through absolute absurdity.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I notice everything customers try to hide. |
+| 2 | I stay calm no matter how strange things get. |
+| 3 | I judge people by their purchases. |
+| 4 | I talk to myself during shifts. |
+| 5 | I remember regular customers perfectly. |
+| 6 | I'm overly polite even under pressure. |
+| 7 | I daydream during slow hours. |
+| 8 | I treat every shift like survival. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Service.** Everyone deserves respect. (Good) |
+| 2 | **Observation.** Knowledge comes from watching. (Any) |
+| 3 | **Safety.** My store is a sanctuary. (Good) |
+| 4 | **Independence.** I rely on no one. (Neutral) |
+| 5 | **Routine.** Order keeps chaos away. (Lawful) |
+| 6 | **Kindness.** Small acts matter. (Good) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | My coworkers are like family. |
+| 2 | A strange customer visits every night. |
+| 3 | Something lives behind the store. |
+| 4 | I dream of escaping this job. |
+| 5 | I protect late-night customers. |
+| 6 | My store sits on cursed ground. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I'm too trusting of regulars. |
+| 2 | I refuse to leave my shift early. |
+| 3 | I avoid conflict whenever possible. |
+| 4 | I get distracted easily. |
+| 5 | I hoard useless trinkets. |
+| 6 | I assume things are "probably fine." |
+
+\page
+
+### Street Racer
+The city streets are your hunting grounds, your battlefield, or your sanctuary. Speed is freedom, danger is normal, and hesitation gets people killed. Few can match your passion once your engine starts going.
+
+Skill Proficiencies: 2 from Acrobatics, Athletics, Perception, Survival  
+
+Tool Proficiencies: Vehicles (land) or Tinkerer's tools  
+
+Equipment: 100,000 Yen, leather jacket, helmet, mechanic's gloves, toolkit, racing goggles, burner phone, vehicle keys  
+
+#### Feature: Urban Predator
+You gain your choice of the Fast Paced feat or Athlete feat.
+
+#### Suggested Characteristics
+Street racers live fast. They race for money, reputation, or because the roar of an engine is the only time they feel alive. They know every alley, tunnel, shortcut, and escape route in the city.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I never sit still for long. |
+| 2 | I trust my instincts over maps. |
+| 3 | I talk to machines like they understand me. |
+| 4 | I hate being overtaken. |
+| 5 | I live for adrenaline. |
+| 6 | I memorize every street I travel. |
+| 7 | I grin when things become dangerous. |
+| 8 | I hate feeling trapped. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Speed.** Faster is always better. (Any) |
+| 2 | **Freedom.** Roads belong to no one. (Chaotic) |
+| 3 | **Precision.** Every move matters. (Lawful) |
+| 4 | **Thrill.** Life should be exciting. (Chaotic) |
+| 5 | **Reputation.** My name should be remembered. (Any) |
+| 6 | **Survival.** Hesitation kills. (Any) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | My vehicle is irreplaceable. |
+| 2 | I owe my life to another racer. |
+| 3 | Someone died during one of my races. |
+| 4 | I race to support my family. |
+| 5 | My crew is my true family. |
+| 6 | There's one rival I still need to beat. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I never slow down when I should. |
+| 2 | I take unnecessary risks. |
+| 3 | I refuse to ask for help. |
+| 4 | I get reckless when challenged. |
+| 5 | I trust machines more than people. |
+| 6 | I run from emotional problems. |
+
+\page
+
+### Nurse
+A caretaker working long hospital shifts. You've seen patients survive what should kill them, and others die from things medicine cannot explain.
+
+Skill Proficiencies: 2 from Medicine, Insight, Perception, Persuasion  
+
+Tool Proficiencies: Herbalism kit or Alchemist's supplies  
+
+Equipment: 100,000 Yen, scrubs, medical bag, gloves, penlight, notepad, protective mask, spare medication 
+
+#### Suggested Characteristics
+Nurses live between life and death. Your character should be the type of person who learns (or has learned) how to function under pressure while everyone else panics.
+
+#### Feature: Emergency Stabilization
+You gain your choice of the Healer feat or Inspiring Leader feat.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:--:|:--|
+| 1 | I stay calm even in chaos. |
+| 2 | I prioritize others over myself. |
+| 3 | I notice subtle physical changes instantly. |
+| 4 | I speak gently even under stress. |
+| 5 | I avoid panic in others at all costs. |
+| 6 | I rely on routine procedures. |
+| 7 | I remember every patient I treat. |
+| 8 | I can't ignore someone in pain. |
+
+##### Ideals
+| d6 | Ideal |
+|:--:|:--|
+| 1 | **Compassion.** Every life matters. |
+| 2 | **Duty.** I must do my job no matter what. |
+| 3 | **Stability.** Keep people alive and safe. |
+| 4 | **Knowledge.** Understanding saves lives. |
+| 5 | **Sacrifice.** I'll bear the burden. |
+| 6 | **Hope.** No one is beyond saving. |
+
+##### Bonds
+| d6 | Bond |
+|:--:|:--|
+| 1 | I saved someone I should not have been able to. |
+| 2 | A patient I treated returned… wrong. |
+| 3 | I'm searching for a missing colleague. |
+| 4 | I protect my hospital from hidden threats. |
+| 5 | I owe my skills to my mentor. |
+| 6 | I promised never to lose a patient again. |
+
+##### Flaws
+| d6 | Flaw |
+|:--:|:--|
+| 1 | I take on too much responsibility. |
+| 2 | I cannot say no to help requests. |
+| 3 | I blame myself for every failure. |
+| 4 | I ignore my own injuries. |
+| 5 | I panic in personal danger. |
+| 6 | I hesitate when action is needed quickly. |
+
+\page
+
+### Juvenile Delinquent
+A punk, a dropout, a just a kid who learned early that the world doesn't play fair - it doesn't matter. Whether fighting in alleyways or protecting your block with your fists, you survived by projecting strength even when you had none.
+
+Skill Proficiencies: 2 from Athletics, Intimidation, Insight, Deception  
+
+Tool Proficiencies: Vehicles (land) or Gaming set  
+
+Equipment: 90,000 Yen, modified school uniform or street clothes, brass lighter, cigarettes or candy sticks, phone with a cracked screen, switchblade *(non-functional keepsake)*, gang armband, backpack, a set of dice  
+
+#### Feature: Street Reputation
+You gain your choice of the Tavern Brawler feat or Delinquent Mentality feat.
+
+#### Suggested Characteristics
+Juvenile delinquents survive on reputation as much as strength, but beneath the bravado is usually someone who learned early that kindness alone doesn't keep you alive.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I never back down from a challenge, no matter the odds. |
+| 2 | I laugh in situations where most people panic. |
+| 3 | I act tough, even when I'm terrified. |
+| 4 | I hate being looked down on. |
+| 5 | I treat every stranger like a potential rival. |
+| 6 | I have a soft spot for kids, animals, and underdogs. |
+| 7 | I'd rather throw fists than words. |
+| 8 | My silence makes people more nervous than my anger. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Respect.** Strength earns what words never can. (Any) |
+| 2 | **Freedom.** No one owns me. No one controls me. (Chaotic) |
+| 3 | **Protection.** My people come first, always. (Good) |
+| 4 | **Pride.** Losing is worse than dying. (Any) |
+| 5 | **Rebellion.** Rules exist to keep people weak. (Chaotic) |
+| 6 | **Loyalty.** Betrayal is the only unforgivable sin. (Lawful) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | My old gang is either my greatest strength or biggest mistake. |
+| 2 | I owe my life to the person who taught me how to fight. |
+| 3 | Someone I couldn't protect still haunts me. |
+| 4 | There's a rival I need to beat, once and for all. |
+| 5 | My neighbourhood raised me, and I'll defend it to the death. |
+| 6 | Someone framed me for a crime I didn't commit. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I take insults far too personally. |
+| 2 | I escalate problems that could've been solved peacefully. |
+| 3 | I struggle to trust kindness. |
+| 4 | I'd rather suffer alone than ask for help. |
+| 5 | I hold grudges longer than I should. |
+| 6 | I confuse fear with respect. |
+
+\page
+
+### Rogue Sorcerer
+Not every sorcerer follows the schools, clans, or traditions of jujutsu society. Some walked away or were cast out. Rogue sorcerers live by their own rules.
+
+Skill Proficiencies: 2 from Arcana, Deception, Insight, Survival  
+
+Tool Proficiencies: Herbalism kit or Forgery kit  
+
+Equipment: 150,000 Yen; dark travel clothes, concealed talismans, journal, emergency medicine, false identity papers, 3 ritual candles, one Grade 4 or Grade 3 cursed tool
+
+#### Feature: Forbidden Techniques
+You gain your choice of the Exorcist's Resolve feat or Clan Outcast feat.
+
+#### Suggested Characteristics
+Rogue sorcerers are often untrusted even by other sorcerers. They could be dangerous criminals or simply victims of a rigid system. They tend to trust themselves over institutions, relying on experience and hard-won knowledge rather than formal teachings.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I never reveal the full extent of my abilities. |
+| 2 | I trust instincts over doctrine. |
+| 3 | I study people as carefully as I study techniques. |
+| 4 | I always prepare an escape route. |
+| 5 | I rarely speak unless I have something worth saying. |
+| 6 | I collect dangerous knowledge others would destroy. |
+| 7 | I test people before I trust them. |
+| 8 | I assume every meeting could become a fight. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Freedom.** Power belongs to whoever can wield it. (Chaotic) |
+| 2 | **Knowledge.** No truth should remain forbidden. (Any) |
+| 3 | **Survival.** The dead keep no principles. (Any) |
+| 4 | **Vengeance.** The system that abandoned me will fall. (Evil) |
+| 5 | **Balance.** Sorcerers and curses both have roles to play. (Neutral) |
+| 6 | **Independence.** I answer to no clan or master. (Chaotic) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | My former teacher wants me dead. |
+| 2 | I stole a technique that powerful people want back. |
+| 3 | There's someone I secretly protect from the shadows. |
+| 4 | My clan erased my name from its history. |
+| 5 | I'm searching for a cursed object tied to my past. |
+| 6 | I swore never to let another student suffer as I did. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I expect betrayal, even from friends. |
+| 2 | I hoard knowledge I should share. |
+| 3 | I underestimate people I consider weak. |
+| 4 | I'd rather flee than rely on others. |
+| 5 | I'm dangerously curious about forbidden techniques. |
+| 6 | I believe my judgment is always correct. |
+
+\page
+
+### Bounty Hunter
+When curses, rogue sorcerers, or criminals need tracking, someone has to collect. Bounty hunters can work for clans, governments, crime syndicates, or themselves.
+
+Skill Proficiencies: 2 from Investigation, Survival, Perception, Intimidation  
+
+Tool Proficiencies: Navigator's tools or Vehicles (land)  
+
+Equipment: 140,000 Yen, reinforced travel clothes, tracking notebook, handcuffs, rope, binoculars, bounty posters, emergency rations x5, one Grade 4 or Grade 3 cursed tool.
+
+#### Feature: Marked for Capture
+You gain your choice of the Observant feat or Skulker feat.
+
+#### Suggested Characteristics
+Bounty hunters live between civilization and chaos. Some work by a strict code, others for the highest bidder. Each can vary massively in personality and values from the other, depending on their history.
+\column
+##### Personality Traits
+| d8 | Personality Trait |
+|:----:|:-------------|
+| 1 | I notice tracks, lies, and exits before anything else. |
+| 2 | I speak only when necessary. |
+| 3 | I treat every room like an ambush site. |
+| 4 | I prefer patience over speed. |
+| 5 | I keep trophies from completed jobs. |
+| 6 | I never forget a face. |
+| 7 | I'm always calculating the value of a target. |
+| 8 | I trust evidence over emotion. |
+
+##### Ideals
+| d6 | Ideal |
+|:----:|:-------------|
+| 1 | **Justice.** Dangerous people belong in chains. (Lawful) |
+| 2 | **Profit.** Every target has a price. (Any) |
+| 3 | **Challenge.** The harder the hunt, the sweeter the reward. (Chaotic) |
+| 4 | **Order.** Monsters must be put down. (Lawful) |
+| 5 | **Reputation.** My name should inspire fear. (Any) |
+| 6 | **Precision.** A clean hunt is a perfect hunt. (Neutral) |
+
+##### Bonds
+| d6 | Bond |
+|:----:|:-------------|
+| 1 | One target escaped me, and I've never stopped hunting them. |
+| 2 | My mentor disappeared during a hunt. |
+| 3 | I carry a contract I refuse to complete. |
+| 4 | A powerful clan owns my debt. |
+| 5 | Someone I once captured became my ally. |
+| 6 | I hunt the creature that destroyed my home. |
+
+##### Flaws
+| d6 | Flaw |
+|:----:|:-------------|
+| 1 | I struggle to see targets as people. |
+| 2 | I take unnecessary risks for difficult prey. |
+| 3 | I work alone even when it's foolish. |
+| 4 | I'm obsessed with unfinished hunts. |
+| 5 | I trust money more than promises. |
+| 6 | I can't walk away from a challenge. |
+
+
+\page
+
+# Chapter 8: Cursed Spirits & Adversaries
+
+*"My name is not cursed spirit... My name is Dagon. Hanami, Jogo and Mahito. WE ALL BEAR NAMES!"*
+
+The following is a chapter focused around enemies that players can encounter, or allies that they are able to summon to aid them in combat. This is not exhaustive and you're more than welcome to modify these as required.
+
+## Allied Creations
+
+This is a list of creations that are typically allied with players, either as part of their Inate Technique or a skill they have learned.
+
+### GT - CE Summoning Framework:
+
+{{monster,frame
+## CE Construct
+*Medium humanoid (construct), unaligned*
+___
+**Armor Class** :: 10 + summoner's CE Stat modifier
+**Hit Points** :: Equal to summoner's level multiplied by 5
+**Speed** :: 30 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|16 (+3)|12 (+1)|14 (+2)|6 (-2)|8 (-1)|4 (-3)|
+___
+**Saving Throws** :: Str +5, Con +4
+**Senses** :: Cursed Sight 30 ft., passive Perception 9
+**Languages** :: Understands the summoner's languages but cannot speak
+**Challenge Rating** :: Half summoner's level
+___
+***Constructed Nature.*** The construct does not eat, breathe, or sleep. It is immune to poison, disease, and the poisoned condition.
+
+***Summoner's Pool.*** The construct has no CE Points of its own. When it uses a CE ability, those points are spent directly from the summoner's pool. The summoner chooses when and how the construct spends CE Points, even on the construct's turn.
+
+***Telepathic Link.*** The summoner can issue commands to the construct telepathically at any range, provided they are on the same plane. The construct acts on its own initiative but only on the summoner's instruction.
+
+***Unstable Form.*** If the summoner is reduced to 0 hit points or has no CE Points remaining, the construct immediately dissolves.
+
+### Actions
+**Unarmed Strike.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 bludgeoning damage.
+
+**CE Infused Strike (1 CE, from summoner's pool).** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 bludgeoning damage plus 1d4 force damage.
+}}
+
+### Ten Shadows
+
+{{monster,frame
+## Divine Dog
+*Medium beast (shikigami), unaligned*
+___
+**Armor Class** :: 14
+**Hit Points** :: 30
+**Speed** :: 50 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|16 (+3)|16 (+3)|14 (+2)|4 (-3)|12 (+1)|6 (-2)|
+___
+**Senses** :: Cursed Sight 30 ft., passive Perception 11
+**Challenge Rating** :: 2
+___
+***Paired Shikigami.*** Divine Dogs are always summoned in pairs (6 CE total). If one Divine Dog is reduced to 0 hit points, it dissolves and the surviving dog immediately absorbs its power, gaining 15 temporary hit points and advantage on all attack rolls until the end of its next turn.
+
+***Ten Shadows Construct.*** The Divine Dogs act on their summoner's initiative and obey telepathic commands. They draw CE from the summoner's pool when using CE abilities.
+
+### Actions
+**Bite.** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 2d8 + 4 piercing damage.
+}}
+
+{{monster,frame
+## Nue
+*Large beast (shikigami), unaligned*
+___
+**Armor Class** :: 13
+**Hit Points** :: 45
+**Speed** :: 20 ft., fly 60 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|14 (+2)|16 (+3)|14 (+2)|4 (-3)|12 (+1)|6 (-2)|
+___
+**Senses** :: Cursed Sight 30 ft., passive Perception 11
+**Challenge Rating** :: 3
+___
+***Ten Shadows Construct.*** Nue acts on its summoner's initiative and obeys telepathic commands. It draws CE from the summoner's pool when using CE abilities.
+
+### Actions
+**Lightning Strike (4 CE, from summoner's pool).** Nue releases a bolt of cursed lightning in a 60-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 4d8 lightning damage on a failure or half on a success.
+
+**Talon.** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1d8 + 3 slashing damage.
+}}
+
+\page
+
+{{monster,frame
+## Toad
+*Medium beast (shikigami), unaligned*
+___
+**Armor Class** :: 12
+**Hit Points** :: 20
+**Speed** :: 30 ft., swim 30 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|10 (+0)|14 (+2)|12 (+1)|4 (-3)|10 (+0)|4 (-3)|
+___
+**Senses** :: Cursed Sight 30 ft., passive Perception 10
+**Challenge Rating** :: 1
+___
+***Ten Shadows Construct.*** The Toad acts on its summoner's initiative and obeys telepathic commands.
+
+### Actions
+**Shadow Transit.** One willing creature inside the Toad is instantly transported to the location of another active Toad summoned by the same summoner. The transported creature arrives inside the destination Toad.
+
+**Tongue Lash.** *Melee Weapon Attack:* +2 to hit, reach 10 ft., one target. *Hit:* 1d6 bludgeoning damage.
+}}
+
+\column
+
+{{monster,frame
+## Great Serpent
+*Huge beast (shikigami), unaligned*
+___
+**Armor Class** :: 15
+**Hit Points** :: 60
+**Speed** :: 40 ft., swim 40 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|20 (+5)|12 (+1)|16 (+3)|4 (-3)|12 (+1)|6 (-2)|
+___
+**Senses** :: Cursed Sight 30 ft., passive Perception 11
+**Challenge Rating** :: 5
+___
+***Ten Shadows Construct.*** The Great Serpent acts on its summoner's initiative and obeys telepathic commands.
+
+### Actions
+**Constricting Bite.** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 3d10 + 5 piercing damage. The target must make a DC 16 Strength saving throw or be restrained until the start of the summon's next turn. While restrained this way, the target takes 2d10 bludgeoning damage at the start of each of its turns.
+}}
+
+{{monster,frame,wide
+## Mahoraga
+*Huge humanoid (shikigami), chaotic neutral*
+___
+**Armor Class** :: 20 (natural armor)
+**Hit Points** :: 459 (27d12 + 135)
+**Speed** :: 50 ft.
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|26 (+8)|14 (+2)|20 (+5)|6 (-2)|16 (+3)|8 (-1)|
+___
+**Saving Throws** :: Str +14, Con +11, Wis +9
+**Skills** :: Perception +9, Athletics +14
+**Damage Immunities** :: Poison, necrotic
+**Condition Immunities** :: Poisoned, frightened, charmed, exhaustion
+**Senses** :: Cursed Sight 120 ft., tremorsense 30 ft., passive Perception 19
+**Languages** :: None
+**Challenge Rating** :: 22 &ensp;&ensp; **Proficiency Bonus** :: +7
+___
+***Unbound.*** Mahoraga does not obey its summoner until tamed. It acts on its own initiative and attacks any creature it perceives in order of perception, including the summoner. It cannot be commanded, charmed, or redirected by any means short of exorcism.
+
+***Exorcism Ritual.*** When Mahoraga is summoned, the summoner is bound to it. The ritual ends only when Mahoraga or the summoner is dead. While bound, the summoner cannot willingly move more than 120 feet from Mahoraga. If the summoner dies, Mahoraga is immediately exorcised.
+
+***Adaptation.*** Mahoraga adapts to threats. The first time it takes damage of a specific type in this summoning, it gains resistance to that damage type. The second time it takes damage of that same type, it gains immunity to it instead. This adaptation is permanent for the duration of the summoning and applies to each damage type independently. This does not apply to damage dealt by a Black Flash.
+
+***Special Grade.*** Mahoraga takes double damage from Reverse Cursed Technique (positive energy). It is immune to all techniques of Grade 2 or lower that do not involve a Black Flash. Grade 1 and higher techniques affect it normally.
+
+### Actions
+**Multiattack.** Mahoraga makes two Cursed Slash attacks.
+
+**Cursed Slash.** *Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 6d6 + 8 slashing force damage. This damage is treated as both slashing and force simultaneously for the purposes of resistance and immunity.
+
+**Cursed Shockwave (Recharge 5–6).** Mahoraga drives its hand into the ground or swings with full force, releasing a shockwave in a 30-foot cone. Each creature in the area must make a DC 22 Strength saving throw or take 8d12 force damage and be knocked prone and pushed 20 feet. On a success, half damage and not knocked prone.
+
+### Bonus Actions
+**Adapt.** When Mahoraga takes damage that it already has resistance to, it may use its bonus action to immediately upgrade that resistance to immunity without waiting for a second hit.
+
+### Reactions
+**Inevitable.** When Mahoraga is hit by an attack, it may move up to 10 feet toward the attacker without provoking opportunity attacks.
+
+### Legendary Actions
+Mahoraga may take 2 legendary actions per round, choosing from the options below. Only one legendary action may be used at a time, and only at the end of another creature's turn. Legendary actions refresh at the start of Mahoraga's turn.
+
+**Advance.** Mahoraga moves up to half its speed.
+
+**Slash (Costs 2).** Mahoraga makes one Cursed Slash attack.
+}}
+
+\page
+
+## Enemies
+
+This is a list of creations that are typically against player characters, though depending on the intelligence of the curse and alignment and abilities of the player, it may be possible to create truces or even alliances.
+
+### Typical Curses
+
+{{monster,frame,wide
+## Common Cursed Spirit
+*Small or Medium cursed spirit, chaotic evil*
+___
+**Armor Class** :: 11
+**Hit Points** :: 27 (3d8 + 3)
+**Speed** :: 30 ft.
+**CE Points.** :: 6
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|10 (+0)|12 (+1)|10 (+0)|4 (-3)|8 (-1)|5 (-3)|
+___
+**Damage Immunities** :: Poison, necrotic
+**Damage Vulnerabilities** :: Radiant (Reverse Cursed Technique)
+**Condition Immunities** :: Poisoned, exhaustion
+**Senses** :: Darkvision 60 ft., passive Perception 9
+**Challenge Rating** :: 1/2
+___
+***Cursed Body.*** This creature is immune to all attacks and damage that are not CE-infused.
+
+***Phase.*** As a bonus action, the spirit can move through one solid object up to 5 feet thick.
+
+### Actions
+**Slam.** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 1d6 + 1 bludgeoning damage plus 1d4 necrotic damage.
+}}
+
+{{monster,frame,wide
+## Finger Bearer
+*Medium cursed spirit, chaotic evil*
+___
+**Armor Class** :: 14
+**Hit Points** :: 100 (10d8 + 20)
+**Speed** :: 40 ft.
+**CE Points.** :: 10
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|18 (+4)|14 (+2)|16 (+3)|7 (-2)|10 (+0)|8 (-1)|
+___
+**Damage Immunities** :: Poison, necrotic
+**Damage Vulnerabilities** :: Radiant (Reverse Cursed Technique)
+**Condition Immunities** :: Poisoned, exhaustion
+**Senses** :: Darkvision 60 ft., passive Perception 10
+**Challenge Rating** :: 4
+___
+***Sukuna's Residue.*** This creature has consumed a finger of Ryomen Sukuna. Its attacks deal an additional 1d6 necrotic damage and bypass Infinity.
+
+***Cursed Body.*** This creature is immune to all attacks and damage that are not CE-infused.
+
+### Actions
+**Multiattack.** The spirit makes two Claw attacks.
+
+**Claw.** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 2d8 + 4 slashing damage plus 1d6 necrotic damage.
+
+**Cursed Blast (Recharge 5–6).** 30-foot line. Each creature in the line makes a DC 15 Dexterity saving throw, taking 4d8 force damage on a failure or half on a success.
+}}
+
+### Named Curses
+
+{{monster,frame,wide
+## Jogo
+*Medium cursed spirit (Special Grade), chaotic evil*
+___
+**Armor Class** :: 15
+**Hit Points** :: 195 (15d8 + 75)
+**Speed** :: 40 ft., fly 40 ft.
+**CE Points.** :: 35
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|20 (+5)|14 (+2)|20 (+5)|12 (+1)|12 (+1)|14 (+2)|
+___
+**Damage Immunities** :: Fire, poison, necrotic
+**Damage Vulnerabilities** :: Radiant (Reverse Cursed Technique)
+**Condition Immunities** :: Poisoned, exhaustion
+**Senses** :: Darkvision 60 ft., passive Perception 11
+**Challenge Rating** :: 7
+___
+***Cursed Body.*** Jogo is immune to all attacks and damage that are not CE-infused.
+
+***Disaster Flames.*** Jogo's ranged CE attacks deal fire damage. He is immune to fire damage.
+
+***Extreme Heat Aura.*** Creatures within 10 feet of Jogo take 2d6 fire damage at the start of each of Jogo's turns.
+
+### Actions
+**Disaster Flame.** *Ranged CE Attack:* +7 to hit, range 60 ft., one target. *Hit:* 5d8 fire damage.
+
+**Eruption (Recharge 5–6).** 20-foot radius centred on a point within 60 ft. Each creature in the area makes a DC 17 Dexterity saving throw, taking 6d8 fire damage on a failure or half on a success. The ground in the area becomes difficult terrain for 1 minute; creatures that start their turn there take 2d6 fire damage.
+
+**Domain Expansion.** Coffin of the Iron Mountain (see the Domain Expansions chapter). Costs 15 CE Points.
+}}
+
+\page
+
+{{monster,frame
+## Mahito
+*Medium cursed spirit (Special Grade), chaotic evil*
+___
+**Armor Class** :: 16
+**Hit Points** :: 252 (21d8 + 84)
+**Speed** :: 40 ft.
+**CE Points.** :: 35
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|16 (+3)|18 (+4)|18 (+4)|16 (+3)|14 (+2)|17 (+3)|
+___
+**Saving Throws** :: Dex +8, Con +8, Cha +7
+**Damage Immunities** :: Poison, necrotic
+**Damage Vulnerabilities** :: Radiant (Reverse Cursed Technique)
+**Condition Immunities** :: Charmed, frightened, poisoned
+**Senses** :: Darkvision 60 ft., passive Perception 12
+**Challenge Rating** :: 9
+___
+***Cursed Body.*** Mahito is immune to all attacks and damage that are not CE-infused.
+
+***Immutable Soul.*** Mahito is immune to any effect that would alter his form, stats, or soul without his consent.
+
+### Actions
+**Multiattack.** Mahito makes two Transfiguring Touch attacks.
+
+**Transfiguring Touch.** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 2d6 + 4 bludgeoning damage. The target makes a DC 18 Wisdom saving throw or suffers a random Idle Transfiguration effect (see the Techniques chapter). Failure by 5 or more: the target's soul is crushed and they are reduced to 0 hit points immediately.
+
+**Domain Expansion.** Self-Embodiment of Perfection (see the Domain Expansions chapter). Costs 15 CE Points.
+
+### Bonus Actions
+**Shapeshifting.** Mahito alters his body, choosing one: gain +5 ft. reach, gain one additional attack until end of turn, or gain +3 AC until hit.
+
+### Reactions
+**Soul Multiplicity (1/Day).** When reduced to half his hit points or lower, Mahito splits into two CR 6 copies for 1 minute.
+}}
+
+{{note
+![mahito laugh](https://i.redd.it/anime-vs-manga-mahito-and-sukunas-laugh-v0-is6vmox5b0661.jpg?width=2133&format=pjpg&auto=webp&s=2696a1d5a165a19d784bd5aab3014b1d1b193768){width:305px}
+}}
+
+{{monster,frame
+## Ryomen Sukuna
+*Medium cursed spirit (King of Curses), chaotic evil*
+___
+**Armor Class** :: 20 (innate CE hardening)
+**Hit Points** :: 640 (40d8 + 320)
+**Speed** :: 60 ft.
+**CE Points.** :: 80
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|24 (+7)|22 (+6)|26 (+8)|22 (+6)|18 (+4)|22 (+6)|
+___
+**Saving Throws** :: All +12
+**Damage Immunities** :: Poison, necrotic, psychic
+**Condition Immunities** :: All conditions
+**Senses** :: Cursed Sight 120 ft., passive Perception 14
+**Challenge Rating** :: 23 &ensp;&ensp; **Proficiency Bonus** :: +7
+___
+***Cursed Body.*** Sukuna is immune to all attacks and damage that are not CE-infused.
+
+***Four-Armed Form.*** Sukuna makes 4 attacks per action instead of 2.
+
+***King's Prerogative.*** Sukuna has damage reduction 10 against all non-Special Grade sources. CE-infused attacks from Grade 1 or lower sorcerers deal half damage before applying this reduction.
+
+***Legendary Resistance (3/Day).*** If Sukuna fails a saving throw, he may choose to succeed instead.
+
+***Regeneration.*** Sukuna regains 20 hit points at the start of his turn if he has at least 1 hit point.
+
+### Actions
+**Multiattack.** Sukuna makes four Dismantle attacks.
+
+**Dismantle.** *Ranged CE Attack:* +14 to hit, range 60 ft., one target. *Hit:* 6d10 slashing damage. Automatically hits all targets within an active Domain.
+
+**Cleave.** *Melee CE Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 10d10 slashing damage. The target makes a DC 24 Constitution saving throw or suffers a severed limb - the DM determines which, applying the appropriate loss of action or movement.
+
+**Domain Expansion.** Malevolent Shrine (see the Domain Expansions chapter). Costs 15 CE Points.
+
+### Legendary Actions
+Sukuna may take 4 legendary actions per round, choosing from the options below. Only one at a time, at the end of another creature's turn. Legendary actions refresh at the start of Sukuna's turn.
+
+**Slash (1 Action).** One Dismantle attack.
+
+**Flame Arrow (2 Actions).** *Ranged CE Attack:* +12 to hit, range 120 ft. *Hit:* 4d8 fire damage.
+
+**RCT Heal (2 Actions).** Sukuna regains 8d8 hit points.
+
+**Domain Expansion (4 Actions).** Sukuna activates Malevolent Shrine (see the Domain Expansions chapter).
+}}
+
+\page
+
+# Chapter 9: Cursed Tools
+
+*"I finally grasped it on the verge of death. The true essence of cursed energy! The reason you’re going to lose is because you didn’t chop my head off! And because you didn’t used that cursed tool when you stabbed me in the head!"*
+ 
+Cursed Tools are objects - weapons, garments, instruments, and miscellaneous items - infused with cursed energy, either passively through long exposure or actively through the deliberate work of a skilled craftsperson. Unlike a sorcerer's innate technique, a cursed tool is external power. It can be lost, stolen, destroyed, or passed from hand to hand.
+ 
+## Using Cursed Tools
+ 
+Any creature capable of perceiving cursed energy may attune to and use a cursed tool. Some tools require a minimum CE Point total to activate their special properties. Others function for anyone who can hold them.
+ 
+### Attunement
+ 
+Cursed tools marked as requiring attunement must be held and focused upon during a short rest to attune. A character may be attuned to a maximum of three cursed tools at once. Breaking attunement requires a bonus action.
+ 
+### CE-Infused Attacks
+ 
+All cursed tools, regardless of special properties, count as CE-infused for the purpose of class features, resistances, and damage to cursed spirits. A non-sorcerer wielding a cursed tool bypasses the immunity of Grade 4 and lower cursed spirits but cannot activate any properties that require CE Point expenditure.
+ 
+### Grades
+ 
+Cursed tools follow the same grading scale as sorcerers and cursed spirits. A tool's grade reflects its rarity, the complexity of its infused properties, and the danger of its misuse.
+ 
+| Tool Grade | Rarity |
+|:---|:---|
+| Grade 4 | Common |
+| Grade 3 | Uncommon |
+| Grade 2 | Rare |
+| Grade 1 | Very Rare |
+| Special Grade | Legendary |
+ 
+\column
+
+## Example Cursed Tools
+
+The following is a list of both canon and non-canon cursed tools that can be used in campaigns. This is not an exhaustive list but more than detailed enough to provide context for DMs creating their own.
+
+### Grade 4 Cursed Tools
+ 
+Grade 4 tools are the workhorses of jujutsu society. Most are simple weapons or practical items with minimal infusion - enough CE to register on a cursed spirit, but nothing that would make a senior sorcerer take special note.
+ 
+#### Reinforced Weapon
+*Grade 4 Cursed Tool*
+ 
+A standard melee or ranged weapon - sword, staff, axe, bow - that has been passively infused with cursed energy over time. It carries no special properties, but its CE-infusion allows it to register against spirits and reinforced bodies. Damage, range, etc. based on vanilla weapon.
+ 
+**Properties:** This weapon deals an additional 1d4 force damage on a hit against cursed spirits and CE-reinforced creatures.
+ 
+#### Binding Thread
+*Grade 4 Cursed Tool*
+ 
+**Properties:** As an action, spend 1 CE Point to affix the thread across any opening or to an object. If a creature passes through the opening or disturbs the object, you are immediately aware of it regardless of distance, provided you are within 1 mile.
+ 
+#### Sight Spectacles
+*Grade 4 Cursed Tool*
+ 
+**Properties:** While worn, the user can see cursed spirits, CE signatures, and active barriers regardless of their own CE level. The wearer can perceive the approximate grade of any CE signature within 30 feet. Does not grant any other sorcerer ability.
+ 
+#### Standard-Issue Exorcism Blade
+*Grade 4 Cursed Tool*
+ 
+**Properties:** Deals 1d6 slashing damage + 1d4 force damage. Against Grade 4 or lower cursed spirits, this weapon deals maximum damage on a hit.
+
+#### Cursed Bandages
+*Grade 4 Cursed Tool, requires attunement*
+ 
+**Properties:** While worn, at the start of each of your turns, you regain hit points equal to your proficiency bonus. Once per long rest, you may spend 4 CE Points as a reaction to regain 1d6 hit points.
+ 
+\page
+ 
+### Grade 3 Cursed Tools
+ 
+Grade 3 tools carry active properties - a deliberate infusion of technique, effect, or cursed energy behaviour beyond simple reinforcement. A Grade 3 operative equipped with a Grade 3 tool is considered appropriately resourced for most field assignments.
+ 
+#### Battle Axe (Standard Grade)
+*Grade 3 Cursed Tool, requires attunement*
+ 
+**Properties:** Deals 1d12 slashing + 1d6 force damage. When you hit a cursed spirit with this weapon, it cannot use its movement to retreat until the start of its next turn. On a critical hit, the target must make a Constitution saving throw (DC 14) or be knocked prone.
+ 
+#### Wrapped Blade
+*Grade 3 Cursed Tool*
+ 
+**Properties:** Deals 1d8 piercing + 1d6 force damage. Once per turn, when you hit a creature with this weapon, you may spend 2 CE Points to discharge the stored energy. The target takes an additional 2d8 force damage and must succeed on a Constitution saving throw (DC = your CE Save DC) or be pushed 10 feet directly away from you.
+ 
+#### Cursed Rope
+*Grade 3 Cursed Tool, requires attunement*
+ 
+**Properties:** As an action, spend 3 CE Points to throw the rope at a creature within 20 feet. The target must make a Dexterity saving throw against your CE Save DC or be restrained until the end of their next turn. While restrained by the rope, any technique the target attempts that costs 3 or fewer CE Points is automatically nullified.
+ 
+#### Cursed Scroll
+*Grade 3 Cursed Tool*
+ 
+**Properties:** When you use this scroll as an action, roll 1d6 and consult the table below. The effect uses your CE Save DC.
+ 
+| d6 | Effect |
+|:---:|:---|
+| 1/2 | All creatures within 15 feet take 3d8 force damage (Con save for half). |
+| 3/4 | One creature within 30 feet is restrained for 1 minute (Str save ends). |
+| 5 | You and up to two allies within 15 feet regain 2d6 + 4 CE Points. |
+| 6 | A barrier surrounds a 20-foot radius area centred on you for 1 hour. Cursed spirits cannot cross it. |
+
+#### Crow Familiars
+*Grade 3 Cursed Tool, requires attunement*
+ 
+**Properties:** As a bonus action, spend 2 CE Points to launch one familiar at a target within 60 feet. Make a CE attack roll. On a hit, deal 2d6 force damage. You may launch all three in one action by spending 6 CE Points, making a separate attack roll for each.
+
+\column
+
+#### Spiked Chain
+*Grade 3 Cursed Tool*
+ 
+**Properties:** Deals 1d8 bludgeoning + 1d4 force damage. When you hit a creature with this weapon, it cannot take reactions until the start of its next turn. On a critical hit the target is also knocked prone.
+ 
+### Grade 2 Cursed Tools
+ 
+Grade 2 tools are institutional assets. They are logged, tracked, and assigned rather than purchased. Finding one in the hands of a curse user is considered a significant intelligence failure.
+ 
+#### Dragon-Bone
+*Grade 2 Cursed Tool, requires attunement*
+ 
+**Properties:** Deals 1d10 piercing + 1d6 force damage. Dragon-Bone has three Charge engines. At the start of each of your turns in combat, you gain one Charge (maximum 3). As a bonus action, you may discharge any number of Charges. For each Charge discharged, the next attack with Dragon-Bone deals an additional 2d8 force damage. Charges reset to 0 at the end of combat.
+ 
+#### Split Soul Katana
+*Grade 2 Cursed Tool, requires attunement*
+ 
+**Properties:** Deals 1d8 slashing damage. Ignore all resistances and immunities to damage from this weapon except those held by creatures without souls. On a critical hit, target takes maximum damage from this weapon and their RCT is disabled for 24 hours.
+
+Any damage dealt by this weapon cannot be healed by Reverse Cursed Technique or standard rest. It can only be recovered through healing by spending 8 CE Points and 10 minutes of healing.
+
+#### Sealed Gourd
+*Grade 2 Cursed Tool, requires attunement*
+ 
+**Properties:** As an action, break the seal to release the spirit. A dice roll determines the grade (1d4: 1/2 = Grade 3, 3 = Grade 2, 4 = Grade 1). The spirit is hostile to all creatures. Once released, this item is destroyed.
+
+### Grade 1 Cursed Tools
+ 
+Grade 1 tools are rare enough that most working sorcerers will never handle one. They are held in institutional armories, sealed in clan vaults, or lost somewhere in the long history of the jujutsu world.
+ 
+#### Black Rope
+*Grade 1 Cursed Tool*
+ 
+**Properties:** When you strike a creature with Black Rope, that creature must make a Constitution saving throw against your CE Save DC. On a failure, any active technique on or by that creature with a CE cost of 6 or lower is immediately ended. On a success, techniques with a CE cost of 3 or lower are ended.
+Black Rope has 10 charges, and each use expends 1 charge. It cannot be repaired once its charges are exhausted.
+
+\page
+ 
+#### Gavel of Judgement
+*Grade 1 Cursed Tool, requires attunement*
+ 
+**Properties:** Deals 2d6 bludgeoning + 2d6 force damage. When you hit a creature with this weapon, you may spend 4 CE Points to declare a Verdict. The target must make a Wisdom saving throw against your CE Save DC. On a failure, choose one:
+ 
+- The target drops any held items and cannot pick them up until the end of its next turn.
+- The target is silenced for 1 minute. It may repeat the saving throw at the end of each of its turns.
+- The target loses CE Points equal to your proficiency bonus.
+ 
+#### Cursed Electric Guitar
+*Grade 1 Cursed Tool, requires attunement*
+ 
+**Properties:** As an action, you may release a cursed sound wave in a 30-foot cone. All creatures in the cone must make a Constitution saving throw against your CE Save DC or take 4d8 thunder damage and be deafened until the end of their next turn. On success, they take half damage and are not deafened.
+ 
+If you have proficiency in a musical instrument, you may spend 3 CE Points when activating this property to shape the wave. Choose one of the following effects:
+
+- Double the cone's length to 60 feet
+- Affect all creatures in a 20-foot radius instead of a cone
+- Force creatures that fail by 5 or more to be stunned rather than deafened.
+
+#### Mourning Cloth
+*Grade 1 Cursed Tool, requires attunement*
+ 
+**Properties:** While worn, cursed spirits must make a Wisdom saving throw against your CE Save DC before making their first attack against you each combat. On a failure, they must target a different creature that turn. Additionally, you have advantage on saving throws against fear effects and death saving throws.
+
+### Special Grade Cursed Tools
+ 
+Special Grade tools appear in the historical record, vanish, and reappear somewhere unexpected, usually in the middle of a situation that was already bad. Most sorcerers will encounter at most one in their career.
+
+#### Playful Cloud
+*Special Grade Cursed Tool, requires attunement*
+ 
+**Properties:** Deals 2d10 bludgeoning damage. Add your Strength modifier twice to damage rolls with this weapon instead of once. Playful Cloud ignores resistances and immunities to bludgeoning damage.
+ 
+When you score a critical hit, the target must make a Constitution saving throw against your CE Save DC. On a failure, it is stunned until the end of its next turn and is knocked prone. On a success, it's only knocked prone.
+ 
+Playful Cloud does not lose its properties when the wielder reaches 0 CE Points. A Fully Restricted wielder (or one with a Complete Heavenly Restriction) using Playful Cloud adds their Strength modifier three times to damage rolls instead of twice.
+
+#### Inverted Spear of Heaven
+*Special Grade Cursed Tool*
+ 
+**Properties:** When you hit a creature with the Inverted Spear of Heaven, any active technique on that creature - including passive reinforcements, barriers, and persistent effects - is immediately ended. This applies regardless of the technique's power or complexity. The creature cannot activate any technique until the start of its next turn. 
+ 
+This weapon deals 1d6 piercing damage. It cannot benefit from CE infusion bonuses and is not CE-infused.
+
+#### Sword of Extermination
+*Special Grade Cursed Tool, requires attunement by a creature with positive energy output*
+ 
+**Properties:** This weapon deals 3d8 radiant damage on a hit. Against cursed spirits, this damage is always maximised. Cursed spirits reduced to 0 hit points by this weapon cannot regenerate, reconstitute, or return in any form.
+ 
+Additionally, cursed spirits that are hit by this weapon but not reduced to 0 hit points must make a Wisdom saving throw (DC 18) or be frightened for 1 minute.
+
+#### Golden Arrow
+*Special Grade Cursed Tool*
+ 
+**Properties:** The Arrow may be used in two ways. After either is used, the Arrow is rendered inert and will not function again for another year.
+ 
+***Pierce (Self).*** You take 2d10 piercing damage that cannot be reduced or prevented. Your cursed energy evolves and you choose one of the following permanent upgrades:
+___
+- Your ranged techniques double their range and melee techniques extend to 20 feet.
+- Your techniques may now affect one additional target within 10 feet of the original at no additional CE cost.
+- The CE Point cost of all your techniques is reduced by 3 (minimum 1).
+- The saving throw DC of all your techniques increases by 3.
+- You permanently gain one technique of your choice from an observed player's or NPC's Inate Technique. This cannot be a Domain Expansion.
+ 
+***Pierce (Other).*** As an action, make a melee CE attack against a creature within 5 feet using the Arrow. On a hit, the creature takes 4d10 piercing damage and must make a Constitution saving throw against your CE Save DC. On a failure, the last technique it used is "inverted" until the end of its next turn  - dealing damage results in healing, techniques that push become pulls, etc.
+
+\page
+ 
+## Crafting Cursed Tools
+ 
+Cursed tools don't appear from nowhere. They're made slowly, carefully, and at significant personal cost. A sorcerer with the time, materials, and knowledge may attempt to create one.
+ 
+### Requirements
+ 
+Crafting a cursed tool requires the following:
+ 
+- A base object appropriate to the intended tool (a weapon, instrument, garment, etc.)
+- A number of days of uninterrupted work equal to the tool's grade (Grade 4 = 4 days, Grade 3 = 8 days, Grade 2 = 20 days, Grade 1 = 60 days)
+- A CE expenditure made at the start of each day of crafting, as shown on the table below
+- A successful CE check at the end of the crafting period
+
+##### Crafting Requirements by Grade
+| Grade | Daily CE Cost | Crafting DC | Min. Sorcerer Grade |
+|:---:|:---:|:---:|:---:|
+| 4 | 4 CE Points | 12 | Grade 4 |
+| 3 | 6 CE Points | 14 | Grade 3 |
+| 2 | 10 CE Points | 16 | Grade 2 |
+| 1 | 16 CE Points | 19 | Grade 1 |
+| Special | 24 CE Points | 23 | Special Grade |
+ 
+The CE check is made using the crafter's CE Stat modifier + proficiency bonus. On a failure, the tool is created but gains a flaw (determined by the DM) that cannot be removed.
+ 
+Special Grade tools cannot be deliberately created and emerge from extraordinary circumstances: the death of a Special Grade sorcerer, a catastrophic technique discharge, or conditions that cannot be reliably reproduced.
+ 
+### Degradation
+ 
+Some cursed tools degrade with use. Any tool with limited charges that reaches 0 charges becomes a mundane object - the CE infusion is spent. At the DM's discretion, a skilled craftsperson may attempt to re-infuse a depleted tool, treating it as a new crafting project of one grade lower than the original.
+
+### Modification
+
+Existing cursed tools can be modified from their original intended use, though doing so is significantly more unstable than creating a tool from scratch.
+
+Modifying a cursed tool requires:
+
+* Access to the original tool
+* Half the normal crafting time required for a tool of its grade
+* Daily CE expenditure equal to the tool's normal crafting cost
+* A successful CE check at the end of the process
+
+A modified tool may have one of the following changes applied:
+
+* Change its physical form (such as a sword into chained blades, or gauntlets into greaves)
+* Alter its damage type
+* Replace one property or effect with another of similar power
+* Reduce or increase its CE efficiency
+* Add a conditional activation requirement
+
+The modification DC equals the tool's normal crafting DC +2. If the modification fundamentally changes the tool's intended purpose, increase the DC by an additional +2.
+
+On a failed modification check, roll 1d6:
+
+|  d6 | Modification Failure                                                   |
+| :-: | :--------------------------------------------------------------------- |
+|  1  | The tool loses all cursed properties and becomes mundane               |
+|  2  | The tool gains a permanent flaw                                        |
+|  3  | CE costs of the tool increase by 2 permanently                         |
+|  4  | The tool becomes unstable and deals damage to its wielder on use       |
+|  5  | The modification only partially succeeds                               |
+|  6  | The modification succeeds |
+
+A cursed tool may only safely undergo a number of successful modifications equal to its grade before its CE structure becomes unstable. Further modifications automatically impose disadvantage on all crafting checks related to the tool.
+
+Special Grade tools resist modification entirely.
+
+### Tool Index
+ 
+| Tool | Grade | Requires Attunement |
+|:---|:---:|:---:|
+| Binding Thread | 4 | No |
+| Reinforced Weapon | 4 | No |
+| Sight Spectacles | 4 | No |
+| Standard-Issue Exorcism Blade | 4 | No |
+| Cursed Bandages | 4 | Yes |
+| Battle Axe (Standard Grade) | 3 | Yes |
+| Wrapped Blade | 3 | No |
+| Cursed Rope | 3 | Yes |
+| Cursed Scroll | 3 | No |
+| Crow Familiars | 3 | Yes |
+| Spiked Chain | 3 | No |
+| Dragon-Bone | 2 | Yes |
+| Split Soul Katana | 2 | Yes |
+| Sealed Gourd | 2 | Yes |
+| Black Rope | 1 | No |
+| Gavel of Judgement | 1 | Yes |
+| Cursed Electric Guitar | 1 | Yes |
+| Mourning Cloth | 1 | Yes |
+| Playful Cloud | Special | Yes |
+| Inverted Spear of Heaven | Special | No |
+| Sword of Extermination | Special | Yes |
+| Golden Arrow | Special | No |
+
+\page
+
+# Chapter 10: Creating a Character
+
+## Making Your Character
+
+Finally, we get to the fun part. Follow the steps below to create a 1st-level character, and complete each step in order.
+
+### Step 1 - Ability Scores
+
+Assign the following array to your six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma) in any order:
+
+**17, 15, 14, 12, 10, 8**
+
+Apply racial modifiers after assigning the array.
+
+### Step 2 - Race
+
+Choose one race from the module and gain it's racial fetures. You also gain the subcategory features, with some specified additions to existing racial features.
+
+### Step 3 - Class
+
+Choose one class from the relevant chapter of this document. Your CE Stat is determined by your class, so choose wisely.
+
+### Step 4 - Background
+
+Choose one background from the  module. Your background provides:
+
+- Two skill proficiencies
+- Two tool or language proficiencies
+- A background feature
+- Starting equipment and Yen
+
+Backgrounds from other sourcebooks (aside from those in the PHB that make sense for the setting) are not permitted without DM approval.
+
+### Step 5 - Free Feature
+
+You gain one additional feature of your choice, such as:
+
+- A standard feat you meet the prerequisites for
+- A racial feat you meet the prerequisites for
+- A 1st-level class feature from a class other than your own (yes, really)
+
+### Step 6 - Equipment
+
+You begin play with all equipment granted by your background and class. If your starting equipment does not suit your character concept, speak with your DM. Additional equipment may be available, or you may use your starting Yen to purchase items instead.
+
+> ##### Starting Yen
+> The amount of starting Yen available to you is determined by your background. Consult your DM if your background does not specify a Yen value.
+
+#### Example Sorcerer
+
+{{monster,frame
+## Riku Tendo
+*Medium humanoid (human, clan sorcerer), lawful neutral*
+___
+**Armor Class** :: 17 (half plate)
+**Hit Points** :: 176 (16d10 + 16)
+**Speed** :: 30 ft.
+**CE Points.** :: 26 (Strength)
+___
+|STR|DEX|CON|INT|WIS|CHA|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|18 (+4)|12 (+1)|13 (+1)|14 (+2)|14 (+2)|10 (+0)|
+___
+**Saving Throws** :: Str +8, Con +5
+**Skills** :: Athletics +8, Perception +6, Insight +6, Intimidation +4
+**Senses** :: Cursed Sight 30 ft., passive Perception 16
+**Languages** :: Japanese
+**Challenge Rating** :: 9 &ensp;&ensp; **Proficiency Bonus** :: +4
+___
+***Combat Discipline.*** Reduces CE cost of one technique per turn by 1. 4 uses per long rest.
+
+***Action Surge.*** Once per short rest, takes one additional action and recovers 4 CE Points.
+
+***Innate Technique: Ratio.*** Marks the 7:3 structural weak point of any body. See Actions.
+
+### Actions
+
+**Multiattack.** Riku can make two Unarmed Strike attacks, or one Unarmed Strike and use one technique.
+
+**Unarmed Strike.** *Melee:* +8 to hit, 5 ft. *Hit:* 1d4 + 4 bludgeoning.
+
+**CE Infused Strike (1 CE).** *Melee:* +8 to hit, 5 ft. *Hit:* 1d4 + 4 bludgeoning + 1d4 force.
+
+**Ratio: Lapse (2 CE).** On a hit, marks the target's Ratio Point. All attacks against that target are automatic critical hits until end of Riku's next turn.
+
+**Ratio: Collapse (5 CE).** Ratio is applied to a point within 30 ft. All creatures within 10 ft. must make a DC 16 Dexterity saving throw or take 6d8 bludgeoning damage and be knocked prone. Half damage and not prone on a success.
+
+**Grade 2 General Technique: CE Beam (8 CE).** *Ranged:* +8 to hit, 60 ft. line. *Hit:* 8d8 force.
+
+**Grade 2 General Technique: CE Fracture (8 CE).** One creature within 60 ft. makes DC 16 Wis save or is stunned until end of its next turn.
+
+### Bonus Actions
+**Second Wind (2 CE).** Regains 1d10 + 10 HP. Once per short rest.
+
+**Tactical Reading.** One creature within 30 ft. Advantage on first attack against it; learns if it has more or fewer CE Points. Until start of next turn.
+
+**Flow Stabilization (2 CE).** Reduces CE cost of next technique this turn by 1.
+
+### Reactions
+**Grade 3 General Technique: CE Dampening (4 CE).** When hit, reduces incoming damage by 3d8.
+}}
