@@ -1,6 +1,6 @@
 {{frontCover}}
 
-{{logo ![](https://homebrewery.naturalcrit.com/assets/naturalCritLogoRed.svg)}}
+{{logo ![DnD Logo](https://homebrewery.naturalcrit.com/assets/naturalCritLogoRed.svg)}}
 
 # Cursed Energy
 ## A Jujutsu Kaisen 5e Module
@@ -12,7 +12,7 @@ ___
   An unofficial 5e supplement for Gege Akutami's *Jujutsu Kaisen*.
 }}
 
-![The Departure, 1837, by Thomas Cole](https://i.redd.it/all-jujutsu-kaisen-volume-covers-hd-v0-5kn9hnxbfrq71.jpg?width=1628&format=pjpg&auto=webp&s=1b1ef0f86042b7cb48543cbb79efc07ed7a30444){position:absolute,top:0,right:0,width:100%}
+![Itadori Yuji, JJK cover](https://i.redd.it/all-jujutsu-kaisen-volume-covers-hd-v0-5kn9hnxbfrq71.jpg?width=1628&format=pjpg&auto=webp&s=1b1ef0f86042b7cb48543cbb79efc07ed7a30444){position:absolute,top:0,right:0,width:100%}
 
 \page
 
