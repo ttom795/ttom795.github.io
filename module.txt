@@ -1,6 +1,6 @@
 {{frontCover}}
 
-{{logo ![DnD Logo](https://homebrewery.naturalcrit.com/assets/naturalCritLogoRed.svg)}}
+{{logo ![](https://homebrewery.naturalcrit.com/assets/naturalCritLogoRed.svg)}}
 
 # Cursed Energy
 ## A Jujutsu Kaisen 5e Module
@@ -12,7 +12,7 @@ ___
   An unofficial 5e supplement for Gege Akutami's *Jujutsu Kaisen*.
 }}
 
-![Itadori Yuji, JJK cover](https://i.redd.it/all-jujutsu-kaisen-volume-covers-hd-v0-5kn9hnxbfrq71.jpg?width=1628&format=pjpg&auto=webp&s=1b1ef0f86042b7cb48543cbb79efc07ed7a30444){position:absolute,top:0,right:0,width:100%}
+![The Departure, 1837, by Thomas Cole](https://i.redd.it/all-jujutsu-kaisen-volume-covers-hd-v0-5kn9hnxbfrq71.jpg?width=1628&format=pjpg&auto=webp&s=1b1ef0f86042b7cb48543cbb79efc07ed7a30444){position:absolute,top:0,right:0,width:100%}
 
 \page
 
@@ -2444,7 +2444,7 @@ Additionally, your Territorial Instinct reaction attack now deals your natural w
 You are not fully one thing. Whether by lineage, experimentation, possession, or something worse, your existence carries incompatible traits that somehow function together. You gain the following benefits:
 ___
 - Increase one ability score of your choice by 1, to a maximum of 20.
-- Increase your CE Stat by 1, to a maximum of 20 (or gain 2 CE Points if your system does not use a CE Stat).
+- Increase your CE Stat by 1, to a maximum of 20.
 - Gain two features from one subcategory of a race different to your own.
 
 
