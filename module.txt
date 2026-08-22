@@ -199,7 +199,7 @@ Classes may alter the number of CE points available to players. It's also possib
 | 9-12 | 18-24 | Grade 2 |
 | 13-16 | 26-32 | Grade 1 |
 | 17-20 | 35-45 | Special Grade |
-
+\column
 ## Cursed Energy Perception
 
 All player characters with CE access have Cursed Sight as a passive ability, with the exception of those with a Heavenly Restriction. Within 30 feet, they automatically detect the presence of active cursed energy and cursed spirits without rolling. It does not automatically reveal creatures that are hidden or supressing their CE. At greater distances or through solid material, they may make a Perception check using their CE Stat modifier instead of Wisdom.
@@ -299,7 +299,7 @@ Inate Techniques are non-transferable. They are congenitally engraved into the u
 
 ### General Techniques
 Sorcerers can also learn General Techniques - maniupulation of cursed energy seperate from an Inate Technique. See the table on the next page.
-
+\column
 ## Building a Custom Technique
 
 Every player character should have an innate technique that reflects their soul. The following framework ensures custom techniques are balanced, thematically correct, and mechanically interesting.
@@ -603,7 +603,7 @@ Spending 8 CE Points creates a closed Domain with no innate technique effect - a
 {{note
 ![mahito domain](https://static.wikia.nocookie.net/jujutsu-kaisen/images/2/23/Mahito%27s_Territorial_Expansion_Mahayana_Prison.png/revision/latest?cb=20190601212135) {width:305px}
 }}
-
+\column
 ### Horizon of the Captivating Skandha
 *Dagon - Disaster Cursed Spirit*
 
@@ -646,7 +646,7 @@ As a human sorcerer, you have the following traits:
 
 ***Adaptable CE.*** Once per long rest, when you fail a CE-related ability check or saving throw, you may reroll and take the higher result.
 
-***Baseline Sorcerer.*** Choose one Grade 4 Technique from the General Technique list.
+***Baseline Sorcerer.*** Choose one Grade 4 Technique from the General Technique list, in addition to your cahracter's starting grade.
 
 ***Skill Versatility.*** You gain proficiency in two skills of your choice.
 
@@ -736,7 +736,7 @@ A cursed vessel is a human body that hosts a powerful cursed spirit - by force, 
 
 ***Reinforced Vessel.*** Your hit point maximum increases by 2 per level. You have advantage on Constitution saving throws against poison and disease.
 
-***Tenant Surge.*** Once per short rest, the spirit within lends its power. Before rolling, declare Tenant Surge to gain a +3 bonus to a single attack roll, ability check, or saving throw. If you use this feature 3 times in a single day, roll a d6 on the Tenant Incursion table at day's end.
+***Tenant Surge.*** Once per short rest, the spirit within lends its power. Before rolling, declare Tenant Surge to gain a +2 bonus to a single attack roll, ability check, or saving throw. If you use this feature 3 times in a single day, roll a d6 on the Tenant Incursion table at day's end.
 
 ##### Tenant Incursion (d6)
 | d6 | Result |
@@ -921,7 +921,7 @@ Playing a Sentient Cursed Spirit is a DM-approved option for campaigns that expl
 ***Languages.*** Japanese (instinctive). Some older spirits speak archaic dialects or no language at all.
 
 ***Sub-categories.*** Choose between Natural Spirit or Cursed Animal Spirit.
-
+\column
 #### Natural Spirit
 
 You emerged from a human concept. You represent an idea, a fear, an aspect of existence that humanity has poured enough dread into to give it a body. You have probably thought more carefully about what it means to be human than most humans have.
@@ -999,7 +999,7 @@ As a Warrior, you gain the following class features.
 **Hit Points at 1st Level:** 12 + your Constitution modifier.
 
 **Hit Points at Higher Levels:** 1d12 + your Constitution modifier per Warrior level after 1st.
-
+\column
 #### Proficiencies
 
 **Armor:** Light armor, medium armor, shields.
@@ -1087,13 +1087,11 @@ When you score a critical hit with a CE-infused melee attack, the extra dice are
 
 When you fail a saving throw, you may spend 3 CE Points as a reaction to reroll it. You must use the second result.
 
-\column
-
 #### Relentless Body
 *11th Level*
 
 You may use Pain Threshold twice per short rest rather than once. Additionally, while you have at least 1 hit point, you cannot be reduced below 1 hit point more than once per turn.
-
+\column
 #### Cursed Surge Evolved
 *13th Level*
 
@@ -1135,13 +1133,12 @@ Your cursed energy reinforcement is constant rather than reactive. You gain a +1
 
 When you take damage, you may spend 2 CE Points as a reaction to reduce that damage by an amount equal to your Constitution modifier + your Warrior level. This reduction applies before resistances.
 
-\page
 
 #### Pain Reflection
 *6th Level Ironclad Feature*
 
 When a creature hits you with a melee attack, you may spend 3 CE Points as a reaction to force that creature to make a Constitution saving throw against your CE Save DC. On a failure, it takes force damage equal to half the damage you took (before reductions) and is stunned until the start of its next turn. On a success, it takes no damage.
-
+\page
 #### Cursed Fortification
 *10th Level Ironclad Feature*
 
@@ -1282,7 +1279,7 @@ As a Combatant, you gain the following class features.
 **Saving Throws:** Strength, Constitution.
 
 **Skills:** Choose two from Athletics, Acrobatics, History, Insight, Intimidation, Perception, and Survival.
-
+\column
 #### Cursed Energy
 
 **CE Stat:** Strength.
@@ -1394,6 +1391,7 @@ Your planning accounts for failure. You gain the following:
 - When you miss with an attack roll, you may spend 1 CE Point to reroll the die. You must use the second result.
 - When a creature you can see within 30 feet is targeted by an attack, you may spend 2 CE Points as a reaction to impose disadvantage on that attack roll.
 - You may use Action Surge twice per short rest, rather than once.
+
 #### Field Command
 *14th Level Tactician Feature*
  
@@ -1491,28 +1489,28 @@ The Striker integrates cursed energy reinforcement into movement and strikes at 
 **Flavour:** Assassination specialists, speed-type characters, sorcerers who win by being somewhere unexpected.
 
 ##### The Striker
-| Level | Prof. Bonus | CE Points | Features |
-|:---:|:---:|:---:|:---|
-| 1 | +2 | 5 | Unarmored Flow, CE Step |
-| 2 | +2 | 7 | Cursed Body |
-| 3 | +2 | 9 | Impact Frame, Subclass Feature* |
-| 4 | +2 | 12 | Ability Score Improvement |
-| 5 | +3 | 15 | Extra Attack, Improved Senses |
-| 6 | +3 | 17 | Subclass Feature* |
-| 7 | +3 | 19 | Evasion |
-| 8 | +3 | 21 | Ability Score Improvement |
-| 9 | +4 | 23 | Deflect |
-| 10 | +4 | 25 | Subclass Feature* |
-| 11 | +4 | 27 | Flowing Guard |
-| 12 | +4 | 29 | Ability Score Improvement |
-| 13 | +5 | 31 | CE Step (improved) |
-| 14 | +5 | 33 | Subclass Feature* |
-| 15 | +5 | 35 | Diamond Mind |
-| 16 | +5 | 37 | Ability Score Improvement |
-| 17 | +6 | 39 | Blur of Motion |
-| 18 | +6 | 41 | Subclass Feature* |
-| 19 | +6 | 43 | Ability Score Improvement |
-| 20 | +6 | 45 | Perfect Form |
+| Level | Prof. Bonus | CE Points | Unarmoured Movement | Features |
+|:---:|:---:|:---:|:---:|:---|
+| 1 | +2 | 5 | | Unarmored Flow, CE Step |
+| 2 | +2 | 7 | +10 ft | Cursed Body |
+| 3 | +2 | 9 | +10 ft | Impact Frame, Subclass Feature* |
+| 4 | +2 | 12 | +10 ft | Ability Score Improvement |
+| 5 | +3 | 15 | +10 ft | Extra Attack, Improved Senses |
+| 6 | +3 | 17 | +15 ft | Subclass Feature* |
+| 7 | +3 | 19 | +15 ft  |Evasion |
+| 8 | +3 | 21 | +15 ft  |Ability Score Improvement |
+| 9 | +4 | 23 | +15 ft  |Deflect |
+| 10 | +4 | 25 | +20 ft | Subclass Feature* |
+| 11 | +4 | 27 | +20 ft |Flowing Guard |
+| 12 | +4 | 29 | +20 ft |Ability Score Improvement |
+| 13 | +5 | 31 | +20 ft |CE Step (improved) |
+| 14 | +5 | 33 | +25 ft|Subclass Feature* |
+| 15 | +5 | 35 | +25 ft|Diamond Mind |
+| 16 | +5 | 37 | +25 ft|Ability Score Improvement |
+| 17 | +6 | 39 | +25 ft|Blur of Motion |
+| 18 | +6 | 41 | +30 ft |Subclass Feature* |
+| 19 | +6 | 43 | +30 ft |Ability Score Improvement |
+| 20 | +6 | 45 | +30 ft |Perfect Form |
 
 ___
 
@@ -1537,7 +1535,7 @@ As a Striker, you gain the following class features.
 **Saving Throws:** Strength, Dexterity.
 
 **Skills:** Choose two from Acrobatics, Athletics, Insight, Perception, Stealth, and Sleight of Hand.
-
+\column
 #### Cursed Energy
 
 **CE Stat:** Dexterity.
@@ -1545,8 +1543,6 @@ As a Striker, you gain the following class features.
 **CE Save DC** = 8 + proficiency bonus + Dexterity modifier.
 
 **CE Attack Bonus** = proficiency bonus + Dexterity modifier.
-
-\column
 
 #### Unarmored Flow
 *1st Level*
@@ -1905,7 +1901,6 @@ As a reaction when a creature within 30 feet moves toward you, spend 2 CE Points
  
 As an action, spend 4 CE Points to project a field of binding energy centred on a point within 60 feet. The field occupies a 15-foot radius sphere. Any creature that enters or starts its turn in the field must make a Strength saving throw against your CE Save DC or be restrained until the start of its next turn. The field lasts for 1 minute or until you dismiss it.
 
-\page
 
 #### Layered Barrier
 *10th Level Barrier Master Feature*
@@ -1915,6 +1910,8 @@ Your barriers have become substantially more resilient. You gain the following:
 - Your Curtain now also blocks cursed techniques from passing through unless the caster spends 3 CE Points per technique.
 - When a creature attempts to break through your Curtain with a Strength check, it has disadvantage.
 - As a bonus action, spend 3 CE Points to reinforce any active barrier you have created. Reinforced barriers cannot be destroyed by a single attack or technique - they must be targeted twice or the creature must spend 8 CE Points in a single action to break through.
+
+\page
 
 #### Prison
 *14th Level Barrier Master Feature*
@@ -1933,7 +1930,7 @@ Your barriers have become an extension of your mind. You gain the following:
 - You may maintain two Curtains simultaneously.
 - Once per long rest, as an action, you may spend 10 CE Points to create an Absolute Barrier in a 60-foot radius sphere centred on yourself. For 1 minute, no creature may enter or exit the sphere without your permission, no technique may cross its boundary, and any creature inside that attempts to use a Domain Expansion must make a Charisma saving throw against your CE Save DC or the Domain fails to open. At the end of the minute, you regain CE Points equal to your Charisma modifier for each creature still inside the barrier.
 
-\column
+
 ### True Resonance
  
 ##### True Resonance Features
@@ -1951,7 +1948,9 @@ Your barriers have become an extension of your mind. You gain the following:
 Your cursed energy expresses itself as audible vibration. You may produce or suppress any sound within 30 feet of yourself at will, requiring no action.
  
 Additionally, you learn to read CE signatures as sound. You always know the number of creatures with a CE signature within 60 feet of you and their approximate direction, even if you cannot see or hear them by conventional means. This sense is blocked by 1 foot of lead or 3 feet of stone.
- 
+
+\column
+
 #### Dissonance
 *3rd level True Resonance feature*
  
@@ -1968,15 +1967,15 @@ As a bonus action, spend 3 CE Points to emit a pulse of cursed vibration in a 20
 - **Silencing Pulse.** Each creature of your choice in the area must make a Wisdom saving throw against your CE Save DC or be unable to speak, shout, or produce intentional sound until the end of their next turn. Techniques that require verbal components or spoken commands cannot be used while silenced.
 - **Harmonising Pulse.** Each ally of your choice in the area regains CE Points equal to your Charisma modifier as your frequency synchronises with their output.
 
-\page
-
 #### Sustained Note
 *10th level True Resonance feature*
  
 You may maintain a continuous cursed frequency as a passive effect. At the start of each of your turns in combat, you may choose one creature you can see within 60 feet. That creature takes 1d10 thunder damage as your frequency resonates against it. This damage increases to 2d10 if the creature is already disoriented, silenced, or has fewer CE Points than you.
  
 Additionally, when you cast Dissonance, creatures that fail their saving throw remain disoriented for 1 minute rather than until the end of their next turn. They may repeat the saving throw at the end of each of their turns.
- 
+
+\page
+
 #### Shattering Pitch
 *14th level True Resonance feature*
  
@@ -2178,7 +2177,8 @@ You can forcibly absorb fragments of lingering cursed energy into yourself. You 
 ___
 - When a cursed spirit dies within 30 feet of you, you may use your reaction to gain temporary hit points equal to your proficiency bonus + your Constitution modifier.
 - Once per long rest, after exorcising a cursed spirit, you may immediately recover CE Points equal to half its grade level (minimum 1).
-
+  
+\column
 #### Kyoto Student
 
 *Prerequisite: Studied at a Cursed School*
@@ -2352,7 +2352,7 @@ ___
 The tenant within has extended more of itself into your body. You gain the following benefits:
 ___
 - Your CE Point maximum increases by 5.
-- Your Tenant Surge bonus increases to +3.
+- Your Tenant Surge bonus increases to +4.
 - Once per long rest, as a bonus action, you may let the tenant fully surface for 30 seconds: your Strength and Constitution scores become 20 if they aren't higher, your attacks deal an extra 1d6 necrotic damage, and the tenant speaks through you. When the time ends, you gain one level of exhaustion.
 
 #### Offensive Rampage
@@ -2416,7 +2416,7 @@ ___
 - When you absorb CE from a defeated sorcerer, you recover CE Points equal to half of what they had remaining (minimum 2).
 - Your CE Hunger requirement reduces to once per two weeks instead of once per week.
 
-
+\column
 #### Spirit's Overflow
 *Prerequisite: Sentient Cursed Spirit, Natural Spirit*
  
@@ -2702,11 +2702,13 @@ Tool Proficiencies: Herbalism kit or Alchemist's supplies
 
 Equipment: 100,000 Yen, scrubs, medical bag, gloves, penlight, notepad, protective mask, spare medication 
 
+#### Feature: Emergency Stabilization
+You gain your choice of the Healer feat or Inspiring Leader feat.
+
 #### Suggested Characteristics
 Nurses live between life and death. Your character should be the type of person who learns (or has learned) how to function under pressure while everyone else panics.
 
-#### Feature: Emergency Stabilization
-You gain your choice of the Healer feat or Inspiring Leader feat.
+
 \column
 ##### Personality Traits
 | d8 | Personality Trait |
@@ -2973,6 +2975,7 @@ ___
 **CE Infused Strike (1 CE, from summoner's pool).** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 bludgeoning damage plus 1d4 force damage.
 }}
 
+\column
 ### Ten Shadows
 
 {{monster,frame
@@ -3262,7 +3265,7 @@ ___
 {{note
 ![mahito laugh](https://i.redd.it/anime-vs-manga-mahito-and-sukunas-laugh-v0-is6vmox5b0661.jpg?width=2133&format=pjpg&auto=webp&s=2696a1d5a165a19d784bd5aab3014b1d1b193768){width:305px}
 }}
-
+___
 {{monster,frame
 ## Ryomen Sukuna
 *Medium cursed spirit (King of Curses), chaotic evil*
@@ -3388,7 +3391,7 @@ A standard melee or ranged weapon - sword, staff, axe, bow - that has been passi
  
 Grade 3 tools carry active properties - a deliberate infusion of technique, effect, or cursed energy behaviour beyond simple reinforcement. A Grade 3 operative equipped with a Grade 3 tool is considered appropriately resourced for most field assignments.
  
-#### Battle Axe (Standard Grade)
+#### Battle Axe
 *Grade 3 Cursed Tool, requires attunement*
  
 **Properties:** Deals 1d12 slashing + 1d6 force damage. When you hit a cursed spirit with this weapon, it cannot use its movement to retreat until the start of its next turn. On a critical hit, the target must make a Constitution saving throw (DC 14) or be knocked prone.
@@ -3569,7 +3572,7 @@ Modifying a cursed tool requires:
 * Half the normal crafting time required for a tool of its grade
 * Daily CE expenditure equal to the tool's normal crafting cost
 * A successful CE check at the end of the process
-
+\column
 A modified tool may have one of the following changes applied:
 
 * Change its physical form (such as a sword into chained blades, or gauntlets into greaves)
@@ -3671,7 +3674,7 @@ You begin play with all equipment granted by your background and class. If your 
 
 > ##### Starting Yen
 > The amount of starting Yen available to you is determined by your background. Consult your DM if your background does not specify a Yen value.
-
+\column
 #### Example Sorcerer
 
 {{monster,frame
